@@ -1,0 +1,25 @@
+{
+    "referências":{
+        "NCM":{
+            "link": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela?perfil=publico",
+            "resolução":"Resolução Gecex nº 812/2025",
+            "ultima_atualização": ""
+        },
+        "aliquotas":{
+            "federal":{
+                "TIPI":{
+                    "link": "",
+                    "ultima_atualização": ""
+                },
+                "TEC":{
+                    "link": "",
+                    "ultima_atualização": ""
+                },
+                "PIS/COFINS":{
+                    "link": "",
+                    "ultima_atualização": ""
+                }
+            }
+        }
+    }
+}

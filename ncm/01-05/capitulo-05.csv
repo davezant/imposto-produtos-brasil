@@ -1,0 +1,44 @@
+codigo_ncm,descricao,unidade_medida,data_inicio,data_fim,numero,ano
+0501.00.00,"Cabelo em bruto, mesmo lavado ou desengordurado; desperdícios de cabelo.",,01/04/2022,31/12/9999,272,2021
+05.02,"Cerdas de porco ou de javali; pelos de texugo e outros pelos para escovas, pincéis e artigos semelhantes; desperdícios destas cerdas e pelos.",,01/04/2022,31/12/9999,272,2021
+0502.10,- Cerdas de porco ou de javali e seus desperdícios,,01/04/2022,31/12/9999,272,2021
+0502.10.1,Cerdas de porco,,01/04/2022,31/12/9999,272,2021
+0502.10.11,"Lavadas, alvejadas ou desengorduradas, mesmo tintas",,01/04/2022,31/12/9999,272,2021
+0502.10.19,Outras,,01/04/2022,31/12/9999,272,2021
+0502.10.90,Outros,,01/04/2022,31/12/9999,272,2021
+0502.90,- Outros,,01/04/2022,31/12/9999,272,2021
+0502.90.10,Pelos,,01/04/2022,31/12/9999,272,2021
+0502.90.20,Desperdícios,,01/04/2022,31/12/9999,272,2021
+0504.00,"Tripas, bexigas e estômagos, de animais, inteiros ou em pedaços, exceto de peixes, frescos, refrigerados, congelados, salgados ou em salmoura, secos ou defumados (fumados).",,01/04/2022,31/12/9999,272,2021
+0504.00.1,Tripas,,01/04/2022,31/12/9999,272,2021
+0504.00.11,De bovinos,,01/04/2022,31/12/9999,272,2021
+0504.00.12,De ovinos,,01/04/2022,31/12/9999,272,2021
+0504.00.13,De suínos,,01/04/2022,31/12/9999,272,2021
+0504.00.19,Outras,,01/04/2022,31/12/9999,272,2021
+0504.00.90,Outros,,01/04/2022,31/12/9999,272,2021
+05.05,"Peles e outras partes de aves, com as suas penas ou penugem, penas e partes de penas (mesmo aparadas), penugem, em bruto ou simplesmente limpas, desinfetadas ou preparadas tendo em vista a sua conservação; pós e desperdícios de penas ou de partes de penas.",,01/04/2022,31/12/9999,272,2021
+0505.10.00,- Penas do tipo utilizado para enchimento ou estofamento; penugem,,01/04/2022,31/12/9999,272,2021
+0505.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
+05.06,"Ossos e núcleos córneos, em bruto, desengordurados ou simplesmente preparados (mas não cortados em forma determinada), acidulados ou degelatinados; pós e desperdícios destas matérias.",,01/04/2022,31/12/9999,272,2021
+0506.10.00,- Osseína e ossos acidulados,,01/04/2022,31/12/9999,272,2021
+0506.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
+05.07,"Marfim, carapaças de tartaruga, barbas, incluindo as franjas, de baleia ou de outros mamíferos marinhos, chifres, galhadas, cascos, unhas, garras e bicos, em bruto ou simplesmente preparados, mas não cortados em forma determinada; pós e desperdícios destas matérias.",,01/04/2022,31/12/9999,272,2021
+0507.10.00,- Marfim; pó e desperdícios de marfim,,01/04/2022,31/12/9999,272,2021
+0507.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
+0508.00.00,"Coral e matérias semelhantes, em bruto ou simplesmente preparados, mas não trabalhados de outro modo; conchas e carapaças de moluscos, crustáceos ou de equinodermes e ossos de sépias (chocos*) (chocos e chopos*), em bruto ou simplesmente preparados, mas não cortados em forma determinada, seus pós e desperdícios.",,01/04/2022,31/12/9999,272,2021
+0510.00,"Âmbar-cinzento, castóreo, algália e almíscar; cantáridas; bílis, mesmo seca; glândulas e outras substâncias de origem animal utilizadas na preparação de produtos farmacêuticos, frescas, refrigeradas, congeladas ou provisoriamente conservadas de outro modo.",,01/04/2022,31/12/9999,272,2021
+0510.00.10,Pâncreas de bovino,,01/04/2022,31/12/9999,272,2021
+0510.00.90,Outros,,01/04/2022,31/12/9999,272,2021
+05.11,"Produtos de origem animal, não especificados nem compreendidos noutras posições; animais mortos dos Capítulos 1 ou 3, impróprios para alimentação humana.",,01/04/2022,31/12/9999,272,2021
+0511.10.00,- Sêmen de bovino,,01/04/2022,31/12/9999,272,2021
+0511.9,- Outros:,,01/04/2022,31/12/9999,272,2021
+0511.91,"-- Produtos de peixes ou crustáceos, moluscos ou de outros invertebrados aquáticos; animais mortos do Capítulo 3",,01/04/2022,31/12/9999,272,2021
+0511.91.10,"Ovas de peixe fecundadas, para reprodução",,01/04/2022,31/12/9999,272,2021
+0511.91.90,Outros,,01/04/2022,31/12/9999,272,2021
+0511.99,-- Outros,,01/04/2022,31/12/9999,272,2021
+0511.99.10,Embriões de animais,,01/04/2022,31/12/9999,272,2021
+0511.99.20,Sêmen animal,,01/04/2022,31/12/9999,272,2021
+0511.99.30,Ovos de bicho-da-seda,,01/04/2022,31/12/9999,272,2021
+0511.99.9,Outros,,01/04/2022,31/12/9999,272,2021
+0511.99.91,"Crinas e seus desperdícios, mesmo em mantas, mesmo com suporte",,01/04/2022,31/12/9999,272,2021
+0511.99.99,Outros,,01/04/2022,31/12/9999,272,2021

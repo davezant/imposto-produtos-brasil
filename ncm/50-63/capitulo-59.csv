@@ -1,0 +1,39 @@
+codigo_ncm,descricao,unidade_medida,data_inicio,data_fim,numero,ano
+59.01,"Tecidos revestidos de cola ou de matérias amiláceas, do tipo utilizado na encadernação, cartonagem ou usos semelhantes; telas para decalque e telas transparentes para desenho; telas preparadas para pintura; entretelas e tecidos rígidos semelhantes, do tipo utilizado em chapéus e artigos de uso semelhante.",,01/04/2022,31/12/9999,272,2021
+5901.10.00,"- Tecidos revestidos de cola ou de matérias amiláceas, do tipo utilizado na encadernação, cartonagem ou usos semelhantes",,01/04/2022,31/12/9999,272,2021
+5901.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
+59.02,"Telas para pneumáticos fabricadas com fios de alta tenacidade de náilon ou de outras poliamidas, de poliésteres ou de raiom viscose.",,01/04/2022,31/12/9999,272,2021
+5902.10,- De náilon ou de outras poliamidas,,01/04/2022,31/12/9999,272,2021
+5902.10.10,"Impregnadas, recobertas ou revestidas com borracha",,01/04/2022,31/12/9999,272,2021
+5902.10.90,Outras,,01/04/2022,31/12/9999,272,2021
+5902.20.00,- De poliésteres,,01/04/2022,31/12/9999,272,2021
+5902.90.00,- Outras,,01/04/2022,31/12/9999,272,2021
+59.03,"Tecidos impregnados, revestidos, recobertos ou estratificados, com plástico, exceto os da posição 59.02.",,01/04/2022,31/12/9999,272,2021
+5903.10.00,- Com poli(cloreto de vinila),,01/04/2022,31/12/9999,272,2021
+5903.20.00,- Com poliuretano,,01/04/2022,31/12/9999,272,2021
+5903.90,- Outros,,01/02/2026,31/12/9999,812,2025
+5903.90.10,"De fios de poliéster, impregnados com uma ou mais resinas sintéticas, perceptíveis ou não à vista desarmada, e recobertos com uma ou mais resinas sintéticas perceptíveis à vista desarmada numa de suas faces, do tipo utilizado como suporte para fabricação de abrasivos (lixas), em rolos",,01/02/2026,31/12/9999,812,2025
+5903.90.90,Outros,,01/02/2026,31/12/9999,812,2025
+59.04,"Linóleos, mesmo recortados; revestimentos para pisos (pavimentos) constituídos por um revestimento ou recobrimento aplicado sobre suporte têxtil, mesmo recortados.",,01/04/2022,31/12/9999,272,2021
+5904.10.00,- Linóleos,,01/04/2022,31/12/9999,272,2021
+5904.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
+5905.00.00,"Revestimentos para paredes, de matérias têxteis.",,01/04/2022,31/12/9999,272,2021
+59.06,"Tecidos com borracha, exceto os da posição 59.02.",,01/04/2022,31/12/9999,272,2021
+5906.10.00,- Fitas adesivas de largura não superior a 20 cm,,01/04/2022,31/12/9999,272,2021
+5906.9,- Outros:,,01/04/2022,31/12/9999,272,2021
+5906.91.00,-- De malha,,01/04/2022,31/12/9999,272,2021
+5906.99.00,-- Outros,,01/04/2022,31/12/9999,272,2021
+5907.00.00,"Outros tecidos impregnados, revestidos ou recobertos; telas pintadas para cenários teatrais, para fundos de estúdio ou para usos semelhantes.",,01/04/2022,31/12/9999,272,2021
+5908.00.00,"Mechas de matérias têxteis, tecidas, entrançadas ou tricotadas, para candeeiros, fogareiros, isqueiros, velas e semelhantes; camisas de incandescência e tecidos tubulares tricotados para a sua fabricação, mesmo impregnados.",,01/04/2022,31/12/9999,272,2021
+5909.00.00,"Mangueiras e tubos semelhantes, de matérias têxteis, mesmo com reforço ou acessórios de outras matérias.",,01/04/2022,31/12/9999,272,2021
+5910.00.00,"Correias transportadoras ou de transmissão, de matérias têxteis, mesmo impregnadas, revestidas ou recobertas, de plástico, ou estratificadas com plástico ou reforçadas com metal ou com outras matérias.",,01/04/2022,31/12/9999,272,2021
+59.11,"Produtos e artigos, de matérias têxteis, para usos técnicos, indicados na Nota 8 do presente Capítulo.",,01/04/2022,31/12/9999,272,2021
+5911.10.00,"- Tecidos, feltros e tecidos forrados de feltro, combinados com uma ou mais camadas de borracha, couro ou de outras matérias, do tipo utilizado na fabricação de guarnições de cardas, e produtos análogos para outros usos técnicos, incluindo as fitas de veludo, impregnadas de borracha, para recobrimento de cilindros de teares",,01/04/2022,31/12/9999,272,2021
+5911.20,"- Gazes e telas para peneirar, mesmo confeccionadas",,01/04/2022,31/12/9999,272,2021
+5911.20.10,"De matéria têxtil sintética ou artificial, em peça",,01/04/2022,31/12/9999,272,2021
+5911.20.90,Outras,,01/04/2022,31/12/9999,272,2021
+5911.3,"- Tecidos e feltros, sem fim ou com dispositivos de união, do tipo utilizado nas máquinas para fabricação de papel ou máquinas semelhantes (por exemplo, para pasta ou fibrocimento):",,01/04/2022,31/12/9999,272,2021
+5911.31.00,-- De peso inferior a 650 g/m2,,01/04/2022,31/12/9999,272,2021
+5911.32.00,-- De peso igual ou superior a 650 g/m2,,01/04/2022,31/12/9999,272,2021
+5911.40.00,"- Tecidos filtrantes e tecidos espessos, do tipo utilizado em prensas de óleo ou outros usos técnicos análogos, incluindo os de cabelo",,01/04/2022,31/12/9999,272,2021
+5911.90.00,- Outros,,01/04/2022,31/12/9999,272,2021

@@ -1,0 +1,258 @@
+{
+    "index-ncm": {
+        "01-05": {
+            "01": "ncm/01-05/capitulo-01.csv",
+            "02": "ncm/01-05/capitulo-02.csv",
+            "03": "ncm/01-05/capitulo-03.csv",
+            "04": "ncm/01-05/capitulo-04.csv",
+            "05": "ncm/01-05/capitulo-05.csv"
+        },
+        "06-14": {
+            "06": "ncm/06-14/capitulo-06.csv",
+            "07": "ncm/06-14/capitulo-07.csv",
+            "08": "ncm/06-14/capitulo-08.csv",
+            "09": "ncm/06-14/capitulo-09.csv",
+            "10": "ncm/06-14/capitulo-10.csv",
+            "11": "ncm/06-14/capitulo-11.csv",
+            "12": "ncm/06-14/capitulo-12.csv",
+            "13": "ncm/06-14/capitulo-13.csv",
+            "14": "ncm/06-14/capitulo-14.csv"
+        },
+        "25-27": {
+            "25": "ncm/25-27/capitulo-25.csv",
+            "26": "ncm/25-27/capitulo-26.csv",
+            "27": "ncm/25-27/capitulo-27.csv"
+        },
+        "71-71": {
+            "71": "ncm/71-71/capitulo-71.csv"
+        },
+        "72-83": {
+            "72": "ncm/72-83/capitulo-72.csv",
+            "73": "ncm/72-83/capitulo-73.csv",
+            "74": "ncm/72-83/capitulo-74.csv",
+            "75": "ncm/72-83/capitulo-75.csv",
+            "76": "ncm/72-83/capitulo-76.csv",
+            "78": "ncm/72-83/capitulo-78.csv",
+            "79": "ncm/72-83/capitulo-79.csv",
+            "80": "ncm/72-83/capitulo-80.csv",
+            "81": "ncm/72-83/capitulo-81.csv",
+            "82": "ncm/72-83/capitulo-82.csv",
+            "83": "ncm/72-83/capitulo-83.csv"
+        },
+        "84-85": {
+            "84": "ncm/84-85/capitulo-84.csv",
+            "85": "ncm/84-85/capitulo-85.csv"
+        },
+        "86-89": {
+            "86": "ncm/86-89/capitulo-86.csv",
+            "87": "ncm/86-89/capitulo-87.csv",
+            "88": "ncm/86-89/capitulo-88.csv",
+            "89": "ncm/86-89/capitulo-89.csv"
+        },
+        "90-92": {
+            "90": "ncm/90-92/capitulo-90.csv",
+            "91": "ncm/90-92/capitulo-91.csv",
+            "92": "ncm/90-92/capitulo-92.csv"
+        },
+        "93-93": {
+            "93": "ncm/93-93/capitulo-93.csv"
+        },
+        "94-96": {
+            "94": "ncm/94-96/capitulo-94.csv",
+            "95": "ncm/94-96/capitulo-95.csv",
+            "96": "ncm/94-96/capitulo-96.csv"
+        },
+        "97-97": {
+            "97": "ncm/97-97/capitulo-97.csv"
+        },
+        "98-99": {
+            "98": "ncm/98-99/capitulo-98.csv",
+            "99": "ncm/98-99/capitulo-99.csv"
+        },
+        "15-15": {
+            "15": "ncm/15-15/capitulo-15.csv"
+        },
+        "16-24": {
+            "16": "ncm/16-24/capitulo-16.csv",
+            "17": "ncm/16-24/capitulo-17.csv",
+            "18": "ncm/16-24/capitulo-18.csv",
+            "19": "ncm/16-24/capitulo-19.csv",
+            "20": "ncm/16-24/capitulo-20.csv",
+            "21": "ncm/16-24/capitulo-21.csv",
+            "22": "ncm/16-24/capitulo-22.csv",
+            "23": "ncm/16-24/capitulo-23.csv",
+            "24": "ncm/16-24/capitulo-24.csv"
+        },
+        "28-38": {
+            "28": "ncm/28-38/capitulo-28.csv",
+            "29": "ncm/28-38/capitulo-29.csv",
+            "30": "ncm/28-38/capitulo-30.csv",
+            "31": "ncm/28-38/capitulo-31.csv",
+            "32": "ncm/28-38/capitulo-32.csv",
+            "33": "ncm/28-38/capitulo-33.csv",
+            "34": "ncm/28-38/capitulo-34.csv",
+            "35": "ncm/28-38/capitulo-35.csv",
+            "36": "ncm/28-38/capitulo-36.csv",
+            "37": "ncm/28-38/capitulo-37.csv",
+            "38": "ncm/28-38/capitulo-38.csv"
+        },
+        "39-40": {
+            "39": "ncm/39-40/capitulo-39.csv",
+            "40": "ncm/39-40/capitulo-40.csv"
+        },
+        "41-43": {
+            "41": "ncm/41-43/capitulo-41.csv",
+            "42": "ncm/41-43/capitulo-42.csv",
+            "43": "ncm/41-43/capitulo-43.csv"
+        },
+        "44-46": {
+            "44": "ncm/44-46/capitulo-44.csv",
+            "45": "ncm/44-46/capitulo-45.csv",
+            "46": "ncm/44-46/capitulo-46.csv"
+        },
+        "47-49": {
+            "47": "ncm/47-49/capitulo-47.csv",
+            "48": "ncm/47-49/capitulo-48.csv",
+            "49": "ncm/47-49/capitulo-49.csv"
+        },
+        "50-63": {
+            "50": "ncm/50-63/capitulo-50.csv",
+            "51": "ncm/50-63/capitulo-51.csv",
+            "52": "ncm/50-63/capitulo-52.csv",
+            "53": "ncm/50-63/capitulo-53.csv",
+            "54": "ncm/50-63/capitulo-54.csv",
+            "55": "ncm/50-63/capitulo-55.csv",
+            "56": "ncm/50-63/capitulo-56.csv",
+            "57": "ncm/50-63/capitulo-57.csv",
+            "58": "ncm/50-63/capitulo-58.csv",
+            "59": "ncm/50-63/capitulo-59.csv",
+            "60": "ncm/50-63/capitulo-60.csv",
+            "61": "ncm/50-63/capitulo-61.csv",
+            "62": "ncm/50-63/capitulo-62.csv",
+            "63": "ncm/50-63/capitulo-63.csv"
+        },
+        "64-67": {
+            "64": "ncm/64-67/capitulo-64.csv",
+            "65": "ncm/64-67/capitulo-65.csv",
+            "66": "ncm/64-67/capitulo-66.csv",
+            "67": "ncm/64-67/capitulo-67.csv"
+        },
+        "68-70": {
+            "68": "ncm/68-70/capitulo-68.csv",
+            "69": "ncm/68-70/capitulo-69.csv",
+            "70": "ncm/68-70/capitulo-70.csv"
+        }
+    },
+    "index-tec": {
+        "01-05": "aliquotas/federal/TEC/01-05.csv",
+        "06-14": "aliquotas/federal/TEC/06-14.csv",
+        "25-27": "aliquotas/federal/TEC/25-27.csv",
+        "71-71": "aliquotas/federal/TEC/71-71.csv",
+        "72-83": "aliquotas/federal/TEC/72-83.csv",
+        "84-85": "aliquotas/federal/TEC/84-85.csv",
+        "86-89": "aliquotas/federal/TEC/86-89.csv",
+        "90-92": "aliquotas/federal/TEC/90-92.csv",
+        "93-93": "aliquotas/federal/TEC/93-93.csv",
+        "94-96": "aliquotas/federal/TEC/94-96.csv",
+        "97-97": "aliquotas/federal/TEC/97-97.csv",
+        "98-99": "aliquotas/federal/TEC/98-99.csv",
+        "15-15": "aliquotas/federal/TEC/15-15.csv",
+        "16-24": "aliquotas/federal/TEC/16-24.csv",
+        "28-38": "aliquotas/federal/TEC/28-38.csv",
+        "39-40": "aliquotas/federal/TEC/39-40.csv",
+        "41-43": "aliquotas/federal/TEC/41-43.csv",
+        "44-46": "aliquotas/federal/TEC/44-46.csv",
+        "47-49": "aliquotas/federal/TEC/47-49.csv",
+        "50-63": "aliquotas/federal/TEC/50-63.csv",
+        "64-67": "aliquotas/federal/TEC/64-67.csv",
+        "68-70": "aliquotas/federal/TEC/68-70.csv"
+    },
+    "index-tipi": {
+        "01-05": "aliquotas/federal/TIPI/01-05.csv",
+        "06-14": "aliquotas/federal/TIPI/06-14.csv",
+        "25-27": "aliquotas/federal/TIPI/25-27.csv",
+        "71-71": "aliquotas/federal/TIPI/71-71.csv",
+        "72-83": "aliquotas/federal/TIPI/72-83.csv",
+        "84-85": "aliquotas/federal/TIPI/84-85.csv",
+        "86-89": "aliquotas/federal/TIPI/86-89.csv",
+        "90-92": "aliquotas/federal/TIPI/90-92.csv",
+        "93-93": "aliquotas/federal/TIPI/93-93.csv",
+        "94-96": "aliquotas/federal/TIPI/94-96.csv",
+        "97-97": "aliquotas/federal/TIPI/97-97.csv",
+        "98-99": "aliquotas/federal/TIPI/98-99.csv",
+        "15-15": "aliquotas/federal/TIPI/15-15.csv",
+        "16-24": "aliquotas/federal/TIPI/16-24.csv",
+        "28-38": "aliquotas/federal/TIPI/28-38.csv",
+        "39-40": "aliquotas/federal/TIPI/39-40.csv",
+        "41-43": "aliquotas/federal/TIPI/41-43.csv",
+        "44-46": "aliquotas/federal/TIPI/44-46.csv",
+        "47-49": "aliquotas/federal/TIPI/47-49.csv",
+        "50-63": "aliquotas/federal/TIPI/50-63.csv",
+        "64-67": "aliquotas/federal/TIPI/64-67.csv",
+        "68-70": "aliquotas/federal/TIPI/68-70.csv"
+    },
+    "relacao-pis_cofins":{
+        "tabela":"aliquotas/federal/PIS_COFINS/tabela.csv",
+        "regras":"aliquotas/federal/PIS_COFINS/regras.json"
+    },
+    "relacao-regras_especiais":{
+        "tabela":"aliquotas/especial/tabela.csv",
+        "regras":"aliquotas/especial/regras.json"
+    },
+    "referencias": {
+        "NCM": {
+            "link": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela?perfil=publico",
+            "resolucao": "Resolução Gecex nº 812/2025",
+            "ultima_atualizacao": "2026-02-01"
+        },
+        "aliquotas": {
+            "federal": {
+                "TIPI": {
+                    "link": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/tipi-tabela-de-incidencia-do-imposto-sobre-produtos-industrializados",
+                    "resolucao": "Decreto nº 11.158/2022, atualizado pelo Ato Declaratório Executivo RFB nº 1/2026",
+                    "ultima_atualizacao": "2026-02-12"
+                },
+                "TEC": {
+                    "link": "https://www.gov.br/mdic/pt-br/assuntos/camex/se-camex/strat/tarifas/vigentes",
+                    "resolucao": "Resolução Gecex nº 272/2021, atualizada pela Resolução Gecex nº 812/2025",
+                    "ultima_atualizacao": "2026-03-30"
+                },
+                "PIS/COFINS": {
+                    "leis":[
+                        "https://www.planalto.gov.br/ccivil_03/leis/l10147.htm"
+                    ],
+                    "ultima_atualizacao": "2002-12-30"
+                }
+            },
+            "estadual": {
+            }
+        }
+    },
+    "info":{
+        "versao":"0.6"
+    },
+    "intervalos": [
+        "01-05",
+        "06-14",
+        "15-15",
+        "16-24",
+        "25-27",
+        "28-38",
+        "39-40",
+        "41-43",
+        "44-46",
+        "47-49",
+        "50-63",
+        "64-67",
+        "68-70",
+        "71-71",
+        "72-83",
+        "84-85",
+        "86-89",
+        "90-92",
+        "93-93",
+        "94-96",
+        "97-97",
+        "98-99"
+    ]
+}

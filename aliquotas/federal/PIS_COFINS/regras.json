@@ -1,0 +1,161 @@
+{
+    "id": {
+        "1": {
+            "tags": [
+                "Interno",
+                "Padrao"
+            ],
+            "descricao": "Isencao, imunidade, aliquota zero ou nao incidencia aplicavel a produtos da cesta basica, livros, exportacoes e medicamentos de lista positiva."
+        },
+        "2": {
+            "tags": [
+                "Interno",
+                "Padrao"
+            ],
+            "descricao": "Regime Cumulativo padrao para empresas optantes pelo Lucro Presumido ou Arbitrado segundo a Lei 9718/1998."
+        },
+        "3": {
+            "tags": [
+                "Interno",
+                "Padrao"
+            ],
+            "descricao": "Regime Nao Cumulativo padrao para empresas optantes pelo Lucro Real segundo as Leis 10637/2002 e 10833/2003."
+        },
+        "4": {
+            "tags": [
+                "Importacao",
+                "Padrao"
+            ],
+            "descricao": "Importacao geral de bens estrangeiros segundo a Lei 10865/2004."
+        },
+        "5": {
+            "tags": [
+                "Interno",
+                "Excepcional"
+            ],
+            "descricao": "Venda por fabricante ou importador de veiculos, tratores e maquinas agricolas segundo a Lei 10485/2002.",
+            "excecao": {
+                "ncms_afetados": [
+                    "8701.00.00-8705.90.90",
+                    "8716.00.00"
+                ]
+            }
+        },
+        "6": {
+            "tags": [
+                "Interno",
+                "Excepcional"
+            ],
+            "descricao": "Venda por fabricante ou importador de autopecas sob regime de alíquota concentrada segundo a Lei 10485/2002.",
+            "excecao": {
+                "ncms_afetados": [
+                    "4016.99.90",
+                    "8407.31.00-8409.99.99",
+                    "8708.10.00-8708.99.90"
+                ]
+            }
+        },
+        "7": {
+            "tags": [
+                "Interno",
+                "Excepcional"
+            ],
+            "descricao": "Regime monofasico para pneus novos de borracha e camaras de ar segundo a Lei 10485/2002.",
+            "excecao": {
+                "ncms_afetados": [
+                    "4011.10.00-4011.99.90",
+                    "4013.10.00-4013.90.00"
+                ]
+            }
+        },
+        "8": {
+            "tags": [
+                "Interno",
+                "Excepcional"
+            ],
+            "descricao": "Regime monofasico para bebidas frias como cervejas, refrigerantes e aguas segundo a Lei 13097/2014.",
+            "excecao": {
+                "ncms_afetados": [
+                    "2201.10.00",
+                    "2202.10.00",
+                    "2203.00.00"
+                ]
+            }
+        },
+        "9": {
+            "tags": [
+                "Interno",
+                "Excepcional"
+            ],
+            "descricao": "Regime monofasico para perfumaria, cosmeticos e produtos de higiene pessoal segundo a Lei 10147/2000.",
+            "excecao": {
+                "ncms_afetados": [
+                    "3303.00.10-3307.90.00",
+                    "3401.11.90-3401.20.00"
+                ]
+            }
+        },
+        "10": {
+            "tags": [
+                "Interno",
+                "Excepcional"
+            ],
+            "descricao": "Regime monofasico para medicamentos e produtos farmaceuticos das listas neutra e negativa segundo a Lei 10147/2000.",
+            "excecao": {
+                "ncms_afetados": [
+                    "3003.00.00-3004.90.99"
+                ]
+            }
+        },
+        "11": {
+            "tags": [
+                "Interno",
+                "Excepcional"
+            ],
+            "descricao": "Regime monofasico concentrado para gasolina, oleo diesel e GLP em refinarias e importadores segundo a Lei 9990/2000.",
+            "excecao": {
+                "ncms_afetados": [
+                    "2710.12.59",
+                    "2710.19.21",
+                    "2711.19.10"
+                ]
+            }
+        },
+        "12": {
+            "tags": [
+                "Importacao",
+                "Excepcional"
+            ],
+            "descricao": "Importacao de autopecas com alíquota diferenciada conforme a Lei 10865/2004.",
+            "excecao": {
+                "ncms_afetados": [
+                    "8708.10.00-8708.99.90"
+                ]
+            }
+        },
+        "13": {
+            "tags": [
+                "Importacao",
+                "Excepcional"
+            ],
+            "descricao": "Importacao de produtos farmaceuticos acabados e insumos conforme a Lei 10865/2004.",
+            "excecao": {
+                "ncms_afetados": [
+                    "3003.00.00-3004.90.99"
+                ]
+            }
+        },
+        "14": {
+            "tags": [
+                "Importacao",
+                "Excepcional"
+            ],
+            "descricao": "Importacao de perfumaria, cosmeticos e produtos de higiene pessoal conforme a Lei 10865/2004.",
+            "excecao": {
+                "ncms_afetados": [
+                    "3303.00.10-3307.90.00"
+                ]
+            }
+        }
+    }
+}

@@ -25,22 +25,6 @@ Não é necessário saber programar para colaborar. O projeto depende de contrib
 - **Divulgação**: dar visibilidade ao projeto e traduzir dados técnicos em linguagem acessível.
 - **Desenvolvimento**: automação de coleta, validação e criação de ferramentas a partir das planilhas.
 
-### Estrutura dos dados
-
-Os dados são mantidos em CSV para garantir acesso simples, inclusive por quem não tem conhecimento técnico (Excel, Google Sheets, LibreOffice).
-###### A ser definido a organização...
-Cada registro deve conter, obrigatoriamente, a fonte oficial que comprova o dado.
-
-### Como contribuir
-
-1. Faça um fork do repositório.
-2. Crie uma branch para a sua alteração.
-3. Adicione ou edite os registros, mantendo a estrutura da tabela.
-4. Abra um Pull Request detalhando as alterações.
-5. Inclua a fonte oficial dos dados (Diário Oficial da União, normativas da Receita Federal, etc.).
-
-**Nenhuma alteração é aceita sem comprovação documental da fonte.** Essa exigência é o que sustenta a confiabilidade do projeto.
-
 ### Por que isso importa
 
 Dados fiscais acessíveis ampliam a capacidade de fiscalização social. Quanto mais pessoas entendem quanto pagam de imposto, mais informado fica o debate público sobre arrecadação e uso dos recursos.

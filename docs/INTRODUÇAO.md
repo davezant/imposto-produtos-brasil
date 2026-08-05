@@ -10,6 +10,6 @@ A estrutura das planilhas serve para facilitar a modificação do código, de fo
 ### Divisão da documentação
 
 A documentação se divide em:
-- Aliquotas
-- Ferramentas
-- Contribuição
+- [Aliquotas](https://github.com/davezant/imposto-produtos-brasil/blob/main/docs/ALIQUOTAS.md)
+- [Ferramentas](https://github.com/davezant/imposto-produtos-brasil/blob/main/docs/FERRAMENTAS.md)
+- [Contribuição](https://github.com/davezant/imposto-produtos-brasil/blob/main/docs/CONTRIBUINDO.md)

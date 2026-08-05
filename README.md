@@ -5,7 +5,7 @@
 Este projeto reúne, em formato simples e aberto, os impostos incidentes sobre produtos vendidos no Brasil. O país já ultrapassou a marca de R$ 3 bilhões em arrecadação — um número que raramente é traduzido para o consumidor final de forma clara e acessível.
 
 A proposta é descomplicar essa informação, tornando-a fácil de consultar, reutilizar e auditar.
-
+[Documentação](https://github.com/davezant/imposto-produtos-brasil/blob/main/docs/INTRODU%C3%87AO.md)
 ### Objetivo
 
 Fornecer dados fiscais simplificados para:

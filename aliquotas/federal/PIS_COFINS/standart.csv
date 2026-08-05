@@ -1,0 +1,10 @@
+id,tipo,aliquota_pis,aliquota_cofins
+STD01,Interno,0.0065,0.03
+STD02,Interno,0.0165,0.076
+STD03,Importacao,0.021,0.0965
+STD04,Importacao,0.0165,0.076
+STD05,Interno+Importacao,0.0,0.0
+STD06,Interno,0.0,0.0
+STD07,Interno,0.00065,0.003
+STD08,Interno,0.00165,0.0076
+STD09,Importacao,0.0021,0.00965

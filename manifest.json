@@ -192,12 +192,10 @@
         "68-70": "aliquotas/federal/TIPI/68-70.csv"
     },
     "relacao-pis_cofins":{
-        "tabela":"aliquotas/federal/PIS_COFINS/tabela.csv",
-        "regras":"aliquotas/federal/PIS_COFINS/regras.json"
+        "padrao":"aliquotas/federal/PIS_COFINS/standart.csv"
     },
     "relacao-regras_especiais":{
-        "tabela":"aliquotas/especial/tabela.csv",
-        "regras":"aliquotas/especial/regras.json"
+        "padrao":"aliquotas/especial/standart.csv"
     },
     "referencias": {
         "NCM": {

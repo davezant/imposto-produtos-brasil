@@ -1,0 +1,52 @@
+name: Publicar distribuição
+
+# Publica SQLite, JSON, CSV e a API estática no GitHub Pages a cada mudança na main.
+# Em tags v* (ex.: v0.8.0), também cria uma Release com os arquivos, para quem quer fixar uma versão.
+# Requer: Settings > Pages > Source = "GitHub Actions".
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - id: pages
+        uses: actions/configure-pages@v5
+      - run: python tools/validar_dados.py
+      - run: python tools/gerar_distribuicao.py --saida dist --base-url "${{ steps.pages.outputs.base_url }}/"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deploy
+        uses: actions/deploy-pages@v4
+      - name: Criar Release (somente em tags)
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd dist
+          zip -qr ../impostos-csv.zip csv datapackage.json schema.json
+          zip -qr ../impostos-json.zip json api schema.json
+          cd ..
+          gh release create "${GITHUB_REF_NAME}" dist/impostos.sqlite impostos-csv.zip impostos-json.zip \
+            --title "${GITHUB_REF_NAME}" --notes "Veja o CHANGELOG.txt para as mudanças desta versão."

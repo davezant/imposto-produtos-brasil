@@ -29,6 +29,26 @@ Não é necessário saber programar para colaborar. O projeto depende de contrib
 
 Dados fiscais acessíveis ampliam a capacidade de fiscalização social. Quanto mais pessoas entendem quanto pagam de imposto, mais informado fica o debate público sobre arrecadação e uso dos recursos.
 
+### Dados disponíveis
+
+| tributo | cobertura |
+|---|---|
+| Imposto de Importação (TEC) | todos os NCM + exceções temporárias, por Ex e com quota |
+| IPI (TIPI) | todos os NCM + Ex-tarifários |
+| PIS/COFINS | alíquotas padrão + regimes diferenciados por NCM |
+| ICMS | alíquota interna padrão por UF e interestaduais |
+| Regimes especiais | remessas internacionais (Remessa Conforme) |
+
+Os dados de NCM, TEC, TIPI e PIS/COFINS são gerados das fontes oficiais por `tools/atualizar_dados.py`; as fontes e versões ficam em `manifest.json`. Veja [Alíquotas](docs/ALIQUOTAS.md) e [Ferramentas](docs/FERRAMENTAS.md).
+
+**Para integrar:** cada NCM tem um JSON com todos os impostos (`api/v1/ncm/22030000.json`), e também há um banco SQLite e CSVs/JSONs consolidados, publicados automaticamente. Veja [Integração](docs/INTEGRACAO.md).
+
+```bash
+python tools/pesquisar_por_taxas_por_ncm.py 2203.00.00
+```
+
+> Estes dados servem para estimativa, estudo e transparência. Eles não substituem a orientação de um contador nem a legislação vigente.
+
 ### Licença
 
 [Unlicense](https://raw.githubusercontent.com/davezant/imposto-produtos-brasil/refs/heads/main/LICENSE)

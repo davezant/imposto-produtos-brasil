@@ -1,1 +1,32 @@
-# Changelog vai servir somente em caso de 
+# Changelog
+
+Registra mudanças nos dados e na estrutura dos arquivos (colunas, caminhos), para quem integra o projeto.
+
+## 0.8 - 2026-11-08
+
+### Dados
+- TEC: todos os 10.516 NCM folha (antes 3.991, com 13 intervalos vazios). Valores regenerados a partir da
+  Resolução Gecex 272/2021 atualizada até a Res. Gecex 948/2026; boa parte dos valores anteriores estava desatualizada.
+- TEC: novo `aliquotas/federal/TEC/excecoes.csv` com os Anexos IV, V, VI, VIII, IX e X (2.150 linhas).
+- TIPI: todos os NCM da TIPI, incluindo alíquota zero e `NT`, além dos Ex-tarifários (11.107 linhas; antes só as alíquotas > 0).
+- PIS/COFINS: novo `aliquotas/federal/PIS_COFINS/excecoes.csv` com os regimes por NCM das tabelas SPED 4.3.10 a 4.3.17.
+- NCM: atualizada para a Res. Gecex 926/2026 (3913.90.50 alterado, 8518.10.20 incluído) e linhas de capítulo (2 dígitos) adicionadas.
+
+### Estrutura (pode quebrar integrações)
+- TEC: colunas `aliquota_tec_mercosul` e `bit_bk` adicionadas. `aliquota` agora é a alíquota aplicada pelo Brasil.
+- TIPI: coluna `*ex` renomeada para `ex` (agora com 2 dígitos, ex.: `01`), coluna `descricao_ex` adicionada e valor `NT` introduzido.
+- `manifest.json`: novas chaves `relacao-tec_excecoes`, `relacao-pis_cofins.excecoes`, `info.gerado_em` e versões das fontes em `referencias`.
+
+### Validação e integração
+- `schema.json`: descrição única de todas as tabelas e colunas (tipos, obrigatoriedade, valores permitidos, chaves).
+- `tools/validar_dados.py`: valida formatos, chaves duplicadas, referências entre tabelas, intervalos e manifest;
+  `--corrigir` resolve problemas de formato vindos do Excel.
+- `tools/gerar_distribuicao.py`: gera SQLite, JSON, CSV consolidado, API estática por NCM e `datapackage.json`.
+- GitHub Actions: validação em PRs, publicação no GitHub Pages/Releases e verificação semanal das fontes oficiais.
+- Números de Ex normalizados (a TIPI e a TEC na fonte misturam `01`, `Ex 01`, `1`, `001` e até fórmulas do Excel).
+
+### Ferramentas
+- `tools/atualizar_dados.py`: regenera os dados a partir das fontes oficiais.
+- Implementadas `pesquisar_ncm_pelo_nome.py`, `mostrar_referências.py` e `mostrar_tabela_de_aliquotas_fixas.py`.
+- `pesquisar_por_taxas_por_ncm.py` mostra Ex da TIPI, exceções do II e PIS/COFINS, e aceita o NCM como argumento.
+- As ferramentas funcionam a partir de qualquer diretório.

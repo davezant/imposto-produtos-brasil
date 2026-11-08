@@ -1,0 +1,149 @@
+{
+    "versao_schema": 1,
+    "descricao": "Estrutura de todas as tabelas do repositório. Usado por tools/validar_dados.py (validação) e tools/gerar_distribuicao.py (SQLite, JSON e API). Ao criar ou alterar uma coluna, altere aqui também.",
+    "tipos": {
+        "texto": "Texto livre.",
+        "inteiro": "Número inteiro sem separador de milhar. Ex.: 2021",
+        "numero": "Número decimal com ponto. Ex.: 46.58",
+        "fracao": "Alíquota em fração decimal com ponto, entre 0 e 3. Ex.: 0.0325 = 3,25%",
+        "fracao_ou_nt": "Como 'fracao', ou NT (não tributado).",
+        "ncm": "Código NCM em qualquer nível, com pontos. Ex.: 22, 22.03, 2203.00.00",
+        "ncm_folha": "Código NCM completo de 8 dígitos. Ex.: 2203.00.00",
+        "ncm_prefixo": "Início de um código NCM (2 a 8 dígitos), com pontos. Ex.: 2710.12",
+        "ex": "Número de Ex-tarifário. Ex.: 01 ou 001",
+        "data_br": "Data DD/MM/AAAA. 31/12/9999 = sem data de fim.",
+        "data_iso": "Data AAAA-MM-DD.",
+        "uf": "Sigla de UF."
+    },
+    "tabelas": [
+        {
+            "nome": "ncm",
+            "titulo": "Nomenclatura Comum do Mercosul",
+            "arquivos": "ncm/*/capitulo-*.csv",
+            "gerado_por": "tools/atualizar_dados.py",
+            "chave": ["codigo_ncm"],
+            "colunas": [
+                {"nome": "codigo_ncm", "tipo": "ncm", "obrigatorio": true, "descricao": "Código NCM em qualquer nível da hierarquia"},
+                {"nome": "descricao", "tipo": "texto", "obrigatorio": true, "descricao": "Descrição oficial. Prefixos '-' indicam o nível"},
+                {"nome": "unidade_medida", "tipo": "texto", "descricao": "Unidade de medida, quando conhecida"},
+                {"nome": "data_inicio", "tipo": "data_br", "obrigatorio": true, "descricao": "Início da vigência do código"},
+                {"nome": "data_fim", "tipo": "data_br", "obrigatorio": true, "descricao": "Fim da vigência do código"},
+                {"nome": "numero", "tipo": "inteiro", "descricao": "Número do ato que criou o código"},
+                {"nome": "ano", "tipo": "inteiro", "descricao": "Ano do ato que criou o código"}
+            ]
+        },
+        {
+            "nome": "tec",
+            "titulo": "Imposto de Importação (TEC)",
+            "arquivos": "aliquotas/federal/TEC/[0-9]*.csv",
+            "gerado_por": "tools/atualizar_dados.py",
+            "chave": ["codigo_ncm"],
+            "referencias": [{"coluna": "codigo_ncm", "tabela": "ncm", "nivel": "erro"}],
+            "colunas": [
+                {"nome": "codigo_ncm", "tipo": "ncm_folha", "obrigatorio": true, "descricao": "NCM"},
+                {"nome": "aliquota", "tipo": "fracao", "obrigatorio": true, "descricao": "Alíquota do II aplicada pelo Brasil"},
+                {"nome": "aliquota_tec_mercosul", "tipo": "fracao", "obrigatorio": true, "descricao": "Alíquota da TEC do Mercosul"},
+                {"nome": "bit_bk", "tipo": "texto", "valores": ["", "BIT", "BK"], "descricao": "Marca de bem de informática/telecomunicações (BIT) ou de capital (BK)"}
+            ]
+        },
+        {
+            "nome": "tec_excecoes",
+            "titulo": "Exceções do Imposto de Importação",
+            "arquivos": "aliquotas/federal/TEC/excecoes.csv",
+            "gerado_por": "tools/atualizar_dados.py",
+            "referencias": [{"coluna": "codigo_ncm", "tabela": "ncm", "nivel": "erro"}],
+            "vigencia": ["vigencia_inicio", "vigencia_fim"],
+            "colunas": [
+                {"nome": "anexo", "tipo": "texto", "obrigatorio": true, "valores": ["Anexo IV", "Anexo V", "Anexo VI", "Anexo VIII", "Anexo IX", "Anexo X"], "descricao": "Anexo da Res. Gecex 272/2021"},
+                {"nome": "codigo_ncm", "tipo": "ncm_folha", "obrigatorio": true, "descricao": "NCM"},
+                {"nome": "ex", "tipo": "ex", "descricao": "Ex-tarifário (vazio = NCM inteiro)"},
+                {"nome": "descricao", "tipo": "texto", "descricao": "Descrição do produto ou Ex"},
+                {"nome": "aliquota", "tipo": "fracao", "obrigatorio": true, "descricao": "Alíquota da exceção"},
+                {"nome": "quota", "tipo": "texto", "descricao": "Quota, quando houver"},
+                {"nome": "unidade_quota", "tipo": "texto", "descricao": "Unidade da quota"},
+                {"nome": "vigencia_inicio", "tipo": "data_iso", "descricao": "Início da vigência"},
+                {"nome": "vigencia_fim", "tipo": "data_iso", "descricao": "Fim da vigência (vazio = indeterminado)"},
+                {"nome": "ato", "tipo": "texto", "descricao": "Ato legal de inclusão"},
+                {"nome": "observacao", "tipo": "texto", "descricao": "Observações"}
+            ]
+        },
+        {
+            "nome": "tipi",
+            "titulo": "IPI (TIPI)",
+            "arquivos": "aliquotas/federal/TIPI/*.csv",
+            "gerado_por": "tools/atualizar_dados.py",
+            "chave": ["codigo_ncm", "ex"],
+            "referencias": [{"coluna": "codigo_ncm", "tabela": "ncm", "nivel": "aviso"}],
+            "colunas": [
+                {"nome": "codigo_ncm", "tipo": "ncm_folha", "obrigatorio": true, "descricao": "NCM"},
+                {"nome": "ex", "tipo": "ex", "descricao": "Ex da TIPI (vazio = alíquota geral)"},
+                {"nome": "aliquota", "tipo": "fracao_ou_nt", "obrigatorio": true, "descricao": "Alíquota do IPI ou NT"},
+                {"nome": "descricao_ex", "tipo": "texto", "obrigatorio_se": "ex", "descricao": "Descrição do Ex"}
+            ]
+        },
+        {
+            "nome": "pis_cofins_padrao",
+            "titulo": "PIS/COFINS - regimes padrão",
+            "arquivos": "aliquotas/federal/PIS_COFINS/standart.csv",
+            "chave": ["id"],
+            "colunas": [
+                {"nome": "id", "tipo": "texto", "obrigatorio": true, "descricao": "Identificador"},
+                {"nome": "tipo", "tipo": "texto", "obrigatorio": true, "descricao": "Interno, Importacao ou ambos"},
+                {"nome": "aliquota_pis", "tipo": "fracao", "obrigatorio": true, "descricao": "Alíquota do PIS"},
+                {"nome": "aliquota_cofins", "tipo": "fracao", "obrigatorio": true, "descricao": "Alíquota da COFINS"}
+            ]
+        },
+        {
+            "nome": "pis_cofins_excecoes",
+            "titulo": "PIS/COFINS - regimes diferenciados por NCM",
+            "arquivos": "aliquotas/federal/PIS_COFINS/excecoes.csv",
+            "gerado_por": "tools/atualizar_dados.py",
+            "vigencia": ["vigencia_inicio", "vigencia_fim"],
+            "colunas": [
+                {"nome": "tabela_sped", "tipo": "texto", "obrigatorio": true, "valores": ["4.3.10", "4.3.11", "4.3.12", "4.3.13", "4.3.14", "4.3.15", "4.3.16", "4.3.17"], "descricao": "Tabela SPED de origem"},
+                {"nome": "tipo", "tipo": "texto", "obrigatorio": true, "valores": ["monofasica_aliquota_diferenciada", "monofasica_aliquota_por_unidade", "substituicao_tributaria", "aliquota_zero", "isencao", "nao_incidencia", "suspensao", "aliquota_diferenciada"], "descricao": "Regime"},
+                {"nome": "cst", "tipo": "texto", "obrigatorio": true, "padrao": "^\\d{2}(;\\d{2})*$", "descricao": "CST(s) do regime"},
+                {"nome": "codigo", "tipo": "texto", "obrigatorio": true, "descricao": "Código da regra na tabela SPED"},
+                {"nome": "descricao", "tipo": "texto", "obrigatorio": true, "descricao": "Descrição oficial e condições"},
+                {"nome": "vigencia_inicio", "tipo": "data_iso", "obrigatorio": true, "descricao": "Início da vigência"},
+                {"nome": "vigencia_fim", "tipo": "data_iso", "descricao": "Fim da vigência (vazio = vigente)"},
+                {"nome": "ncm_prefixo", "tipo": "ncm_prefixo", "descricao": "Prefixo de NCM abrangido (vazio = regra só em texto)"},
+                {"nome": "ncm_ex", "tipo": "texto", "descricao": "Ex de NCM associado"},
+                {"nome": "ex_ipi", "tipo": "texto", "descricao": "Ex da TIPI associado"},
+                {"nome": "aliquota_pis", "tipo": "fracao", "descricao": "Alíquota do PIS"},
+                {"nome": "aliquota_cofins", "tipo": "fracao", "descricao": "Alíquota da COFINS"},
+                {"nome": "valor_pis_por_unidade", "tipo": "numero", "descricao": "PIS em R$ por unidade"},
+                {"nome": "valor_cofins_por_unidade", "tipo": "numero", "descricao": "COFINS em R$ por unidade"},
+                {"nome": "unidade", "tipo": "texto", "obrigatorio_se": "valor_pis_por_unidade", "descricao": "Unidade dos valores por unidade"},
+                {"nome": "observacao", "tipo": "texto", "descricao": "Observações"}
+            ]
+        },
+        {
+            "nome": "icms",
+            "titulo": "ICMS - alíquotas padrão",
+            "arquivos": "aliquotas/estadual/standart.csv",
+            "chave": ["id"],
+            "colunas": [
+                {"nome": "id", "tipo": "texto", "obrigatorio": true, "descricao": "Identificador"},
+                {"nome": "tipo", "tipo": "texto", "obrigatorio": true, "descricao": "UF ou Interestadual"},
+                {"nome": "aliquota_interna", "tipo": "fracao", "obrigatorio": true, "descricao": "Alíquota interna padrão"},
+                {"nome": "fcp", "tipo": "fracao", "obrigatorio": true, "descricao": "Adicional do Fundo de Combate à Pobreza"},
+                {"nome": "aliquota_efetiva", "tipo": "fracao", "obrigatorio": true, "soma_de": ["aliquota_interna", "fcp"], "descricao": "aliquota_interna + fcp"}
+            ]
+        },
+        {
+            "nome": "regras_especiais",
+            "titulo": "Regimes especiais",
+            "arquivos": "aliquotas/especial/standart.csv",
+            "chave": ["id"],
+            "colunas": [
+                {"nome": "id", "tipo": "texto", "obrigatorio": true, "descricao": "Identificador"},
+                {"nome": "descricao", "tipo": "texto", "obrigatorio": true, "descricao": "Situação em que se aplica"},
+                {"nome": "tipo_taxa", "tipo": "texto", "obrigatorio": true, "descricao": "Tributo"},
+                {"nome": "base_incidencia", "tipo": "texto", "descricao": "Base de cálculo"},
+                {"nome": "aliquota", "tipo": "fracao", "obrigatorio": true, "descricao": "Alíquota"},
+                {"nome": "observacao", "tipo": "texto", "descricao": "Base legal e condições"}
+            ]
+        }
+    ]
+}

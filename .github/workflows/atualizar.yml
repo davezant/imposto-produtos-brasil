@@ -1,0 +1,44 @@
+name: Verificar fontes oficiais
+
+# Toda segunda-feira baixa NCM, TIPI, TEC e tabelas SPED e, se algo mudou, abre um Pull Request
+# para revisão humana. Nada é publicado sem merge.
+# Requer: Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r tools/requirements.txt
+      - run: python tools/atualizar_dados.py
+      - run: python tools/validar_dados.py
+      - name: Abrir Pull Request se houver mudanças
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Só a data de geração mudou? Então não há novidade.
+          if git diff --quiet -- . ':!manifest.json'; then
+            echo "Nenhuma mudança nas fontes oficiais."
+            exit 0
+          fi
+          BRANCH="atualizacao/$(date +%Y-%m-%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add -A
+          git commit -m "Atualização automática a partir das fontes oficiais ($(date +%Y-%m-%d))"
+          git push -u origin "$BRANCH"
+          gh pr create --title "Atualização das fontes oficiais ($(date +%Y-%m-%d))" \
+            --body "Gerado por \`tools/atualizar_dados.py\`. Revise o diff (principalmente alíquotas) e atualize o CHANGELOG.txt antes do merge."

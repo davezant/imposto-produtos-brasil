@@ -1,4 +1,5 @@
 codigo_ncm,descricao,unidade_medida,data_inicio,data_fim,numero,ano
+85,"Máquinas, aparelhos e materiais elétricos, e suas partes; aparelhos de gravação ou de reprodução de som, aparelhos de gravação ou de reprodução de imagens e de som em televisão, e suas partes e acessórios.",,01/04/2022,31/12/9999,272,2021
 85.01,"Motores e geradores, elétricos, exceto os grupos eletrogêneos.",,01/04/2022,31/12/9999,272,2021
 8501.10,"- Motores de potência não superior a 37,5 W",,01/04/2022,31/12/9999,272,2021
 8501.10.1,De corrente contínua,,01/04/2022,31/12/9999,272,2021
@@ -388,6 +389,7 @@ codigo_ncm,descricao,unidade_medida,data_inicio,data_fim,numero,ano
 85.18,"Microfones e seus suportes; alto-falantes (altifalantes), mesmo montados nas suas caixas (colunas); fones de ouvido (auscultadores e auriculares*), mesmo combinados com um microfone, e conjuntos ou sortidos constituídos por um microfone e um ou mais alto-falantes (altifalantes); amplificadores elétricos de audiofrequência; aparelhos elétricos de amplificação de som.",,01/04/2022,31/12/9999,272,2021
 8518.10,- Microfones e seus suportes,,01/04/2022,31/12/9999,272,2021
 8518.10.10,Piezelétricos próprios para aparelhos telefônicos,,01/04/2022,31/12/9999,272,2021
+8518.10.20,"Outros microfones, sem suporte",,01/10/2026,31/12/9999,926,2026
 8518.10.90,Outros,,01/04/2022,31/12/9999,272,2021
 8518.2,"- Alto-falantes (altifalantes), mesmo montados nas suas caixas (colunas):",,01/04/2022,31/12/9999,272,2021
 8518.21.00,-- Alto-falante (altifalante) único montado na sua caixa (coluna),,01/04/2022,31/12/9999,272,2021

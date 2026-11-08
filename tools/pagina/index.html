@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Impostos por NCM</title>
+<meta name="description" content="Base aberta de impostos sobre produtos no Brasil: II, IPI, PIS/COFINS e ICMS por NCM, em SQLite, JSON e CSV.">
+<style>
+  :root {
+    --bg: #fbfaf7; --fg: #1d1d1b; --muted: #5f5e58; --line: #dedcd3; --card: #ffffff;
+    --accent: #1f6f50; --accent-fg: #ffffff; --code: #f1efe8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151614; --fg: #ecebe6; --muted: #a6a59d; --line: #2f302c; --card: #1c1d1a;
+            --accent: #5cc49a; --accent-fg: #0d1a14; --code: #232420; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.15rem; margin: 40px 0 12px; }
+  p { margin: 0 0 12px; }
+  .lead { color: var(--muted); max-width: 62ch; }
+  a { color: var(--accent); }
+  code, pre { font: 0.9em/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; background: var(--code); border-radius: 6px; }
+  code { padding: 1px 5px; }
+  pre { padding: 12px 14px; overflow-x: auto; margin: 0 0 12px; }
+  form { display: flex; gap: 8px; flex-wrap: wrap; }
+  input { flex: 1 1 260px; min-width: 0; padding: 10px 12px; font: inherit; color: var(--fg);
+          background: var(--card); border: 1px solid var(--line); border-radius: 8px; }
+  button { padding: 10px 16px; font: inherit; font-weight: 600; border: 0; border-radius: 8px;
+           background: var(--accent); color: var(--accent-fg); cursor: pointer; }
+  input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px; margin-top: 16px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 12px 0; }
+  .stat .k { color: var(--muted); font-size: 0.85rem; }
+  .stat .v { font-size: 1.4rem; font-weight: 650; font-variant-numeric: tabular-nums; }
+  ul.res { list-style: none; padding: 0; margin: 0; }
+  ul.res li { padding: 8px 0; border-top: 1px solid var(--line); }
+  ul.res li:first-child { border-top: 0; }
+  ul.res button { background: none; color: var(--accent); padding: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 8px 6px; border-top: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  .scroll { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Impostos por NCM</h1>
+  <p class="lead">Base aberta com o Imposto de Importação, o IPI, o PIS/COFINS e o ICMS de cada produto vendido no Brasil, gerada das fontes oficiais. Você pode usar estes dados por arquivo estático, sem chave e sem servidor.</p>
+  <p class="muted" id="versao">Carregando versão…</p>
+
+  <h2>Consultar</h2>
+  <form id="busca">
+    <label for="q" class="muted" style="flex-basis:100%">Código NCM (8 dígitos) ou nome do produto</label>
+    <input id="q" name="q" placeholder="2203.00.00 ou cerveja" autocomplete="off" required>
+    <button type="submit">Buscar</button>
+  </form>
+  <div id="saida" aria-live="polite"></div>
+
+  <h2>Usar nos seus sistemas</h2>
+  <div class="scroll">
+  <table>
+    <tr><th>Arquivo</th><th>Para quê</th></tr>
+    <tr><td><a href="api/v1/ncm/22030000.json"><code>api/v1/ncm/&lt;8 dígitos&gt;.json</code></a></td><td>Todos os impostos de um NCM em uma requisição</td></tr>
+    <tr><td><a href="api/v1/ncm/index.json"><code>api/v1/ncm/index.json</code></a></td><td>Lista de NCMs com descrição completa, para busca</td></tr>
+    <tr><td><a href="api/v1/fixas.json"><code>api/v1/fixas.json</code></a></td><td>Alíquotas que não dependem do NCM (PIS/COFINS padrão, ICMS, regimes especiais)</td></tr>
+    <tr><td><a href="impostos.sqlite"><code>impostos.sqlite</code></a></td><td>Todas as tabelas, indexadas: funciona em qualquer linguagem</td></tr>
+    <tr><td><a href="api/v1/meta.json"><code>api/v1/meta.json</code></a></td><td>Versão, fontes oficiais e links de CSV/JSON de cada tabela</td></tr>
+    <tr><td><a href="datapackage.json"><code>datapackage.json</code></a> · <a href="schema.json"><code>schema.json</code></a></td><td>Descrição das colunas (Frictionless Data)</td></tr>
+  </table>
+  </div>
+<pre>curl -s BASE/api/v1/ncm/22030000.json | jq '.ipi.aliquota'</pre>
+<pre>const r = await fetch("BASE/api/v1/ncm/22030000.json");
+const { imposto_importacao, ipi } = await r.json();</pre>
+<pre>SELECT * FROM v_impostos_ncm WHERE codigo_ncm_digitos = '22030000';</pre>
+  <p class="muted">Alíquotas em fração (0.18 = 18%). <code>nao_tributado: true</code> significa NT na TIPI. Os dados servem para estimativa e estudo e não substituem a orientação de um contador.</p>
+</main>
+<script>
+const BASE = new URL(".", location.href).href;
+document.querySelectorAll("pre").forEach(p => p.textContent = p.textContent.replaceAll("BASE/", BASE));
+const pct = v => v == null ? "—" : (Math.round(v * 1e6) / 1e4).toLocaleString("pt-BR") + "%";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const saida = document.getElementById("saida");
+let indice = null;
+
+fetch("api/v1/meta.json").then(r => r.json()).then(m => {
+  document.getElementById("versao").textContent = `Versão ${m.versao} · gerada em ${m.gerado_em}`;
+}).catch(() => { document.getElementById("versao").textContent = ""; });
+
+async function mostrarNcm(d) {
+  saida.innerHTML = '<p class="muted">Carregando…</p>';
+  const r = await fetch(`api/v1/ncm/${d}.json`);
+  if (!r.ok) { saida.innerHTML = '<div class="card">NCM não encontrado.</div>'; return; }
+  const n = await r.json();
+  const ii = n.imposto_importacao, ipi = n.ipi;
+  const pis = n.pis_cofins.regimes_diferenciados.filter(x => x.vigente);
+  const valor = x => x.aliquota_pis != null ? `PIS ${pct(x.aliquota_pis)} · COFINS ${pct(x.aliquota_cofins)}`
+    : x.valor_pis_por_unidade != null ? `PIS R$ ${x.valor_pis_por_unidade} · COFINS R$ ${x.valor_cofins_por_unidade} por ${esc(x.unidade)}`
+    : x.tipo === "aliquota_zero" ? "PIS 0% · COFINS 0%" : esc(x.tipo.replaceAll("_", " "));
+  saida.innerHTML = `<div class="card">
+    <p><strong>${esc(n.codigo)}</strong> · ${esc(n.descricao_completa)}</p>
+    <div class="grid">
+      <div class="stat"><div class="k">Imposto de Importação</div><div class="v">${ii ? pct(ii.aliquota) : "—"}</div></div>
+      <div class="stat"><div class="k">IPI</div><div class="v">${!ipi ? "—" : ipi.nao_tributado ? "NT" : pct(ipi.aliquota)}</div></div>
+      <div class="stat"><div class="k">PIS/COFINS</div><div class="v">${pis.length ? "Diferenciado" : "Padrão"}</div></div>
+    </div>
+    ${ipi && ipi.ex.length ? `<p class="muted">IPI tem ${ipi.ex.length} Ex-tarifário(s): ${ipi.ex.map(e => `Ex ${esc(e.ex)} ${e.nao_tributado ? "NT" : pct(e.aliquota)} (${esc(e.descricao)})`).join("; ")}</p>` : ""}
+    ${ii && ii.excecoes.some(e => e.vigente) ? `<p class="muted">Há exceções vigentes no Imposto de Importação (por Ex ou quota).</p>` : ""}
+    ${pis.length ? `<ul class="res">${pis.map(x => `<li>${valor(x)}<br><span class="muted">${esc(x.descricao)}</span></li>`).join("")}</ul>` : ""}
+    <p class="muted"><a href="api/v1/ncm/${d}.json">Ver JSON completo</a></p>
+  </div>`;
+}
+
+document.getElementById("busca").addEventListener("submit", async e => {
+  e.preventDefault();
+  const q = document.getElementById("q").value.trim();
+  const d = q.replace(/\D/g, "");
+  if (d.length === 8) return mostrarNcm(d);
+  saida.innerHTML = '<p class="muted">Carregando índice…</p>';
+  indice ??= await (await fetch("api/v1/ncm/index.json")).json();
+  const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const termos = norm(q).split(/\s+/).filter(Boolean);
+  const res = indice.filter(i => { const t = norm(i.descricao); return termos.every(x => t.includes(x)); });
+  saida.innerHTML = `<div class="card">${res.length ? `<ul class="res">${res.slice(0, 40).map(i =>
+    `<li><button type="button" data-ncm="${i.codigo.replace(/\D/g, "")}">${esc(i.codigo)}</button> <span class="muted">${esc(i.descricao)}</span></li>`
+  ).join("")}</ul>${res.length > 40 ? `<p class="muted">Mais ${res.length - 40} resultado(s). Refine a busca.</p>` : ""}` : "Nenhum resultado."}</div>`;
+});
+saida.addEventListener("click", e => { const b = e.target.closest("button[data-ncm]"); if (b) mostrarNcm(b.dataset.ncm); });
+</script>
+</body>
+</html>

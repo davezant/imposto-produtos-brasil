@@ -1,0 +1,24 @@
+name: Validar dados
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validar CSVs contra o schema.json
+        run: python tools/validar_dados.py
+      - name: Gerar distribuição (garante que SQLite/JSON/API continuam sendo gerados)
+        run: python tools/gerar_distribuicao.py --saida /tmp/dist
+      - name: Testar a ferramenta de consulta
+        run: python tools/pesquisar_por_taxas_por_ncm.py 2203.00.00

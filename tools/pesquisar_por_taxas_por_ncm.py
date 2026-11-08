@@ -1,8 +1,9 @@
-import csv
 import os
-import re
+import sys
 
-from globals import get_manifest_dict, find_ncm_interval, format_relation_list_to_list, ROOT_DIR, find_ancestors, find_children, normalize, load_chapter_rows, to_percentage
+from globals import (get_manifest_dict, find_ncm_interval, format_relation_list_to_list, ROOT_DIR,
+                     find_ancestors, find_children, normalize, load_chapter_rows, to_percentage,
+                     read_csv_dicts)
 
 HEADER_FATHER = ["NCM PAI", "Descrição"]
 HEADER_SELF = ["NCM", "Descrição", "Medida", "Data Início", "Data Fim"]
@@ -11,72 +12,103 @@ LAYOUT = "%s: \t%s \n"
 
 # Comando para pesquisar por taxas a partir de seu código NCM.
 
+def _matches_prefix(ncm_digits: str, prefix: str) -> bool:
+    p = normalize(prefix)
+    return bool(p) and ncm_digits.startswith(p)
+
 def search_for_taxes_by_ncm(ncm_code: str):
     manifest_dict = get_manifest_dict()
-    ncm_code = ncm_code[0:10]
+    ncm_code = ncm_code.strip()[0:10]
     digits = normalize(ncm_code)
     items = find_ncm_interval(ncm_code, manifest_dict)
-    if items is not None:
-        interval = items[0]
-        prefix = items[1]
+    if items is None:
+        print("Código NCM inválido ou fora dos intervalos conhecidos.")
+        return
 
-        ncm = manifest_dict.get("index-ncm", [])
-        tec = manifest_dict.get("index-tec", [])
-        tipi = manifest_dict.get("index-tipi", [])
+    interval, prefix = items
+    ncm = manifest_dict.get("index-ncm", {})
+    tec = manifest_dict.get("index-tec", {})
+    tipi = manifest_dict.get("index-tipi", {})
 
-        ncm_final_path = os.path.join(ROOT_DIR, ncm[interval][prefix])
-        tec_final_path = os.path.join(ROOT_DIR, tec[interval])
-        tipi_final_path = os.path.join(ROOT_DIR, tipi[interval])
+    if prefix not in ncm.get(interval, {}):
+        print("Capítulo %s não existe na NCM." % prefix)
+        return
 
-        rows = load_chapter_rows(ncm_final_path)
+    rows = load_chapter_rows(os.path.join(ROOT_DIR, ncm[interval][prefix]))
+    ancestors = find_ancestors(rows, digits)
+    self_row = next((r for r in rows if r["digits"] == digits), None)
+    children = find_children(rows, digits)
 
-        ancestors = find_ancestors(rows, digits)
-        self_row = next((r for r in rows if r["digits"] == digits), None)
-        children = find_children(rows, digits)
+    print("\nHIERARQUIA \n")
+    for a in ancestors:
+        format_relation_list_to_list(HEADER_FATHER, a["row"], LAYOUT)
 
-        print("\nHIERARQUIA \n")
-        for a in ancestors:
-            format_relation_list_to_list(HEADER_FATHER, a["row"], LAYOUT)
+    if self_row is not None:
+        format_relation_list_to_list(HEADER_SELF, self_row["row"], LAYOUT)
+    else:
+        print("Código não encontrado na tabela NCM.")
 
-        if self_row is not None:
-            format_relation_list_to_list(HEADER_SELF, self_row["row"], LAYOUT)
-        else:
-            print("Código não encontrado na tabela NCM.")
+    if children:
+        print("\nEste código é pai de %d código(s):" % len(children))
+        for c in children:
+            format_relation_list_to_list(HEADER_CHILD, c["row"], LAYOUT)
+        print("As alíquotas são definidas nos códigos folha (8 dígitos).")
+        return
+    print("\nEste código não possui filhos (é um código folha).")
 
-        if children:
-            print("\nEste código é pai de %d código(s):" % len(children))
-            for c in children:
-                format_relation_list_to_list(HEADER_CHILD, c["row"], LAYOUT)
-        else:
-            print("\nEste código não possui filhos (é um código folha).")
+    print("\nALÍQUOTAS \n")
 
-        print("\nALIQUOTAS \n")
-        
-        with open(tec_final_path, encoding="utf-8") as f:
-            reader = csv.reader(f)
-            found = False
-            next(reader, None)
+    tec_row = next((r for r in read_csv_dicts(tec[interval]) if normalize(r["codigo_ncm"]) == digits), None)
+    if tec_row:
+        print("II (aplicada): \t" + to_percentage(tec_row["aliquota"]))
+        print("TEC Mercosul: \t" + to_percentage(tec_row["aliquota_tec_mercosul"])
+              + ("  [%s]" % tec_row["bit_bk"] if tec_row["bit_bk"] else ""))
+    else:
+        print("II (TEC): \tnão encontrado")
 
-            for row in reader:
-                if (row[0] == ncm_code) or (row[0] == ncm_code[0:8] + "00"):
-                    found = True
-                    print("Aliquota TEC: \t" + to_percentage(row[1]))
-            if not found:
-                print("Alíquota TEC: \tN/T")
+    tipi_rows = [r for r in read_csv_dicts(tipi[interval]) if normalize(r["codigo_ncm"]) == digits]
+    if tipi_rows:
+        for r in tipi_rows:
+            if r["ex"]:
+                print("IPI Ex %s: \t%s  (%s)" % (r["ex"], to_percentage(r["aliquota"]), r["descricao_ex"]))
+            else:
+                print("IPI (TIPI): \t" + to_percentage(r["aliquota"]))
+    else:
+        print("IPI (TIPI): \tnão encontrado")
 
-        with open(tipi_final_path, encoding="utf-8") as f:
-            reader = csv.reader(f)
-            found = False
-            next(reader, None)
+    tec_exc = manifest_dict.get("relacao-tec_excecoes", {}).get("padrao")
+    if tec_exc:
+        exc = [r for r in read_csv_dicts(tec_exc) if normalize(r["codigo_ncm"]) == digits]
+        if exc:
+            print("\nEXCEÇÕES DO IMPOSTO DE IMPORTAÇÃO \n")
+            for r in exc:
+                vig = "%s a %s" % (r["vigencia_inicio"] or "?", r["vigencia_fim"] or "indeterminado")
+                ex = (" Ex %s" % r["ex"]) if r["ex"] else ""
+                quota = (" | quota %s %s" % (r["quota"], r["unidade_quota"])) if r["quota"] else ""
+                print("%s%s: %s | %s%s | %s" % (r["anexo"], ex, to_percentage(r["aliquota"]), vig, quota, r["ato"]))
 
-            for row in reader:
-                if (row[0] == ncm_code) or (row[0] == ncm_code[0:8] + "00"):
-                    found = True
-                    print("Aliquota TIPI: \t" + to_percentage(row[2]))
-            if not found:
-                print("Alíquota TIPI: \tN/T")
+    pis_exc = manifest_dict.get("relacao-pis_cofins", {}).get("excecoes")
+    if pis_exc:
+        regras = [r for r in read_csv_dicts(pis_exc)
+                  if _matches_prefix(digits, r["ncm_prefixo"]) and not r["vigencia_fim"]]
+        print("\nPIS/COFINS \n")
+        if not regras:
+            print("Nenhum regime diferenciado vigente vinculado a este NCM nas tabelas SPED.")
+            print("Aplicam-se as alíquotas padrão (ver aliquotas/federal/PIS_COFINS/standart.csv).")
+        for r in regras:
+            if r["aliquota_pis"]:
+                valores = "PIS %s / COFINS %s" % (to_percentage(r["aliquota_pis"]), to_percentage(r["aliquota_cofins"]))
+            elif r["valor_pis_por_unidade"]:
+                valores = "PIS R$ %s / COFINS R$ %s por %s" % (r["valor_pis_por_unidade"],
+                                                             r["valor_cofins_por_unidade"], r["unidade"])
+            elif r["tipo"] == "aliquota_zero":
+                valores = "PIS 0% / COFINS 0%"
+            else:
+                valores = r["observacao"] or "ver condições na descrição"
+            print("[%s | CST %s] %s: %s" % (r["tabela_sped"], r["cst"], r["tipo"], valores))
+            print("    %s" % r["descricao"][:160])
 
 
 if __name__ == "__main__":
-    ncm_code = input("> Coloque o seu código NCM: ")
+    ncm_code = sys.argv[1] if len(sys.argv) > 1 else input("> Coloque o seu código NCM: ")
     search_for_taxes_by_ncm(ncm_code)

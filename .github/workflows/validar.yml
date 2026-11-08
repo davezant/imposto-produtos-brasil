@@ -19,6 +19,6 @@ jobs:
       - name: Validar CSVs contra o schema.json
         run: python tools/validar_dados.py
       - name: Gerar distribuição (garante que SQLite/JSON/API continuam sendo gerados)
-        run: python tools/gerar_distribuicao.py --saida /tmp/dist
+        run: python tools/gerar_distribuicao.py --saida /tmp/dist --verificar
       - name: Testar a ferramenta de consulta
         run: python tools/pesquisar_por_taxas_por_ncm.py 2203.00.00

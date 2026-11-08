@@ -192,11 +192,11 @@
         "98-99": "aliquotas/federal/TIPI/98-99.csv"
     },
     "relacao-pis_cofins": {
-        "padrao": "aliquotas/federal/PIS_COFINS/standart.csv",
+        "padrao": "aliquotas/federal/PIS_COFINS/padrao.csv",
         "excecoes": "aliquotas/federal/PIS_COFINS/excecoes.csv"
     },
     "relacao-regras_especiais": {
-        "padrao": "aliquotas/especial/standart.csv"
+        "padrao": "aliquotas/especial/padrao.csv"
     },
     "referencias": {
         "NCM": {
@@ -273,7 +273,7 @@
         }
     },
     "info": {
-        "versao": "0.8",
+        "versao": "0.9",
         "gerado_em": "2026-11-08"
     },
     "intervalos": [
@@ -302,5 +302,8 @@
     ],
     "relacao-tec_excecoes": {
         "padrao": "aliquotas/federal/TEC/excecoes.csv"
+    },
+    "relacao-icms": {
+        "padrao": "aliquotas/estadual/padrao.csv"
     }
 }

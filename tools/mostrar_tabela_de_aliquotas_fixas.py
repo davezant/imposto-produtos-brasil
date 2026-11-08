@@ -19,10 +19,11 @@ if __name__ == "__main__":
     _print_table("PIS/COFINS - regimes padrão",
                  read_csv_dicts(manifest_dict["relacao-pis_cofins"]["padrao"]),
                  {"aliquota_pis", "aliquota_cofins"})
-    _print_table("ICMS - alíquotas internas padrão por UF",
-                 read_csv_dicts("aliquotas/estadual/standart.csv"),
-                 {"aliquota_interna", "fcp", "aliquota_efetiva"})
+    _print_table("ICMS - alíquotas padrão",
+                 [{k: v for k, v in r.items() if k not in ("descricao", "revisar_ate")}
+                  for r in read_csv_dicts(manifest_dict["relacao-icms"]["padrao"])],
+                 {"aliquota", "fcp", "aliquota_efetiva"})
     _print_table("Regras especiais (importação)",
-                 [{k: v for k, v in r.items() if k != "observacao"}
+                 [{k: v for k, v in r.items() if k not in ("observacao", "revisar_ate")}
                   for r in read_csv_dicts(manifest_dict["relacao-regras_especiais"]["padrao"])],
                  {"aliquota"})

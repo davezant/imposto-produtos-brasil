@@ -1,6 +1,6 @@
 # PIS/PASEP e COFINS
 
-## `standart.csv` - regimes padrão
+## `padrao.csv` - regimes padrão (mantido manualmente)
 
 Alíquotas gerais que valem quando o produto **não** tem regime diferenciado.
 
@@ -9,6 +9,7 @@ Alíquotas gerais que valem quando o produto **não** tem regime diferenciado.
 | `id` | identificador do regime |
 | `tipo` | `Interno`, `Importacao` ou ambos |
 | `aliquota_pis`, `aliquota_cofins` | fração (`0.0165` = 1,65%) |
+| `revisar_ate` | data até a qual o valor deve ser reconferido; o validador avisa quando a data passa |
 
 ## `excecoes.csv` - regimes diferenciados por produto
 
@@ -31,4 +32,4 @@ Linhas com `vigencia_fim` preenchida são históricas.
 | `ncm_ex`, `ex_ipi` | Ex associado, quando houver |
 | `aliquota_pis`, `aliquota_cofins` | fração (tabelas 4.3.10 e 4.3.12) |
 | `valor_pis_por_unidade`, `valor_cofins_por_unidade`, `unidade` | alíquota em R$ por unidade (tabela 4.3.11) |
-| `observacao` | alíquotas da tabela 4.3.17, como publicadas |
+| `aliquota_pis_p`, `aliquota_pis_r`, `aliquota_cofins_p`, `aliquota_cofins_r` | só na tabela 4.3.17: correspondem às colunas oficiais `ALIQ_PIS_P`, `ALIQ_PIS_R`, `ALIQ_COF_P` e `ALIQ_COF_R`. O leiaute da tabela não documenta o significado de "P" e "R"; consulte a `descricao` e a legislação citada nela |

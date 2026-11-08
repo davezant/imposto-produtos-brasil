@@ -1,31 +1,31 @@
-codigo_ncm,descricao,unidade_medida,data_inicio,data_fim,numero,ano
-65,"Chapéus e artigos de uso semelhante, e suas partes.",,01/04/2022,31/12/9999,272,2021
-6501.00.00,"Esboços não enformados nem na copa nem na aba, discos e cilindros, mesmo cortados no sentido da altura, de feltro, para chapéus.",,01/04/2022,31/12/9999,272,2021
-6502.00,"Esboços de chapéus, entrançados ou obtidos por reunião de tiras de qualquer matéria, sem copa nem aba enformadas e sem guarnições.",,01/04/2022,31/12/9999,272,2021
-6502.00.10,"De palha fina (manila, panamá e semelhantes)",,01/04/2022,31/12/9999,272,2021
-6502.00.90,Outros,,01/04/2022,31/12/9999,272,2021
-6504.00,"Chapéus e outros artigos de uso semelhante, entrançados ou obtidos por reunião de tiras, de qualquer matéria, mesmo guarnecidos.",,01/04/2022,31/12/9999,272,2021
-6504.00.10,"De palha fina (manila, panamá e semelhantes)",,01/04/2022,31/12/9999,272,2021
-6504.00.90,Outros,,01/04/2022,31/12/9999,272,2021
-6505.00,"Chapéus e outros artigos de uso semelhante, de malha ou confeccionados com rendas, feltro ou outros produtos têxteis, em peça (mas não em tiras), mesmo guarnecidos; coifas e redes, para o cabelo, de qualquer matéria, mesmo guarnecidas.",,01/04/2022,31/12/9999,272,2021
-6505.00.1,Bonés,,01/04/2022,31/12/9999,272,2021
-6505.00.11,De algodão,,01/04/2022,31/12/9999,272,2021
-6505.00.12,De fibras sintéticas ou artificiais,,01/04/2022,31/12/9999,272,2021
-6505.00.19,De outras matérias têxteis,,01/04/2022,31/12/9999,272,2021
-6505.00.2,Gorros,,01/04/2022,31/12/9999,272,2021
-6505.00.21,De algodão,,01/04/2022,31/12/9999,272,2021
-6505.00.22,De fibras sintéticas ou artificiais,,01/04/2022,31/12/9999,272,2021
-6505.00.29,De outras matérias têxteis,,01/04/2022,31/12/9999,272,2021
-6505.00.3,Chapéus,,01/04/2022,31/12/9999,272,2021
-6505.00.31,De algodão,,01/04/2022,31/12/9999,272,2021
-6505.00.32,De fibras sintéticas ou artificiais,,01/04/2022,31/12/9999,272,2021
-6505.00.39,De outras matérias têxteis,,01/04/2022,31/12/9999,272,2021
-6505.00.90,Outros,,01/04/2022,31/12/9999,272,2021
-65.06,"Outros chapéus e artigos de uso semelhante, mesmo guarnecidos.",,01/04/2022,31/12/9999,272,2021
-6506.10,"- Capacetes e artigos de uso semelhante, de proteção",,01/02/2026,31/12/9999,812,2025
-6506.10.10,"Do tipo utilizado por bombeiros, com viseira e protetor facial incorporados",,01/02/2026,31/12/9999,812,2025
-6506.10.90,Outros,,01/02/2026,31/12/9999,812,2025
-6506.9,- Outros:,,01/04/2022,31/12/9999,272,2021
-6506.91.00,-- De borracha ou de plástico,,01/04/2022,31/12/9999,272,2021
-6506.99.00,-- De outras matérias,,01/04/2022,31/12/9999,272,2021
-6507.00.00,"Carneiras, forros, capas, armações, palas e barbicachos (francaletes*), para chapéus e artigos de uso semelhante.",,01/04/2022,31/12/9999,272,2021
+codigo_ncm,descricao,data_inicio,data_fim,numero,ano
+65,"Chapéus e artigos de uso semelhante, e suas partes.",2022-04-01,,272,2021
+6501.00.00,"Esboços não enformados nem na copa nem na aba, discos e cilindros, mesmo cortados no sentido da altura, de feltro, para chapéus.",2022-04-01,,272,2021
+6502.00,"Esboços de chapéus, entrançados ou obtidos por reunião de tiras de qualquer matéria, sem copa nem aba enformadas e sem guarnições.",2022-04-01,,272,2021
+6502.00.10,"De palha fina (manila, panamá e semelhantes)",2022-04-01,,272,2021
+6502.00.90,Outros,2022-04-01,,272,2021
+6504.00,"Chapéus e outros artigos de uso semelhante, entrançados ou obtidos por reunião de tiras, de qualquer matéria, mesmo guarnecidos.",2022-04-01,,272,2021
+6504.00.10,"De palha fina (manila, panamá e semelhantes)",2022-04-01,,272,2021
+6504.00.90,Outros,2022-04-01,,272,2021
+6505.00,"Chapéus e outros artigos de uso semelhante, de malha ou confeccionados com rendas, feltro ou outros produtos têxteis, em peça (mas não em tiras), mesmo guarnecidos; coifas e redes, para o cabelo, de qualquer matéria, mesmo guarnecidas.",2022-04-01,,272,2021
+6505.00.1,Bonés,2022-04-01,,272,2021
+6505.00.11,De algodão,2022-04-01,,272,2021
+6505.00.12,De fibras sintéticas ou artificiais,2022-04-01,,272,2021
+6505.00.19,De outras matérias têxteis,2022-04-01,,272,2021
+6505.00.2,Gorros,2022-04-01,,272,2021
+6505.00.21,De algodão,2022-04-01,,272,2021
+6505.00.22,De fibras sintéticas ou artificiais,2022-04-01,,272,2021
+6505.00.29,De outras matérias têxteis,2022-04-01,,272,2021
+6505.00.3,Chapéus,2022-04-01,,272,2021
+6505.00.31,De algodão,2022-04-01,,272,2021
+6505.00.32,De fibras sintéticas ou artificiais,2022-04-01,,272,2021
+6505.00.39,De outras matérias têxteis,2022-04-01,,272,2021
+6505.00.90,Outros,2022-04-01,,272,2021
+65.06,"Outros chapéus e artigos de uso semelhante, mesmo guarnecidos.",2022-04-01,,272,2021
+6506.10,"- Capacetes e artigos de uso semelhante, de proteção",2026-02-01,,812,2025
+6506.10.10,"Do tipo utilizado por bombeiros, com viseira e protetor facial incorporados",2026-02-01,,812,2025
+6506.10.90,Outros,2026-02-01,,812,2025
+6506.9,- Outros:,2022-04-01,,272,2021
+6506.91.00,-- De borracha ou de plástico,2022-04-01,,272,2021
+6506.99.00,-- De outras matérias,2022-04-01,,272,2021
+6507.00.00,"Carneiras, forros, capas, armações, palas e barbicachos (francaletes*), para chapéus e artigos de uso semelhante.",2022-04-01,,272,2021

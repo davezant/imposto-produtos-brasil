@@ -13,4 +13,5 @@ A documentação se divide em:
 - [Aliquotas](https://github.com/davezant/imposto-produtos-brasil/blob/main/docs/ALIQUOTAS.md)
 - [Ferramentas](https://github.com/davezant/imposto-produtos-brasil/blob/main/docs/FERRAMENTAS.md)
 - [Integração](https://github.com/davezant/imposto-produtos-brasil/blob/main/docs/INTEGRACAO.md)
+- [Versionamento](https://github.com/davezant/imposto-produtos-brasil/blob/main/docs/VERSIONAMENTO.md)
 - [Contribuição](https://github.com/davezant/imposto-produtos-brasil/blob/main/docs/CONTRIBUINDO.md)

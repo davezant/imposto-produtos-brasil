@@ -22,11 +22,11 @@ consigam editar. A documentação e as mensagens são em português do Brasil: e
    - `aliquotas/federal/PIS_COFINS/excecoes.csv`
 
    Para mudar esses arquivos, altere `tools/atualizar_dados.py` e rode-o de novo.
-   Os arquivos mantidos manualmente são `aliquotas/estadual/standart.csv`, `aliquotas/especial/standart.csv` e
-   `aliquotas/federal/PIS_COFINS/standart.csv`.
+   Os arquivos mantidos manualmente são `aliquotas/estadual/padrao.csv`, `aliquotas/especial/padrao.csv` e
+   `aliquotas/federal/PIS_COFINS/padrao.csv`.
 4. **Sempre valide antes de concluir:** `python tools/validar_dados.py`. A tarefa não está pronta com erros.
 5. **Não renomeie nem reordene colunas sem atualizar o `schema.json`** e registrar a mudança no `CHANGELOG.txt`
-   (seção "Estrutura"), porque isso quebra integrações. Os nomes de arquivo (inclusive `standart.csv`) fazem parte do
+   (seção "Estrutura"), porque isso quebra integrações. Os nomes de arquivo fazem parte do
    contrato público.
 
 ## Mapa do repositório
@@ -38,9 +38,9 @@ consigam editar. A documentação e as mensagens são em português do Brasil: e
 | `ncm/<intervalo>/capitulo-XX.csv` | nomenclatura NCM (todos os níveis) |
 | `aliquotas/federal/TEC/` | Imposto de Importação por NCM + `excecoes.csv` |
 | `aliquotas/federal/TIPI/` | IPI por NCM e Ex |
-| `aliquotas/federal/PIS_COFINS/` | `standart.csv` (padrão) + `excecoes.csv` (regimes por NCM) |
-| `aliquotas/estadual/standart.csv` | ICMS padrão por UF |
-| `aliquotas/especial/standart.csv` | regimes especiais (remessas internacionais) |
+| `aliquotas/federal/PIS_COFINS/` | `padrao.csv` (padrão) + `excecoes.csv` (regimes por NCM) |
+| `aliquotas/estadual/padrao.csv` | ICMS padrão por UF e interestadual |
+| `aliquotas/especial/padrao.csv` | regimes especiais (remessas internacionais) |
 | `tools/` | scripts Python (ver abaixo) |
 | `docs/` | documentação para pessoas; cada pasta de dados também tem um `README.md` com as colunas |
 
@@ -67,8 +67,8 @@ Não adicione dependências externas aos outros scripts.
 - **NCM com pontos:** `2203.00.00` (folha, 8 dígitos). Códigos mais curtos (`22`, `22.03`, `2203.1`) são agrupamentos
   e não têm alíquota.
 - **Ex:** 2 dígitos na TIPI (`01`), 3 nas exceções da TEC (`001`). Vazio = regra geral do NCM.
-- **Datas:** as tabelas de NCM usam `DD/MM/AAAA` (`31/12/9999` = sem fim); as demais usam `AAAA-MM-DD`
-  (vazio = sem fim).
+- **Datas:** sempre `AAAA-MM-DD`. Data de fim vazia = sem fim.
+- **Célula vazia** = "não se aplica"; na distribuição vira `null`.
 - **CSV:** UTF-8 sem BOM, separador `,`, quebra de linha CRLF, aspas só quando o texto tem vírgula.
 - **PIS/COFINS por NCM:** `ncm_prefixo` é um prefixo. Um NCM se enquadra se começar com ele. Linhas com
   `vigencia_fim` preenchida são históricas, não apague.
@@ -78,8 +78,9 @@ Não adicione dependências externas aos outros scripts.
 ## Receitas
 
 **Corrigir ou adicionar um valor num arquivo manual** (ICMS, regimes especiais, PIS/COFINS padrão):
-edite a linha, cite a fonte oficial no texto do commit/PR (e na coluna `observacao`, quando existir), rode o
-validador e registre a mudança no `CHANGELOG.txt`.
+edite a linha, cite a fonte oficial no texto do commit/PR (e na coluna `observacao` ou `descricao`), atualize
+`revisar_ate` para a próxima data em que o valor deve ser reconferido, rode o validador e registre a mudança no
+`CHANGELOG.txt`. Um aviso de "revisão vencida" significa que alguém precisa conferir a fonte; não basta mudar a data.
 
 **Atualizar os dados oficiais:** rode `tools/atualizar_dados.py`, depois o validador, e revise o `git diff`. Explique
 ao usuário as mudanças de alíquota mais relevantes. Não "conserte" à mão diferenças que vieram da fonte.

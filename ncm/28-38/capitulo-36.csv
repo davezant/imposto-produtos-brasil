@@ -1,20 +1,20 @@
-codigo_ncm,descricao,unidade_medida,data_inicio,data_fim,numero,ano
-36,Pólvoras e explosivos; artigos de pirotecnia; fósforos; ligas pirofóricas; matérias inflamáveis.,,01/04/2022,31/12/9999,272,2021
-3601.00.00,Pólvoras propulsivas.,,01/04/2022,31/12/9999,272,2021
-3602.00.00,"Explosivos preparados, exceto pólvoras propulsivas.",,01/04/2022,31/12/9999,272,2021
-36.03,"Estopins e rastilhos, de segurança; cordéis (cordões) detonantes; escorvas e cápsulas fulminantes; inflamadores; detonadores elétricos.",,01/04/2022,31/12/9999,272,2021
-3603.10.00,"- Estopins e rastilhos, de segurança",,01/04/2022,31/12/9999,272,2021
-3603.20.00,- Cordéis (cordões) detonantes,,01/04/2022,31/12/9999,272,2021
-3603.30.00,- Escorvas fulminantes,,01/04/2022,31/12/9999,272,2021
-3603.40.00,- Cápsulas fulminantes,,01/04/2022,31/12/9999,272,2021
-3603.50.00,- Inflamadores,,01/04/2022,31/12/9999,272,2021
-3603.60.00,- Detonadores elétricos,,01/04/2022,31/12/9999,272,2021
-36.04,"Fogos de artifício, foguetes de sinalização ou contra o granizo e semelhantes, bombas, petardos e outros artigos de pirotecnia.",,01/04/2022,31/12/9999,272,2021
-3604.10.00,- Fogos de artifício,,01/04/2022,31/12/9999,272,2021
-3604.90,- Outros,,01/04/2022,31/12/9999,272,2021
-3604.90.10,Foguetes e cartuchos contra o granizo e semelhantes,,01/04/2022,31/12/9999,272,2021
-3604.90.90,Outros,,01/04/2022,31/12/9999,272,2021
-3605.00.00,"Fósforos, exceto os artigos de pirotecnia da posição 36.04.",,01/04/2022,31/12/9999,272,2021
-36.06,"Ferrocério e outras ligas pirofóricas, sob quaisquer formas; artigos de matérias inflamáveis indicados na Nota 2 do presente Capítulo.",,01/04/2022,31/12/9999,272,2021
-3606.10.00,"- Combustíveis líquidos e combustíveis gasosos liquefeitos, em recipientes do tipo utilizado para carregar ou recarregar isqueiros ou acendedores, com capacidade não superior a 300 cm3",,01/04/2022,31/12/9999,272,2021
-3606.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
+codigo_ncm,descricao,data_inicio,data_fim,numero,ano
+36,Pólvoras e explosivos; artigos de pirotecnia; fósforos; ligas pirofóricas; matérias inflamáveis.,2022-04-01,,272,2021
+3601.00.00,Pólvoras propulsivas.,2022-04-01,,272,2021
+3602.00.00,"Explosivos preparados, exceto pólvoras propulsivas.",2022-04-01,,272,2021
+36.03,"Estopins e rastilhos, de segurança; cordéis (cordões) detonantes; escorvas e cápsulas fulminantes; inflamadores; detonadores elétricos.",2022-04-01,,272,2021
+3603.10.00,"- Estopins e rastilhos, de segurança",2022-04-01,,272,2021
+3603.20.00,- Cordéis (cordões) detonantes,2022-04-01,,272,2021
+3603.30.00,- Escorvas fulminantes,2022-04-01,,272,2021
+3603.40.00,- Cápsulas fulminantes,2022-04-01,,272,2021
+3603.50.00,- Inflamadores,2022-04-01,,272,2021
+3603.60.00,- Detonadores elétricos,2022-04-01,,272,2021
+36.04,"Fogos de artifício, foguetes de sinalização ou contra o granizo e semelhantes, bombas, petardos e outros artigos de pirotecnia.",2022-04-01,,272,2021
+3604.10.00,- Fogos de artifício,2022-04-01,,272,2021
+3604.90,- Outros,2022-04-01,,272,2021
+3604.90.10,Foguetes e cartuchos contra o granizo e semelhantes,2022-04-01,,272,2021
+3604.90.90,Outros,2022-04-01,,272,2021
+3605.00.00,"Fósforos, exceto os artigos de pirotecnia da posição 36.04.",2022-04-01,,272,2021
+36.06,"Ferrocério e outras ligas pirofóricas, sob quaisquer formas; artigos de matérias inflamáveis indicados na Nota 2 do presente Capítulo.",2022-04-01,,272,2021
+3606.10.00,"- Combustíveis líquidos e combustíveis gasosos liquefeitos, em recipientes do tipo utilizado para carregar ou recarregar isqueiros ou acendedores, com capacidade não superior a 300 cm3",2022-04-01,,272,2021
+3606.90.00,- Outros,2022-04-01,,272,2021

@@ -5,15 +5,17 @@
 | Imposto de Importação (II) | `aliquotas/federal/TEC` | todos os NCM + exceções (LETEC, LEBITBK, desabastecimento, DCC, OMC, automotivos) | Camex - Res. Gecex 272/2021 |
 | IPI | `aliquotas/federal/TIPI` | todos os NCM da TIPI + Ex-tarifários | Receita Federal - TIPI |
 | PIS/COFINS | `aliquotas/federal/PIS_COFINS` | regimes padrão + regimes diferenciados por NCM (monofásico, alíquota zero, ST, isenção, suspensão...) | Tabelas SPED 4.3.10 a 4.3.17 |
-| ICMS | `aliquotas/estadual` | alíquota interna padrão por UF, FCP e interestaduais | legislação estadual |
-| Regimes especiais | `aliquotas/especial` | remessas internacionais (Remessa Conforme) | Lei 14.902/2024, MP 1.357/2026 |
+| ICMS | `aliquotas/estadual` | alíquota interna padrão por UF, FCP e interestaduais | legislação estadual, Res. Senado 22/1989 e 13/2012 |
+| Regimes especiais | `aliquotas/especial` | remessas internacionais (Remessa Conforme) | Lei 14.902/2024, Lei 15.502/2026 |
 
 ## Convenções
 
 - Alíquotas percentuais são guardadas em **fração**: `0.0325` = 3,25%.
 - `NT` (só na TIPI) = não tributado, diferente de `0`.
 - NCM sempre no formato com pontos (`0000.00.00`).
-- Datas novas estão em ISO (`AAAA-MM-DD`). As tabelas de NCM mantêm o formato da fonte (`DD/MM/AAAA`, com `31/12/9999` = sem fim).
+- Datas sempre em ISO (`AAAA-MM-DD`); data de fim vazia = sem fim.
+- Célula vazia = "não se aplica"; na distribuição (SQLite/JSON/API) vira `null`.
+- Tabelas mantidas manualmente têm a coluna `revisar_ate`: quando a data passa, o validador avisa que o valor precisa ser reconferido na fonte oficial.
 - Arquivos CSV em UTF-8 com quebra de linha CRLF (abrem diretamente no Excel/LibreOffice).
 - Cada pasta tem um `README.md` descrevendo as colunas.
 

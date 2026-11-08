@@ -1,34 +1,34 @@
-codigo_ncm,descricao,unidade_medida,data_inicio,data_fim,numero,ano
-47,Pastas de madeira ou de outras matérias fibrosas celulósicas; papel ou cartão para reciclar (desperdícios e resíduos).,,01/04/2022,31/12/9999,272,2021
-4701.00.00,Pastas mecânicas de madeira.,,01/04/2022,31/12/9999,272,2021
-4702.00.00,"Pastas químicas de madeira, para dissolução.",,01/04/2022,31/12/9999,272,2021
-47.03,"Pastas químicas de madeira, à soda ou ao sulfato, exceto pastas para dissolução.",,01/04/2022,31/12/9999,272,2021
-4703.1,- Cruas:,,01/04/2022,31/12/9999,272,2021
-4703.11.00,-- De coníferas,,01/04/2022,31/12/9999,272,2021
-4703.19.00,-- De não coníferas,,01/04/2022,31/12/9999,272,2021
-4703.2,- Semibranqueadas ou branqueadas:,,01/04/2022,31/12/9999,272,2021
-4703.21,-- De coníferas,,01/01/2023,31/12/9999,413,2022
-4703.21.10,Em rolos,,01/01/2023,31/12/9999,413,2022
-4703.21.90,Outras,,01/01/2023,31/12/9999,413,2022
-4703.29.00,-- De não coníferas,,01/04/2022,31/12/9999,272,2021
-47.04,"Pastas químicas de madeira, ao bissulfito, exceto pastas para dissolução.",,01/04/2022,31/12/9999,272,2021
-4704.1,- Cruas:,,01/04/2022,31/12/9999,272,2021
-4704.11.00,-- De coníferas,,01/04/2022,31/12/9999,272,2021
-4704.19.00,-- De não coníferas,,01/04/2022,31/12/9999,272,2021
-4704.2,- Semibranqueadas ou branqueadas:,,01/04/2022,31/12/9999,272,2021
-4704.21.00,-- De coníferas,,01/04/2022,31/12/9999,272,2021
-4704.29.00,-- De não coníferas,,01/04/2022,31/12/9999,272,2021
-4705.00.00,Pastas de madeira obtidas por combinação de um tratamento mecânico com um tratamento químico.,,01/04/2022,31/12/9999,272,2021
-47.06,Pastas de fibras obtidas a partir de papel ou cartão reciclados (desperdícios e resíduos) ou de outras matérias fibrosas celulósicas.,,01/04/2022,31/12/9999,272,2021
-4706.10.00,- Pastas de línteres de algodão,,01/04/2022,31/12/9999,272,2021
-4706.20.00,- Pastas de fibras obtidas a partir de papel ou cartão reciclados (desperdícios e resíduos),,01/04/2022,31/12/9999,272,2021
-4706.30.00,"- Outras, de bambu",,01/04/2022,31/12/9999,272,2021
-4706.9,- Outras:,,01/04/2022,31/12/9999,272,2021
-4706.91.00,-- Mecânicas,,01/04/2022,31/12/9999,272,2021
-4706.92.00,-- Químicas,,01/04/2022,31/12/9999,272,2021
-4706.93.00,-- Obtidas por combinação de um tratamento mecânico com um tratamento químico,,01/04/2022,31/12/9999,272,2021
-47.07,Papel ou cartão para reciclar (desperdícios e resíduos).,,01/04/2022,31/12/9999,272,2021
-4707.10.00,"- Papel ou cartão, Kraft, crus, ou papel ou cartão, ondulados (canelados*)",,01/04/2022,31/12/9999,272,2021
-4707.20.00,"- Outro papel ou cartão, obtidos principalmente a partir de pasta química branqueada, não corada na massa",,01/04/2022,31/12/9999,272,2021
-4707.30.00,"- Papel ou cartão, obtidos principalmente a partir de pasta mecânica (por exemplo, jornais, periódicos e impressos semelhantes)",,01/04/2022,31/12/9999,272,2021
-4707.90.00,"- Outros, incluindo os desperdícios e resíduos não selecionados",,01/04/2022,31/12/9999,272,2021
+codigo_ncm,descricao,data_inicio,data_fim,numero,ano
+47,Pastas de madeira ou de outras matérias fibrosas celulósicas; papel ou cartão para reciclar (desperdícios e resíduos).,2022-04-01,,272,2021
+4701.00.00,Pastas mecânicas de madeira.,2022-04-01,,272,2021
+4702.00.00,"Pastas químicas de madeira, para dissolução.",2022-04-01,,272,2021
+47.03,"Pastas químicas de madeira, à soda ou ao sulfato, exceto pastas para dissolução.",2022-04-01,,272,2021
+4703.1,- Cruas:,2022-04-01,,272,2021
+4703.11.00,-- De coníferas,2022-04-01,,272,2021
+4703.19.00,-- De não coníferas,2022-04-01,,272,2021
+4703.2,- Semibranqueadas ou branqueadas:,2022-04-01,,272,2021
+4703.21,-- De coníferas,2023-01-01,,413,2022
+4703.21.10,Em rolos,2023-01-01,,413,2022
+4703.21.90,Outras,2023-01-01,,413,2022
+4703.29.00,-- De não coníferas,2022-04-01,,272,2021
+47.04,"Pastas químicas de madeira, ao bissulfito, exceto pastas para dissolução.",2022-04-01,,272,2021
+4704.1,- Cruas:,2022-04-01,,272,2021
+4704.11.00,-- De coníferas,2022-04-01,,272,2021
+4704.19.00,-- De não coníferas,2022-04-01,,272,2021
+4704.2,- Semibranqueadas ou branqueadas:,2022-04-01,,272,2021
+4704.21.00,-- De coníferas,2022-04-01,,272,2021
+4704.29.00,-- De não coníferas,2022-04-01,,272,2021
+4705.00.00,Pastas de madeira obtidas por combinação de um tratamento mecânico com um tratamento químico.,2022-04-01,,272,2021
+47.06,Pastas de fibras obtidas a partir de papel ou cartão reciclados (desperdícios e resíduos) ou de outras matérias fibrosas celulósicas.,2022-04-01,,272,2021
+4706.10.00,- Pastas de línteres de algodão,2022-04-01,,272,2021
+4706.20.00,- Pastas de fibras obtidas a partir de papel ou cartão reciclados (desperdícios e resíduos),2022-04-01,,272,2021
+4706.30.00,"- Outras, de bambu",2022-04-01,,272,2021
+4706.9,- Outras:,2022-04-01,,272,2021
+4706.91.00,-- Mecânicas,2022-04-01,,272,2021
+4706.92.00,-- Químicas,2022-04-01,,272,2021
+4706.93.00,-- Obtidas por combinação de um tratamento mecânico com um tratamento químico,2022-04-01,,272,2021
+47.07,Papel ou cartão para reciclar (desperdícios e resíduos).,2022-04-01,,272,2021
+4707.10.00,"- Papel ou cartão, Kraft, crus, ou papel ou cartão, ondulados (canelados*)",2022-04-01,,272,2021
+4707.20.00,"- Outro papel ou cartão, obtidos principalmente a partir de pasta química branqueada, não corada na massa",2022-04-01,,272,2021
+4707.30.00,"- Papel ou cartão, obtidos principalmente a partir de pasta mecânica (por exemplo, jornais, periódicos e impressos semelhantes)",2022-04-01,,272,2021
+4707.90.00,"- Outros, incluindo os desperdícios e resíduos não selecionados",2022-04-01,,272,2021

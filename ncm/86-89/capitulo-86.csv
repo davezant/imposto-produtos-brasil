@@ -1,48 +1,48 @@
-codigo_ncm,descricao,unidade_medida,data_inicio,data_fim,numero,ano
-86,"Veículos e material para vias férreas ou semelhantes, e suas partes; aparelhos mecânicos (incluindo os eletromecânicos) de sinalização para vias de comunicação.",,01/04/2022,31/12/9999,272,2021
-86.01,"Locomotivas e locotratores, de fonte externa de eletricidade ou de acumuladores elétricos.",,01/04/2022,31/12/9999,272,2021
-8601.10.00,- De fonte externa de eletricidade,,01/04/2022,31/12/9999,272,2021
-8601.20.00,- De acumuladores elétricos,,01/04/2022,31/12/9999,272,2021
-86.02,Outras locomotivas e locotratores; tênderes.,,01/04/2022,31/12/9999,272,2021
-8602.10.00,- Locomotivas diesel-elétricas,,01/04/2022,31/12/9999,272,2021
-8602.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
-86.03,"Litorinas (automotoras), mesmo para circulação urbana, exceto as da posição 86.04.",,01/04/2022,31/12/9999,272,2021
-8603.10.00,- De fonte externa de eletricidade,,01/04/2022,31/12/9999,272,2021
-8603.90.00,- Outras,,01/04/2022,31/12/9999,272,2021
-8604.00,"Veículos para inspeção e manutenção de vias férreas ou semelhantes, mesmo autopropulsados (por exemplo, vagões-oficinas, vagões-guindastes, vagões equipados com batedores de balastro, alinhadores de vias, viaturas para testes e dresinas).",,01/04/2022,31/12/9999,272,2021
-8604.00.10,"Autopropulsados, equipados com batedores de balastro e alinhadores de vias férreas",,01/04/2022,31/12/9999,272,2021
-8604.00.90,Outros,,01/04/2022,31/12/9999,272,2021
-8605.00,"Vagões de passageiros (carruagens*), furgões para bagagem, vagões-postais e outros vagões especiais, para vias férreas ou semelhantes (excluindo as viaturas da posição 86.04).",,01/04/2022,31/12/9999,272,2021
-8605.00.10,Vagões de passageiros,,01/04/2022,31/12/9999,272,2021
-8605.00.90,Outros,,01/04/2022,31/12/9999,272,2021
-86.06,Vagões para transporte de mercadorias sobre vias férreas.,,01/04/2022,31/12/9999,272,2021
-8606.10.00,- Vagões-tanque (vagões-cisterna) e semelhantes,,01/04/2022,31/12/9999,272,2021
-8606.30.00,"- Vagões de descarga automática, exceto os da subposição 8606.10",,01/04/2022,31/12/9999,272,2021
-8606.9,- Outros:,,01/04/2022,31/12/9999,272,2021
-8606.91.00,-- Cobertos e fechados,,01/04/2022,31/12/9999,272,2021
-8606.92.00,"-- Abertos, com paredes fixas de altura superior a 60 cm",,01/04/2022,31/12/9999,272,2021
-8606.99.00,-- Outros,,01/04/2022,31/12/9999,272,2021
-86.07,Partes de veículos para vias férreas ou semelhantes.,,01/04/2022,31/12/9999,272,2021
-8607.1,"- Bogies, bissels, eixos e rodas, e suas partes:",,01/04/2022,31/12/9999,272,2021
-8607.11,"-- Bogies e bissels, de tração",,01/04/2022,31/12/9999,272,2021
-8607.11.10,Bogies,,01/04/2022,31/12/9999,272,2021
-8607.11.20,Bissels,,01/04/2022,31/12/9999,272,2021
-8607.12.00,-- Outros bogies e bissels,,01/04/2022,31/12/9999,272,2021
-8607.19,"-- Outros, incluindo as partes",,01/04/2022,31/12/9999,272,2021
-8607.19.1,Mancais,,01/04/2022,31/12/9999,272,2021
-8607.19.11,"Com rolamentos incorporados, de diâmetro exterior superior a 190 mm, do tipo utilizado em eixos de rodas de vagões ferroviários",,01/04/2022,31/12/9999,272,2021
-8607.19.19,Outros,,01/04/2022,31/12/9999,272,2021
-8607.19.90,Outros,,01/04/2022,31/12/9999,272,2021
-8607.2,- Freios (travões) e suas partes:,,01/04/2022,31/12/9999,272,2021
-8607.21.00,-- Freios (travões) a ar comprimido e suas partes,,01/04/2022,31/12/9999,272,2021
-8607.29.00,-- Outros,,01/04/2022,31/12/9999,272,2021
-8607.30.00,"- Ganchos e outros sistemas de engate, para-choques, e suas partes",,01/04/2022,31/12/9999,272,2021
-8607.9,- Outras:,,01/04/2022,31/12/9999,272,2021
-8607.91.00,-- De locomotivas ou de locotratores,,01/04/2022,31/12/9999,272,2021
-8607.99.00,-- Outras,,01/04/2022,31/12/9999,272,2021
-8608.00,"Material fixo de vias férreas ou semelhantes; aparelhos mecânicos (incluindo os eletromecânicos) de sinalização, de segurança, de controle ou de comando para vias férreas ou semelhantes, rodoviárias ou fluviais, para áreas ou parques de estacionamento, instalações portuárias ou para aeródromos; suas partes.",,01/04/2022,31/12/9999,272,2021
-8608.00.1,"Aparelhos mecânicos (incluindo os eletromecânicos) de sinalização, de segurança, de controle ou de comando para vias férreas ou semelhantes, rodoviárias ou fluviais, para áreas ou parques de estacionamento, instalações portuárias ou para aeródromos",,01/04/2022,31/12/9999,272,2021
-8608.00.11,Mecânicos,,01/04/2022,31/12/9999,272,2021
-8608.00.12,Eletromecânicos,,01/04/2022,31/12/9999,272,2021
-8608.00.90,Outros,,01/04/2022,31/12/9999,272,2021
-8609.00.00,"Contêineres (Contentores*), incluindo os de transporte de fluidos, especialmente concebidos e equipados para um ou mais meios de transporte.",,01/04/2022,31/12/9999,272,2021
+codigo_ncm,descricao,data_inicio,data_fim,numero,ano
+86,"Veículos e material para vias férreas ou semelhantes, e suas partes; aparelhos mecânicos (incluindo os eletromecânicos) de sinalização para vias de comunicação.",2022-04-01,,272,2021
+86.01,"Locomotivas e locotratores, de fonte externa de eletricidade ou de acumuladores elétricos.",2022-04-01,,272,2021
+8601.10.00,- De fonte externa de eletricidade,2022-04-01,,272,2021
+8601.20.00,- De acumuladores elétricos,2022-04-01,,272,2021
+86.02,Outras locomotivas e locotratores; tênderes.,2022-04-01,,272,2021
+8602.10.00,- Locomotivas diesel-elétricas,2022-04-01,,272,2021
+8602.90.00,- Outros,2022-04-01,,272,2021
+86.03,"Litorinas (automotoras), mesmo para circulação urbana, exceto as da posição 86.04.",2022-04-01,,272,2021
+8603.10.00,- De fonte externa de eletricidade,2022-04-01,,272,2021
+8603.90.00,- Outras,2022-04-01,,272,2021
+8604.00,"Veículos para inspeção e manutenção de vias férreas ou semelhantes, mesmo autopropulsados (por exemplo, vagões-oficinas, vagões-guindastes, vagões equipados com batedores de balastro, alinhadores de vias, viaturas para testes e dresinas).",2022-04-01,,272,2021
+8604.00.10,"Autopropulsados, equipados com batedores de balastro e alinhadores de vias férreas",2022-04-01,,272,2021
+8604.00.90,Outros,2022-04-01,,272,2021
+8605.00,"Vagões de passageiros (carruagens*), furgões para bagagem, vagões-postais e outros vagões especiais, para vias férreas ou semelhantes (excluindo as viaturas da posição 86.04).",2022-04-01,,272,2021
+8605.00.10,Vagões de passageiros,2022-04-01,,272,2021
+8605.00.90,Outros,2022-04-01,,272,2021
+86.06,Vagões para transporte de mercadorias sobre vias férreas.,2022-04-01,,272,2021
+8606.10.00,- Vagões-tanque (vagões-cisterna) e semelhantes,2022-04-01,,272,2021
+8606.30.00,"- Vagões de descarga automática, exceto os da subposição 8606.10",2022-04-01,,272,2021
+8606.9,- Outros:,2022-04-01,,272,2021
+8606.91.00,-- Cobertos e fechados,2022-04-01,,272,2021
+8606.92.00,"-- Abertos, com paredes fixas de altura superior a 60 cm",2022-04-01,,272,2021
+8606.99.00,-- Outros,2022-04-01,,272,2021
+86.07,Partes de veículos para vias férreas ou semelhantes.,2022-04-01,,272,2021
+8607.1,"- Bogies, bissels, eixos e rodas, e suas partes:",2022-04-01,,272,2021
+8607.11,"-- Bogies e bissels, de tração",2022-04-01,,272,2021
+8607.11.10,Bogies,2022-04-01,,272,2021
+8607.11.20,Bissels,2022-04-01,,272,2021
+8607.12.00,-- Outros bogies e bissels,2022-04-01,,272,2021
+8607.19,"-- Outros, incluindo as partes",2022-04-01,,272,2021
+8607.19.1,Mancais,2022-04-01,,272,2021
+8607.19.11,"Com rolamentos incorporados, de diâmetro exterior superior a 190 mm, do tipo utilizado em eixos de rodas de vagões ferroviários",2022-04-01,,272,2021
+8607.19.19,Outros,2022-04-01,,272,2021
+8607.19.90,Outros,2022-04-01,,272,2021
+8607.2,- Freios (travões) e suas partes:,2022-04-01,,272,2021
+8607.21.00,-- Freios (travões) a ar comprimido e suas partes,2022-04-01,,272,2021
+8607.29.00,-- Outros,2022-04-01,,272,2021
+8607.30.00,"- Ganchos e outros sistemas de engate, para-choques, e suas partes",2022-04-01,,272,2021
+8607.9,- Outras:,2022-04-01,,272,2021
+8607.91.00,-- De locomotivas ou de locotratores,2022-04-01,,272,2021
+8607.99.00,-- Outras,2022-04-01,,272,2021
+8608.00,"Material fixo de vias férreas ou semelhantes; aparelhos mecânicos (incluindo os eletromecânicos) de sinalização, de segurança, de controle ou de comando para vias férreas ou semelhantes, rodoviárias ou fluviais, para áreas ou parques de estacionamento, instalações portuárias ou para aeródromos; suas partes.",2022-04-01,,272,2021
+8608.00.1,"Aparelhos mecânicos (incluindo os eletromecânicos) de sinalização, de segurança, de controle ou de comando para vias férreas ou semelhantes, rodoviárias ou fluviais, para áreas ou parques de estacionamento, instalações portuárias ou para aeródromos",2022-04-01,,272,2021
+8608.00.11,Mecânicos,2022-04-01,,272,2021
+8608.00.12,Eletromecânicos,2022-04-01,,272,2021
+8608.00.90,Outros,2022-04-01,,272,2021
+8609.00.00,"Contêineres (Contentores*), incluindo os de transporte de fluidos, especialmente concebidos e equipados para um ou mais meios de transporte.",2022-04-01,,272,2021

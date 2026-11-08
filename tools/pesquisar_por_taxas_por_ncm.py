@@ -6,7 +6,7 @@ from globals import (get_manifest_dict, find_ncm_interval, format_relation_list_
                      read_csv_dicts)
 
 HEADER_FATHER = ["NCM PAI", "Descrição"]
-HEADER_SELF = ["NCM", "Descrição", "Medida", "Data Início", "Data Fim"]
+HEADER_SELF = ["NCM", "Descrição", "Data Início", "Data Fim"]
 HEADER_CHILD = ["NCM Filho", "Descrição"]
 LAYOUT = "%s: \t%s \n"
 
@@ -94,17 +94,21 @@ def search_for_taxes_by_ncm(ncm_code: str):
         print("\nPIS/COFINS \n")
         if not regras:
             print("Nenhum regime diferenciado vigente vinculado a este NCM nas tabelas SPED.")
-            print("Aplicam-se as alíquotas padrão (ver aliquotas/federal/PIS_COFINS/standart.csv).")
+            print("Aplicam-se as alíquotas padrão (ver aliquotas/federal/PIS_COFINS/padrao.csv).")
         for r in regras:
             if r["aliquota_pis"]:
                 valores = "PIS %s / COFINS %s" % (to_percentage(r["aliquota_pis"]), to_percentage(r["aliquota_cofins"]))
             elif r["valor_pis_por_unidade"]:
                 valores = "PIS R$ %s / COFINS R$ %s por %s" % (r["valor_pis_por_unidade"],
                                                              r["valor_cofins_por_unidade"], r["unidade"])
+            elif r["aliquota_pis_p"]:
+                valores = "PIS %s (P) / %s (R); COFINS %s (P) / %s (R)" % tuple(
+                    to_percentage(r[c]) for c in ("aliquota_pis_p", "aliquota_pis_r",
+                                                  "aliquota_cofins_p", "aliquota_cofins_r"))
             elif r["tipo"] == "aliquota_zero":
                 valores = "PIS 0% / COFINS 0%"
             else:
-                valores = r["observacao"] or "ver condições na descrição"
+                valores = "ver condições na descrição"
             print("[%s | CST %s] %s: %s" % (r["tabela_sped"], r["cst"], r["tipo"], valores))
             print("    %s" % r["descricao"][:160])
 

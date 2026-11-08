@@ -2,8 +2,29 @@
 
 Registra mudanças nos dados e na estrutura dos arquivos (colunas, caminhos), para quem integra o projeto.
 
-## Não lançado
+## 0.9 - 2026-11-08
 
+### Dados
+- Regimes especiais: alíquota zero até US$ 50 agora baseada na Lei nº 15.502/2026 (conversão da MP 1.357/2026);
+  removida a linha `BLUSATE50_RC_MP_FORA` (cenário de contingência, que não se aplica mais). A faixa de US$ 50 a
+  US$ 3.000 continua em 60%: a lei permite reduzir para até 30%, mas não foi localizada portaria aplicando a redução.
+- ICMS interestadual corrigido: os rótulos estavam trocados. Agora são `ICMS_INTER_12` (regra geral),
+  `ICMS_INTER_07` (Sul/Sudeste, exceto ES, para N/NE/CO/ES) e `ICMS_INTER_04` (importados), com a base legal.
+
+### Estrutura (quebra integrações)
+- `standart.csv` renomeado para `padrao.csv` em `aliquotas/estadual`, `aliquotas/especial` e
+  `aliquotas/federal/PIS_COFINS`. Nova chave `relacao-icms` no `manifest.json`.
+- NCM: datas em ISO (`AAAA-MM-DD`), com `data_fim` vazia em vez de `31/12/9999`; coluna `unidade_medida` removida
+  (estava preenchida em só 26 de 15 mil linhas e não há fonte oficial no arquivo da NCM).
+- ICMS: colunas agora são `id, tipo_operacao, uf, aliquota, fcp, aliquota_efetiva, descricao, revisar_ate`
+  (antes `tipo` misturava UF e "Interestadual", e `aliquota_interna` também era usada para as interestaduais).
+- PIS/COFINS por NCM: a coluna `observacao` foi substituída por `aliquota_pis_p`, `aliquota_pis_r`,
+  `aliquota_cofins_p` e `aliquota_cofins_r` (alíquotas da tabela SPED 4.3.17, agora numéricas).
+- Coluna `revisar_ate` nas três tabelas mantidas manualmente; o validador avisa quando a data passa.
+
+### Integração
+- `api/v1/schema-ncm.json`: JSON Schema da resposta por NCM; o CI confere todos os arquivos contra ele.
+- `docs/VERSIONAMENTO.md`: política de versões e definição do contrato público.
 - `AGENTS.md` (e `CLAUDE.md`): instruções para agentes de IA que editam o repositório.
 - `llms.txt` na distribuição: instruções para LLMs consultarem a API (padrão llmstxt.org).
 

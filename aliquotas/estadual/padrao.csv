@@ -1,0 +1,31 @@
+id,tipo_operacao,uf,aliquota,fcp,aliquota_efetiva,descricao,revisar_ate
+ICMS_AC,interna,AC,0.19,0.0,0.19,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_AL,interna,AL,0.19,0.01,0.2,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_AP,interna,AP,0.18,0.0,0.18,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_AM,interna,AM,0.2,0.0,0.2,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_BA,interna,BA,0.205,0.0,0.205,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_CE,interna,CE,0.2,0.0,0.2,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_DF,interna,DF,0.2,0.0,0.2,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_ES,interna,ES,0.17,0.0,0.17,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_GO,interna,GO,0.19,0.0,0.19,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_MA,interna,MA,0.23,0.0,0.23,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_MT,interna,MT,0.17,0.0,0.17,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_MS,interna,MS,0.17,0.0,0.17,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_MG,interna,MG,0.18,0.0,0.18,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_PA,interna,PA,0.19,0.0,0.19,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_PB,interna,PB,0.2,0.0,0.2,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_PR,interna,PR,0.195,0.0,0.195,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_PE,interna,PE,0.205,0.0,0.205,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_PI,interna,PI,0.225,0.0,0.225,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_RJ,interna,RJ,0.2,0.02,0.22,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_RN,interna,RN,0.2,0.0,0.2,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_RS,interna,RS,0.17,0.0,0.17,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_RO,interna,RO,0.195,0.0,0.195,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_RR,interna,RR,0.2,0.0,0.2,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_SC,interna,SC,0.17,0.0,0.17,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_SP,interna,SP,0.18,0.0,0.18,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_SE,interna,SE,0.19,0.01,0.2,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_TO,interna,TO,0.2,0.0,0.2,Alíquota interna padrão (modal) da UF,2027-01-31
+ICMS_INTER_12,interestadual,,0.12,0.0,0.12,Regra geral das operações interestaduais (Resolução do Senado 22/1989),2027-01-31
+ICMS_INTER_07,interestadual,,0.07,0.0,0.07,"Origem no Sul ou Sudeste (exceto ES) com destino ao Norte, Nordeste, Centro-Oeste ou ES (Resolução do Senado 22/1989)",2027-01-31
+ICMS_INTER_04,interestadual,,0.04,0.0,0.04,Bens importados ou com conteúdo de importação superior a 40% (Resolução do Senado 13/2012),2027-01-31

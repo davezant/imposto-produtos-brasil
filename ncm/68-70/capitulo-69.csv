@@ -1,90 +1,90 @@
-codigo_ncm,descricao,unidade_medida,data_inicio,data_fim,numero,ano
-69,Produtos cerâmicos.,,01/04/2022,31/12/9999,272,2021
-6901.00.00,"Tijolos, placas (lajes), ladrilhos e outras peças cerâmicas de farinhas siliciosas fósseis (por exemplo, kieselguhr, tripolita, diatomita) ou de terras siliciosas semelhantes.",,01/04/2022,31/12/9999,272,2021
-69.02,"Tijolos, placas (lajes), ladrilhos e peças cerâmicas semelhantes, para construção, refratários, que não sejam de farinhas siliciosas fósseis nem de terras siliciosas semelhantes.",,01/04/2022,31/12/9999,272,2021
-6902.10,"- Que contenham, em peso, mais de 50 % dos elementos Mg, Ca ou Cr, tomados isoladamente ou em conjunto, expressos em MgO, CaO ou Cr2O3",,01/04/2022,31/12/9999,272,2021
-6902.10.1,Magnesianos ou à base de óxido de cromo,,01/04/2022,31/12/9999,272,2021
-6902.10.11,"Tijolos ou placas, que contenham, em peso, mais de 90 % de trióxido de dicromo",,01/04/2022,31/12/9999,272,2021
-6902.10.18,Outros tijolos,,01/04/2022,31/12/9999,272,2021
-6902.10.19,Outros,,01/04/2022,31/12/9999,272,2021
-6902.10.90,Outros,,01/04/2022,31/12/9999,272,2021
-6902.20,"- Que contenham, em peso, mais de 50 % de alumina (Al2O3), de sílica (SiO2) ou de uma mistura ou combinação destes produtos",,01/04/2022,31/12/9999,272,2021
-6902.20.10,Tijolos sílico-aluminosos,,01/04/2022,31/12/9999,272,2021
-6902.20.9,Outros,,01/04/2022,31/12/9999,272,2021
-6902.20.91,Sílico-aluminosos,,01/04/2022,31/12/9999,272,2021
-6902.20.92,"Silicoso, semi-silicoso ou de sílica",,01/04/2022,31/12/9999,272,2021
-6902.20.93,De silimanita,,01/04/2022,31/12/9999,272,2021
-6902.20.99,Outros,,01/04/2022,31/12/9999,272,2021
-6902.90,- Outros,,01/04/2022,31/12/9999,272,2021
-6902.90.10,De grafita,,01/04/2022,31/12/9999,272,2021
-6902.90.20,"Não fundidos, com um teor de óxido de zircônio (ZrO2) superior a 25 %, em peso",,01/04/2022,31/12/9999,272,2021
-6902.90.30,"Com um teor de carbono superior a 85 %, em peso, e diâmetro médio de poro inferior ou igual a 5 micrômetros (mícrons), do tipo utilizado em altos-fornos",,01/04/2022,31/12/9999,272,2021
-6902.90.40,De carboneto de silício,,01/04/2022,31/12/9999,272,2021
-6902.90.90,Outros,,01/04/2022,31/12/9999,272,2021
-69.03,"Outros produtos cerâmicos refratários (por exemplo, retortas, cadinhos, muflas, bocais, tampões, suportes, copelas, tubos, mangas, varetas, ""portas"" deslizantes (slide gates)) que não sejam de farinhas siliciosas fósseis nem de terras siliciosas semelhantes.",,01/04/2022,31/12/9999,272,2021
-6903.10,"- Que contenham, em peso, mais de 50 % de carbono livre",,01/04/2022,31/12/9999,272,2021
-6903.10.1,Cadinhos,,01/04/2022,31/12/9999,272,2021
-6903.10.11,"De grafita, exceto os do subitem 6903.10.12",,01/04/2022,31/12/9999,272,2021
-6903.10.12,Elaborados com uma mistura de grafita e carboneto de silício,,01/04/2022,31/12/9999,272,2021
-6903.10.19,Outros,,01/04/2022,31/12/9999,272,2021
-6903.10.20,Retortas elaboradas com uma mistura de grafita e carboneto de silício,,01/04/2022,31/12/9999,272,2021
-6903.10.30,Tampas e tampões,,01/04/2022,31/12/9999,272,2021
-6903.10.40,Tubos,,01/04/2022,31/12/9999,272,2021
-6903.10.90,Outros,,01/04/2022,31/12/9999,272,2021
-6903.20,"- Que contenham, em peso, mais de 50 % de alumina (Al2O3) ou de uma mistura ou combinação de alumina e sílica (SiO2)",,01/04/2022,31/12/9999,272,2021
-6903.20.10,Cadinhos,,01/04/2022,31/12/9999,272,2021
-6903.20.20,Tampas e tampões,,01/04/2022,31/12/9999,272,2021
-6903.20.30,Tubos,,01/04/2022,31/12/9999,272,2021
-6903.20.90,Outros,,01/04/2022,31/12/9999,272,2021
-6903.90,- Outros,,01/04/2022,31/12/9999,272,2021
-6903.90.1,Tubos,,01/04/2022,31/12/9999,272,2021
-6903.90.11,De carboneto de silício,,01/04/2022,31/12/9999,272,2021
-6903.90.12,De compostos de zircônio,,01/04/2022,31/12/9999,272,2021
-6903.90.19,Outros,,01/04/2022,31/12/9999,272,2021
-6903.90.9,Outros,,01/04/2022,31/12/9999,272,2021
-6903.90.91,De carboneto de silício,,01/04/2022,31/12/9999,272,2021
-6903.90.92,De compostos de zircônio,,01/04/2022,31/12/9999,272,2021
-6903.90.99,Outros,,01/04/2022,31/12/9999,272,2021
-69.04,"Tijolos para construção, tijoleiras, tapa-vigas e produtos semelhantes, de cerâmica.",,01/04/2022,31/12/9999,272,2021
-6904.10.00,- Tijolos para construção,,01/04/2022,31/12/9999,272,2021
-6904.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
-69.05,"Telhas, elementos de chaminés, condutores de fumaça (fumo), ornamentos arquitetônicos, de cerâmica, e outros produtos cerâmicos para construção.",,01/04/2022,31/12/9999,272,2021
-6905.10.00,- Telhas,,01/04/2022,31/12/9999,272,2021
-6905.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
-6906.00.00,"Tubos, calhas ou algerozes e acessórios para canalizações, de cerâmica.",,01/04/2022,31/12/9999,272,2021
-69.07,"Ladrilhos e placas (lajes), para pavimentação ou revestimento, de cerâmica; cubos, pastilhas e artigos semelhantes, para mosaicos, de cerâmica, mesmo com suporte; peças de acabamento, de cerâmica.",,01/04/2022,31/12/9999,272,2021
-6907.2,"- Ladrilhos e placas (lajes), para pavimentação ou revestimento, exceto os das subposições 6907.30 e 6907.40:",,01/04/2022,31/12/9999,272,2021
-6907.21.00,"-- Com um coeficiente de absorção de água, em peso, não superior a 0,5 %",,01/04/2022,31/12/9999,272,2021
-6907.22.00,"-- Com um coeficiente de absorção de água, em peso, superior a 0,5 %, mas não superior a 10 %",,01/04/2022,31/12/9999,272,2021
-6907.23.00,"-- Com um coeficiente de absorção de água, em peso, superior a 10 %",,01/04/2022,31/12/9999,272,2021
-6907.30.00,"- Cubos, pastilhas e artigos semelhantes, para mosaicos, exceto os da subposição 6907.40",,01/04/2022,31/12/9999,272,2021
-6907.40.00,- Peças de acabamento,,01/04/2022,31/12/9999,272,2021
-69.09,"Aparelhos e artigos para usos químicos ou para outros usos técnicos, de cerâmica; alguidares, gamelas e outros recipientes semelhantes para usos rurais, de cerâmica; bilhas e outras vasilhas próprias para transporte ou embalagem, de cerâmica.",,01/04/2022,31/12/9999,272,2021
-6909.1,- Aparelhos e artigos para usos químicos ou para outros usos técnicos:,,01/04/2022,31/12/9999,272,2021
-6909.11.00,-- De porcelana,,01/04/2022,31/12/9999,272,2021
-6909.12,-- Artigos com uma dureza equivalente a 9 ou mais na escala de Mohs,,01/04/2022,31/12/9999,272,2021
-6909.12.10,Guia-fios para máquina têxtil,,01/04/2022,31/12/9999,272,2021
-6909.12.20,Guias de agulhas para cabeças de impressão,,01/04/2022,31/12/9999,272,2021
-6909.12.30,Anéis de carboneto de silício para juntas de vedação mecânicas,,01/04/2022,31/12/9999,272,2021
-6909.12.90,Outros,,01/04/2022,31/12/9999,272,2021
-6909.19,-- Outros,,01/04/2022,31/12/9999,272,2021
-6909.19.10,Guia-fios para máquina têxtil,,01/04/2022,31/12/9999,272,2021
-6909.19.20,Guias de agulhas para cabeças de impressão,,01/04/2022,31/12/9999,272,2021
-6909.19.30,"Colmeia de cerâmica à base de alumina (Al2O3), sílica (SiO2) e óxido de magnésio (MgO), de depuradores por conversão catalítica de gases de escape de veículos",,01/04/2022,31/12/9999,272,2021
-6909.19.90,Outros,,01/04/2022,31/12/9999,272,2021
-6909.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
-69.10,"Pias, lavatórios, colunas para lavatórios, banheiras, bidés, sanitários, caixas de descarga (autoclismos*), mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica.",,01/04/2022,31/12/9999,272,2021
-6910.10.00,- De porcelana,,01/04/2022,31/12/9999,272,2021
-6910.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
-69.11,"Serviços de mesa, artigos de cozinha, outros artigos de uso doméstico e artigos de higiene ou de toucador, de porcelana.",,01/04/2022,31/12/9999,272,2021
-6911.10,- Artigos para serviço de mesa ou de cozinha,,01/04/2022,31/12/9999,272,2021
-6911.10.10,"Conjunto (jogo ou aparelho) para jantar, café ou chá, apresentado em embalagem comum",,01/04/2022,31/12/9999,272,2021
-6911.10.90,Outros,,01/04/2022,31/12/9999,272,2021
-6911.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
-6912.00.00,"Serviços de mesa, artigos de cozinha, outros artigos de uso doméstico e artigos de higiene ou de toucador, de cerâmica, exceto de porcelana.",,01/04/2022,31/12/9999,272,2021
-69.13,"Estatuetas e outros objetos de ornamentação, de cerâmica.",,01/04/2022,31/12/9999,272,2021
-6913.10.00,- De porcelana,,01/04/2022,31/12/9999,272,2021
-6913.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
-69.14,Outras obras de cerâmica.,,01/04/2022,31/12/9999,272,2021
-6914.10.00,- De porcelana,,01/04/2022,31/12/9999,272,2021
-6914.90.00,- Outras,,01/04/2022,31/12/9999,272,2021
+codigo_ncm,descricao,data_inicio,data_fim,numero,ano
+69,Produtos cerâmicos.,2022-04-01,,272,2021
+6901.00.00,"Tijolos, placas (lajes), ladrilhos e outras peças cerâmicas de farinhas siliciosas fósseis (por exemplo, kieselguhr, tripolita, diatomita) ou de terras siliciosas semelhantes.",2022-04-01,,272,2021
+69.02,"Tijolos, placas (lajes), ladrilhos e peças cerâmicas semelhantes, para construção, refratários, que não sejam de farinhas siliciosas fósseis nem de terras siliciosas semelhantes.",2022-04-01,,272,2021
+6902.10,"- Que contenham, em peso, mais de 50 % dos elementos Mg, Ca ou Cr, tomados isoladamente ou em conjunto, expressos em MgO, CaO ou Cr2O3",2022-04-01,,272,2021
+6902.10.1,Magnesianos ou à base de óxido de cromo,2022-04-01,,272,2021
+6902.10.11,"Tijolos ou placas, que contenham, em peso, mais de 90 % de trióxido de dicromo",2022-04-01,,272,2021
+6902.10.18,Outros tijolos,2022-04-01,,272,2021
+6902.10.19,Outros,2022-04-01,,272,2021
+6902.10.90,Outros,2022-04-01,,272,2021
+6902.20,"- Que contenham, em peso, mais de 50 % de alumina (Al2O3), de sílica (SiO2) ou de uma mistura ou combinação destes produtos",2022-04-01,,272,2021
+6902.20.10,Tijolos sílico-aluminosos,2022-04-01,,272,2021
+6902.20.9,Outros,2022-04-01,,272,2021
+6902.20.91,Sílico-aluminosos,2022-04-01,,272,2021
+6902.20.92,"Silicoso, semi-silicoso ou de sílica",2022-04-01,,272,2021
+6902.20.93,De silimanita,2022-04-01,,272,2021
+6902.20.99,Outros,2022-04-01,,272,2021
+6902.90,- Outros,2022-04-01,,272,2021
+6902.90.10,De grafita,2022-04-01,,272,2021
+6902.90.20,"Não fundidos, com um teor de óxido de zircônio (ZrO2) superior a 25 %, em peso",2022-04-01,,272,2021
+6902.90.30,"Com um teor de carbono superior a 85 %, em peso, e diâmetro médio de poro inferior ou igual a 5 micrômetros (mícrons), do tipo utilizado em altos-fornos",2022-04-01,,272,2021
+6902.90.40,De carboneto de silício,2022-04-01,,272,2021
+6902.90.90,Outros,2022-04-01,,272,2021
+69.03,"Outros produtos cerâmicos refratários (por exemplo, retortas, cadinhos, muflas, bocais, tampões, suportes, copelas, tubos, mangas, varetas, ""portas"" deslizantes (slide gates)) que não sejam de farinhas siliciosas fósseis nem de terras siliciosas semelhantes.",2022-04-01,,272,2021
+6903.10,"- Que contenham, em peso, mais de 50 % de carbono livre",2022-04-01,,272,2021
+6903.10.1,Cadinhos,2022-04-01,,272,2021
+6903.10.11,"De grafita, exceto os do subitem 6903.10.12",2022-04-01,,272,2021
+6903.10.12,Elaborados com uma mistura de grafita e carboneto de silício,2022-04-01,,272,2021
+6903.10.19,Outros,2022-04-01,,272,2021
+6903.10.20,Retortas elaboradas com uma mistura de grafita e carboneto de silício,2022-04-01,,272,2021
+6903.10.30,Tampas e tampões,2022-04-01,,272,2021
+6903.10.40,Tubos,2022-04-01,,272,2021
+6903.10.90,Outros,2022-04-01,,272,2021
+6903.20,"- Que contenham, em peso, mais de 50 % de alumina (Al2O3) ou de uma mistura ou combinação de alumina e sílica (SiO2)",2022-04-01,,272,2021
+6903.20.10,Cadinhos,2022-04-01,,272,2021
+6903.20.20,Tampas e tampões,2022-04-01,,272,2021
+6903.20.30,Tubos,2022-04-01,,272,2021
+6903.20.90,Outros,2022-04-01,,272,2021
+6903.90,- Outros,2022-04-01,,272,2021
+6903.90.1,Tubos,2022-04-01,,272,2021
+6903.90.11,De carboneto de silício,2022-04-01,,272,2021
+6903.90.12,De compostos de zircônio,2022-04-01,,272,2021
+6903.90.19,Outros,2022-04-01,,272,2021
+6903.90.9,Outros,2022-04-01,,272,2021
+6903.90.91,De carboneto de silício,2022-04-01,,272,2021
+6903.90.92,De compostos de zircônio,2022-04-01,,272,2021
+6903.90.99,Outros,2022-04-01,,272,2021
+69.04,"Tijolos para construção, tijoleiras, tapa-vigas e produtos semelhantes, de cerâmica.",2022-04-01,,272,2021
+6904.10.00,- Tijolos para construção,2022-04-01,,272,2021
+6904.90.00,- Outros,2022-04-01,,272,2021
+69.05,"Telhas, elementos de chaminés, condutores de fumaça (fumo), ornamentos arquitetônicos, de cerâmica, e outros produtos cerâmicos para construção.",2022-04-01,,272,2021
+6905.10.00,- Telhas,2022-04-01,,272,2021
+6905.90.00,- Outros,2022-04-01,,272,2021
+6906.00.00,"Tubos, calhas ou algerozes e acessórios para canalizações, de cerâmica.",2022-04-01,,272,2021
+69.07,"Ladrilhos e placas (lajes), para pavimentação ou revestimento, de cerâmica; cubos, pastilhas e artigos semelhantes, para mosaicos, de cerâmica, mesmo com suporte; peças de acabamento, de cerâmica.",2022-04-01,,272,2021
+6907.2,"- Ladrilhos e placas (lajes), para pavimentação ou revestimento, exceto os das subposições 6907.30 e 6907.40:",2022-04-01,,272,2021
+6907.21.00,"-- Com um coeficiente de absorção de água, em peso, não superior a 0,5 %",2022-04-01,,272,2021
+6907.22.00,"-- Com um coeficiente de absorção de água, em peso, superior a 0,5 %, mas não superior a 10 %",2022-04-01,,272,2021
+6907.23.00,"-- Com um coeficiente de absorção de água, em peso, superior a 10 %",2022-04-01,,272,2021
+6907.30.00,"- Cubos, pastilhas e artigos semelhantes, para mosaicos, exceto os da subposição 6907.40",2022-04-01,,272,2021
+6907.40.00,- Peças de acabamento,2022-04-01,,272,2021
+69.09,"Aparelhos e artigos para usos químicos ou para outros usos técnicos, de cerâmica; alguidares, gamelas e outros recipientes semelhantes para usos rurais, de cerâmica; bilhas e outras vasilhas próprias para transporte ou embalagem, de cerâmica.",2022-04-01,,272,2021
+6909.1,- Aparelhos e artigos para usos químicos ou para outros usos técnicos:,2022-04-01,,272,2021
+6909.11.00,-- De porcelana,2022-04-01,,272,2021
+6909.12,-- Artigos com uma dureza equivalente a 9 ou mais na escala de Mohs,2022-04-01,,272,2021
+6909.12.10,Guia-fios para máquina têxtil,2022-04-01,,272,2021
+6909.12.20,Guias de agulhas para cabeças de impressão,2022-04-01,,272,2021
+6909.12.30,Anéis de carboneto de silício para juntas de vedação mecânicas,2022-04-01,,272,2021
+6909.12.90,Outros,2022-04-01,,272,2021
+6909.19,-- Outros,2022-04-01,,272,2021
+6909.19.10,Guia-fios para máquina têxtil,2022-04-01,,272,2021
+6909.19.20,Guias de agulhas para cabeças de impressão,2022-04-01,,272,2021
+6909.19.30,"Colmeia de cerâmica à base de alumina (Al2O3), sílica (SiO2) e óxido de magnésio (MgO), de depuradores por conversão catalítica de gases de escape de veículos",2022-04-01,,272,2021
+6909.19.90,Outros,2022-04-01,,272,2021
+6909.90.00,- Outros,2022-04-01,,272,2021
+69.10,"Pias, lavatórios, colunas para lavatórios, banheiras, bidés, sanitários, caixas de descarga (autoclismos*), mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica.",2022-04-01,,272,2021
+6910.10.00,- De porcelana,2022-04-01,,272,2021
+6910.90.00,- Outros,2022-04-01,,272,2021
+69.11,"Serviços de mesa, artigos de cozinha, outros artigos de uso doméstico e artigos de higiene ou de toucador, de porcelana.",2022-04-01,,272,2021
+6911.10,- Artigos para serviço de mesa ou de cozinha,2022-04-01,,272,2021
+6911.10.10,"Conjunto (jogo ou aparelho) para jantar, café ou chá, apresentado em embalagem comum",2022-04-01,,272,2021
+6911.10.90,Outros,2022-04-01,,272,2021
+6911.90.00,- Outros,2022-04-01,,272,2021
+6912.00.00,"Serviços de mesa, artigos de cozinha, outros artigos de uso doméstico e artigos de higiene ou de toucador, de cerâmica, exceto de porcelana.",2022-04-01,,272,2021
+69.13,"Estatuetas e outros objetos de ornamentação, de cerâmica.",2022-04-01,,272,2021
+6913.10.00,- De porcelana,2022-04-01,,272,2021
+6913.90.00,- Outros,2022-04-01,,272,2021
+69.14,Outras obras de cerâmica.,2022-04-01,,272,2021
+6914.10.00,- De porcelana,2022-04-01,,272,2021
+6914.90.00,- Outras,2022-04-01,,272,2021

@@ -13,13 +13,14 @@ Saída (nada disso é commitado; o CI publica no GitHub Pages e nas Releases):
     api/v1/ncm/index.json        todos os NCM folha com descrição completa (para busca)
     api/v1/ncm/<8 dígitos>.json  todos os impostos de um NCM, em um único arquivo
     api/v1/fixas.json            alíquotas que não dependem do NCM (PIS/COFINS padrão, ICMS, especiais)
+    api/v1/schema-ncm.json       JSON Schema da resposta por NCM (contrato da api/v1)
     datapackage.json             descrição Frictionless Data dos CSVs
     schema.json                  cópia do schema
     llms.txt                     instruções para LLMs consultarem os dados (padrão llmstxt.org)
 
 Na distribuição tipada (SQLite, JSON e API):
     - alíquotas são números (fração); 'NT' vira aliquota = null e nao_tributado = true;
-    - datas estão em ISO (AAAA-MM-DD) e '31/12/9999' vira null;
+    - célula vazia vira null (inclusive datas de fim e Ex);
     - colunas de NCM ganham uma versão só com dígitos (<coluna>_digitos).
 
 Não depende de nenhuma biblioteca externa.
@@ -246,11 +247,111 @@ def gerar_api(schema, tipados, manifest, saida, base):
             "fixas": f"{base}api/v1/fixas.json",
             "sqlite": f"{base}impostos.sqlite",
             "schema": f"{base}schema.json",
+            "schema_api_ncm": f"{base}api/v1/schema-ncm.json",
         },
         "tabelas": {t["nome"]: {"titulo": t["titulo"], "csv": f"{base}csv/{t['nome']}.csv",
                                 "json": f"{base}json/{t['nome']}.json"} for t in schema["tabelas"]},
     })
     return len(indice)
+
+
+# --------------------------------------------------------------------------- contrato da API
+
+def _anulavel(tipo):
+    return {"type": [tipo, "null"]}
+
+
+def _schema_registro(tabela, sem=(), extras=None):
+    """JSON Schema de um registro tipado da tabela (mesmas colunas de registro_tipado)."""
+    tipos = {"REAL": "number", "INTEGER": "integer", "TEXT": "string"}
+    props = {}
+    for nome, sql in colunas_tipadas(tabela):
+        if nome in sem or nome.endswith("_digitos"):
+            continue
+        props[nome] = {"type": "boolean"} if nome == "nao_tributado" else _anulavel(tipos[sql])
+    props.update(extras or {})
+    return {"type": "object", "properties": props, "required": sorted(props), "additionalProperties": False}
+
+
+def schema_api_ncm(schema):
+    """JSON Schema (draft 2020-12) da resposta de api/v1/ncm/<8 dígitos>.json."""
+    t = {x["nome"]: x for x in schema["tabelas"]}
+    texto, numero = {"type": "string"}, _anulavel("number")
+
+    def objeto(props, anulavel=False):
+        o = {"type": ["object", "null"] if anulavel else "object", "properties": props,
+             "required": sorted(props), "additionalProperties": False}
+        return o
+    return {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "api/v1/schema-ncm.json",
+        "title": "Impostos de um NCM (api/v1)",
+        "description": "Na v1, campos podem ser adicionados; nunca removidos ou renomeados.",
+        **objeto({
+            "codigo": texto, "codigo_digitos": texto, "descricao": texto, "descricao_completa": texto,
+            "hierarquia": {"type": "array", "items": objeto({"codigo": texto, "descricao": texto})},
+            "vigencia": objeto({"inicio": _anulavel("string"), "fim": _anulavel("string")}),
+            "imposto_importacao": objeto({
+                "aliquota": numero, "aliquota_tec_mercosul": numero, "bit_bk": _anulavel("string"),
+                "excecoes": {"type": "array", "items": _schema_registro(
+                    t["tec_excecoes"], sem=("codigo_ncm",), extras={"vigente": {"type": "boolean"}})},
+            }, anulavel=True),
+            "ipi": objeto({
+                "aliquota": numero, "nao_tributado": _anulavel("boolean"),
+                "ex": {"type": "array", "items": objeto({
+                    "ex": texto, "aliquota": numero, "nao_tributado": {"type": "boolean"},
+                    "descricao": _anulavel("string")})},
+            }, anulavel=True),
+            "pis_cofins": objeto({
+                "regimes_diferenciados": {"type": "array", "items": _schema_registro(
+                    t["pis_cofins_excecoes"], extras={"vigente": {"type": "boolean"}})},
+                "padrao": texto,
+            }),
+            "fontes": objeto({"versao": _anulavel("string"), "gerado_em": _anulavel("string")}),
+        }),
+    }
+
+
+def validar_json(valor, sch, caminho="$"):
+    """Validador mínimo (type, properties, required, additionalProperties, items). Retorna lista de erros."""
+    nomes = {"object": dict, "array": list, "string": str, "boolean": bool, "null": type(None)}
+    tipos = sch.get("type")
+    if tipos:
+        tipos = tipos if isinstance(tipos, list) else [tipos]
+        ok = False
+        for tp in tipos:
+            if tp in ("number", "integer"):
+                ok = ok or (isinstance(valor, (int, float)) and not isinstance(valor, bool)
+                            and (tp == "number" or isinstance(valor, int)))
+            else:
+                ok = ok or isinstance(valor, nomes[tp])
+        if not ok:
+            return [f"{caminho}: esperado {tipos}, veio {type(valor).__name__}"]
+    erros = []
+    if isinstance(valor, dict) and "properties" in sch:
+        for k in sch.get("required", []):
+            if k not in valor:
+                erros.append(f"{caminho}: falta o campo '{k}'")
+        for k, v in valor.items():
+            if k in sch["properties"]:
+                erros += validar_json(v, sch["properties"][k], f"{caminho}.{k}")
+            elif sch.get("additionalProperties") is False:
+                erros.append(f"{caminho}: campo não documentado '{k}'")
+    if isinstance(valor, list) and "items" in sch:
+        for i, v in enumerate(valor):
+            erros += validar_json(v, sch["items"], f"{caminho}[{i}]")
+    return erros
+
+
+def verificar_api(saida, sch):
+    pasta = os.path.join(saida, "api", "v1", "ncm")
+    erros = []
+    for nome in sorted(os.listdir(pasta)):
+        if nome == "index.json":
+            continue
+        with open(os.path.join(pasta, nome), encoding="utf-8") as f:
+            erros += [f"{nome}: {e}" for e in validar_json(json.load(f), sch)]
+    return erros
 
 
 def gerar_datapackage(schema, manifest, saida):
@@ -292,6 +393,8 @@ def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--saida", default=os.path.join(ROOT, "dist"))
     p.add_argument("--base-url", default="", help="URL pública onde a distribuição será servida (termina com /)")
+    p.add_argument("--verificar", action="store_true",
+                   help="confere todos os JSON da API contra api/v1/schema-ncm.json (usado no CI)")
     args = p.parse_args()
 
     schema = carregar_json("schema.json")
@@ -308,6 +411,9 @@ def main():
     gerar_sqlite(schema, tipados, manifest, saida)
     n = gerar_api(schema, tipados, manifest, saida, args.base_url)
     gerar_datapackage(schema, manifest, saida)
+    sch = schema_api_ncm(schema)
+    with open(os.path.join(saida, "api", "v1", "schema-ncm.json"), "w", encoding="utf-8") as f:
+        json.dump(sch, f, ensure_ascii=False, indent=2)
     shutil.copy(os.path.join(ROOT, "schema.json"), os.path.join(saida, "schema.json"))
     pagina = os.path.join(ROOT, "tools", "pagina", "index.html")
     if os.path.exists(pagina):
@@ -322,6 +428,13 @@ def main():
         with open(os.path.join(saida, "llms.txt"), "w", encoding="utf-8") as f:
             f.write(texto)
     print(f"Distribuição gerada em {saida}: {sum(len(v) for v in brutos.values())} registros, {n} NCM na API.")
+    if args.verificar:
+        erros = verificar_api(saida, sch)
+        for e in erros[:20]:
+            print("  ERRO", e)
+        if erros:
+            raise SystemExit(f"{len(erros)} erro(s): a API não segue api/v1/schema-ncm.json")
+        print(f"API conferida contra api/v1/schema-ncm.json: {n} arquivos OK.")
 
 
 if __name__ == "__main__":

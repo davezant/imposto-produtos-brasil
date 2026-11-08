@@ -1,78 +1,78 @@
-codigo_ncm,descricao,unidade_medida,data_inicio,data_fim,numero,ano
-04,"Leite e laticínios; ovos de aves; mel natural; produtos comestíveis de origem animal, não especificados nem compreendidos noutros Capítulos.",,01/04/2022,31/12/9999,272,2021
-04.01,"Leite e creme de leite (nata), não concentrados nem adicionados de açúcar ou de outros edulcorantes.",,01/04/2022,31/12/9999,272,2021
-0401.10,"- Com um teor, em peso, de matérias gordas, não superior a 1 %",,01/04/2022,31/12/9999,272,2021
-0401.10.10,Leite UHT (Ultra High Temperature),,01/04/2022,31/12/9999,272,2021
-0401.10.90,Outros,,01/04/2022,31/12/9999,272,2021
-0401.20,"- Com um teor, em peso, de matérias gordas, superior a 1 %, mas não superior a 6 %",,01/04/2022,31/12/9999,272,2021
-0401.20.10,Leite UHT (Ultra High Temperature),,01/04/2022,31/12/9999,272,2021
-0401.20.90,Outros,,01/04/2022,31/12/9999,272,2021
-0401.40,"- Com um teor, em peso, de matérias gordas, superior a 6 %, mas não superior a 10 %",,01/04/2022,31/12/9999,272,2021
-0401.40.10,Leite,,01/04/2022,31/12/9999,272,2021
-0401.40.2,Creme de leite (nata),,01/04/2022,31/12/9999,272,2021
-0401.40.21,UHT (Ultra High Temperature),,01/04/2022,31/12/9999,272,2021
-0401.40.29,Outros,,01/04/2022,31/12/9999,272,2021
-0401.50,"- Com um teor, em peso, de matérias gordas, superior a 10 %",,01/04/2022,31/12/9999,272,2021
-0401.50.10,Leite,,01/04/2022,31/12/9999,272,2021
-0401.50.2,Creme de leite (nata),,01/04/2022,31/12/9999,272,2021
-0401.50.21,UHT (Ultra High Temperature),,01/04/2022,31/12/9999,272,2021
-0401.50.29,Outros,,01/04/2022,31/12/9999,272,2021
-04.02,"Leite e creme de leite (nata), concentrados ou adicionados de açúcar ou de outros edulcorantes.",,01/04/2022,31/12/9999,272,2021
-0402.10,"- Em pó, grânulos ou outras formas sólidas, com um teor, em peso, de matérias gordas, não superior a 1,5 %",,01/04/2022,31/12/9999,272,2021
-0402.10.10,"Com um teor de arsênio, chumbo ou cobre, considerados isoladamente, inferior a 5 ppm",,01/04/2022,31/12/9999,272,2021
-0402.10.90,Outros,,01/04/2022,31/12/9999,272,2021
-0402.2,"- Em pó, grânulos ou outras formas sólidas, com um teor, em peso, de matérias gordas, superior a 1,5 %:",,01/04/2022,31/12/9999,272,2021
-0402.21,-- Sem adição de açúcar ou de outros edulcorantes,,01/04/2022,31/12/9999,272,2021
-0402.21.10,Leite integral,,01/04/2022,31/12/9999,272,2021
-0402.21.20,Leite parcialmente desnatado,,01/04/2022,31/12/9999,272,2021
-0402.21.30,Creme de leite (nata),,01/04/2022,31/12/9999,272,2021
-0402.29,-- Outros,,01/04/2022,31/12/9999,272,2021
-0402.29.10,Leite integral,,01/04/2022,31/12/9999,272,2021
-0402.29.20,Leite parcialmente desnatado,,01/04/2022,31/12/9999,272,2021
-0402.29.30,Creme de leite (nata),,01/04/2022,31/12/9999,272,2021
-0402.9,- Outros:,,01/04/2022,31/12/9999,272,2021
-0402.91.00,-- Sem adição de açúcar ou de outros edulcorantes,,01/04/2022,31/12/9999,272,2021
-0402.99.00,-- Outros,,01/04/2022,31/12/9999,272,2021
-04.03,"Iogurte; leitelho, leite e creme de leite (nata) coalhados, quefir e outros leites e cremes de leite (natas) fermentados ou acidificados, mesmo concentrados ou adicionados de açúcar ou de outros edulcorantes, ou aromatizados ou adicionados de fruta ou de cacau.",,01/04/2022,31/12/9999,272,2021
-0403.20.00,- Iogurte,,01/04/2022,31/12/9999,272,2021
-0403.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
-04.04,"Soro de leite, mesmo concentrado ou adicionado de açúcar ou de outros edulcorantes; produtos constituídos por componentes naturais do leite, mesmo adicionados de açúcar ou de outros edulcorantes, não especificados nem compreendidos noutras posições.",,01/04/2022,31/12/9999,272,2021
-0404.10.00,"- Soro de leite, modificado ou não, mesmo concentrado ou adicionado de açúcar ou de outros edulcorantes",,01/04/2022,31/12/9999,272,2021
-0404.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
-04.05,Manteiga e outras matérias gordas provenientes do leite; pasta de espalhar (barrar) de produtos provenientes do leite.,,01/04/2022,31/12/9999,272,2021
-0405.10.00,- Manteiga,,01/04/2022,31/12/9999,272,2021
-0405.20.00,- Pasta de espalhar (barrar) de produtos provenientes do leite,,01/04/2022,31/12/9999,272,2021
-0405.90,- Outras,,01/04/2022,31/12/9999,272,2021
-0405.90.10,Óleo butírico de manteiga (butter oil),,01/04/2022,31/12/9999,272,2021
-0405.90.90,Outras,,01/04/2022,31/12/9999,272,2021
-04.06,Queijos e requeijão.,,01/04/2022,31/12/9999,272,2021
-0406.10,"- Queijos frescos (não curados), incluindo o queijo de soro de leite, e o requeijão",,01/04/2022,31/12/9999,272,2021
-0406.10.10,Mozarela,,01/04/2022,31/12/9999,272,2021
-0406.10.90,Outros,,01/04/2022,31/12/9999,272,2021
-0406.20.00,"- Queijos ralados ou em pó, de qualquer tipo",,01/04/2022,31/12/9999,272,2021
-0406.30.00,"- Queijos fundidos, exceto ralados ou em pó",,01/04/2022,31/12/9999,272,2021
-0406.40.00,- Queijos de pasta mofada (azul) e outros queijos que apresentem veios obtidos utilizando Penicillium roqueforti,,01/04/2022,31/12/9999,272,2021
-0406.90,- Outros queijos,,01/04/2022,31/12/9999,272,2021
-0406.90.10,"Com um teor de umidade inferior a 36,0 %, em peso (massa dura)",,01/04/2022,31/12/9999,272,2021
-0406.90.20,"Com um teor de umidade igual ou superior a 36,0 % e inferior a 46,0 %, em peso (massa semidura)",,01/04/2022,31/12/9999,272,2021
-0406.90.30,"Com um teor de umidade igual ou superior a 46,0 % e inferior a 55,0 %, em peso (massa macia)",,01/04/2022,31/12/9999,272,2021
-0406.90.90,Outros,,01/04/2022,31/12/9999,272,2021
-04.07,"Ovos de aves, com casca, frescos, conservados ou cozidos.",,01/04/2022,31/12/9999,272,2021
-0407.1,- Ovos fertilizados destinados à incubação:,,01/04/2022,31/12/9999,272,2021
-0407.11.00,-- De aves da espécie Gallus domesticus,,01/04/2022,31/12/9999,272,2021
-0407.19.00,-- Outros,,01/04/2022,31/12/9999,272,2021
-0407.2,- Outros ovos frescos:,,01/04/2022,31/12/9999,272,2021
-0407.21.00,-- De aves da espécie Gallus domesticus,,01/04/2022,31/12/9999,272,2021
-0407.29.00,-- Outros,,01/04/2022,31/12/9999,272,2021
-0407.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
-04.08,"Ovos de aves, sem casca, e gemas de ovos, frescos, secos, cozidos em água ou vapor, moldados, congelados ou conservados de outro modo, mesmo adicionados de açúcar ou de outros edulcorantes.",,01/04/2022,31/12/9999,272,2021
-0408.1,- Gemas de ovos:,,01/04/2022,31/12/9999,272,2021
-0408.11.00,-- Secas,,01/04/2022,31/12/9999,272,2021
-0408.19.00,-- Outras,,01/04/2022,31/12/9999,272,2021
-0408.9,- Outros:,,01/04/2022,31/12/9999,272,2021
-0408.91.00,-- Secos,,01/04/2022,31/12/9999,272,2021
-0408.99.00,-- Outros,,01/04/2022,31/12/9999,272,2021
-0409.00.00,Mel natural.,,01/04/2022,31/12/9999,272,2021
-04.10,"Insetos e outros produtos comestíveis de origem animal, não especificados nem compreendidos noutras posições.",,01/04/2022,31/12/9999,272,2021
-0410.10.00,- Insetos,,01/04/2022,31/12/9999,272,2021
-0410.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
+codigo_ncm,descricao,data_inicio,data_fim,numero,ano
+04,"Leite e laticínios; ovos de aves; mel natural; produtos comestíveis de origem animal, não especificados nem compreendidos noutros Capítulos.",2022-04-01,,272,2021
+04.01,"Leite e creme de leite (nata), não concentrados nem adicionados de açúcar ou de outros edulcorantes.",2022-04-01,,272,2021
+0401.10,"- Com um teor, em peso, de matérias gordas, não superior a 1 %",2022-04-01,,272,2021
+0401.10.10,Leite UHT (Ultra High Temperature),2022-04-01,,272,2021
+0401.10.90,Outros,2022-04-01,,272,2021
+0401.20,"- Com um teor, em peso, de matérias gordas, superior a 1 %, mas não superior a 6 %",2022-04-01,,272,2021
+0401.20.10,Leite UHT (Ultra High Temperature),2022-04-01,,272,2021
+0401.20.90,Outros,2022-04-01,,272,2021
+0401.40,"- Com um teor, em peso, de matérias gordas, superior a 6 %, mas não superior a 10 %",2022-04-01,,272,2021
+0401.40.10,Leite,2022-04-01,,272,2021
+0401.40.2,Creme de leite (nata),2022-04-01,,272,2021
+0401.40.21,UHT (Ultra High Temperature),2022-04-01,,272,2021
+0401.40.29,Outros,2022-04-01,,272,2021
+0401.50,"- Com um teor, em peso, de matérias gordas, superior a 10 %",2022-04-01,,272,2021
+0401.50.10,Leite,2022-04-01,,272,2021
+0401.50.2,Creme de leite (nata),2022-04-01,,272,2021
+0401.50.21,UHT (Ultra High Temperature),2022-04-01,,272,2021
+0401.50.29,Outros,2022-04-01,,272,2021
+04.02,"Leite e creme de leite (nata), concentrados ou adicionados de açúcar ou de outros edulcorantes.",2022-04-01,,272,2021
+0402.10,"- Em pó, grânulos ou outras formas sólidas, com um teor, em peso, de matérias gordas, não superior a 1,5 %",2022-04-01,,272,2021
+0402.10.10,"Com um teor de arsênio, chumbo ou cobre, considerados isoladamente, inferior a 5 ppm",2022-04-01,,272,2021
+0402.10.90,Outros,2022-04-01,,272,2021
+0402.2,"- Em pó, grânulos ou outras formas sólidas, com um teor, em peso, de matérias gordas, superior a 1,5 %:",2022-04-01,,272,2021
+0402.21,-- Sem adição de açúcar ou de outros edulcorantes,2022-04-01,,272,2021
+0402.21.10,Leite integral,2022-04-01,,272,2021
+0402.21.20,Leite parcialmente desnatado,2022-04-01,,272,2021
+0402.21.30,Creme de leite (nata),2022-04-01,,272,2021
+0402.29,-- Outros,2022-04-01,,272,2021
+0402.29.10,Leite integral,2022-04-01,,272,2021
+0402.29.20,Leite parcialmente desnatado,2022-04-01,,272,2021
+0402.29.30,Creme de leite (nata),2022-04-01,,272,2021
+0402.9,- Outros:,2022-04-01,,272,2021
+0402.91.00,-- Sem adição de açúcar ou de outros edulcorantes,2022-04-01,,272,2021
+0402.99.00,-- Outros,2022-04-01,,272,2021
+04.03,"Iogurte; leitelho, leite e creme de leite (nata) coalhados, quefir e outros leites e cremes de leite (natas) fermentados ou acidificados, mesmo concentrados ou adicionados de açúcar ou de outros edulcorantes, ou aromatizados ou adicionados de fruta ou de cacau.",2022-04-01,,272,2021
+0403.20.00,- Iogurte,2022-04-01,,272,2021
+0403.90.00,- Outros,2022-04-01,,272,2021
+04.04,"Soro de leite, mesmo concentrado ou adicionado de açúcar ou de outros edulcorantes; produtos constituídos por componentes naturais do leite, mesmo adicionados de açúcar ou de outros edulcorantes, não especificados nem compreendidos noutras posições.",2022-04-01,,272,2021
+0404.10.00,"- Soro de leite, modificado ou não, mesmo concentrado ou adicionado de açúcar ou de outros edulcorantes",2022-04-01,,272,2021
+0404.90.00,- Outros,2022-04-01,,272,2021
+04.05,Manteiga e outras matérias gordas provenientes do leite; pasta de espalhar (barrar) de produtos provenientes do leite.,2022-04-01,,272,2021
+0405.10.00,- Manteiga,2022-04-01,,272,2021
+0405.20.00,- Pasta de espalhar (barrar) de produtos provenientes do leite,2022-04-01,,272,2021
+0405.90,- Outras,2022-04-01,,272,2021
+0405.90.10,Óleo butírico de manteiga (butter oil),2022-04-01,,272,2021
+0405.90.90,Outras,2022-04-01,,272,2021
+04.06,Queijos e requeijão.,2022-04-01,,272,2021
+0406.10,"- Queijos frescos (não curados), incluindo o queijo de soro de leite, e o requeijão",2022-04-01,,272,2021
+0406.10.10,Mozarela,2022-04-01,,272,2021
+0406.10.90,Outros,2022-04-01,,272,2021
+0406.20.00,"- Queijos ralados ou em pó, de qualquer tipo",2022-04-01,,272,2021
+0406.30.00,"- Queijos fundidos, exceto ralados ou em pó",2022-04-01,,272,2021
+0406.40.00,- Queijos de pasta mofada (azul) e outros queijos que apresentem veios obtidos utilizando Penicillium roqueforti,2022-04-01,,272,2021
+0406.90,- Outros queijos,2022-04-01,,272,2021
+0406.90.10,"Com um teor de umidade inferior a 36,0 %, em peso (massa dura)",2022-04-01,,272,2021
+0406.90.20,"Com um teor de umidade igual ou superior a 36,0 % e inferior a 46,0 %, em peso (massa semidura)",2022-04-01,,272,2021
+0406.90.30,"Com um teor de umidade igual ou superior a 46,0 % e inferior a 55,0 %, em peso (massa macia)",2022-04-01,,272,2021
+0406.90.90,Outros,2022-04-01,,272,2021
+04.07,"Ovos de aves, com casca, frescos, conservados ou cozidos.",2022-04-01,,272,2021
+0407.1,- Ovos fertilizados destinados à incubação:,2022-04-01,,272,2021
+0407.11.00,-- De aves da espécie Gallus domesticus,2022-04-01,,272,2021
+0407.19.00,-- Outros,2022-04-01,,272,2021
+0407.2,- Outros ovos frescos:,2022-04-01,,272,2021
+0407.21.00,-- De aves da espécie Gallus domesticus,2022-04-01,,272,2021
+0407.29.00,-- Outros,2022-04-01,,272,2021
+0407.90.00,- Outros,2022-04-01,,272,2021
+04.08,"Ovos de aves, sem casca, e gemas de ovos, frescos, secos, cozidos em água ou vapor, moldados, congelados ou conservados de outro modo, mesmo adicionados de açúcar ou de outros edulcorantes.",2022-04-01,,272,2021
+0408.1,- Gemas de ovos:,2022-04-01,,272,2021
+0408.11.00,-- Secas,2022-04-01,,272,2021
+0408.19.00,-- Outras,2022-04-01,,272,2021
+0408.9,- Outros:,2022-04-01,,272,2021
+0408.91.00,-- Secos,2022-04-01,,272,2021
+0408.99.00,-- Outros,2022-04-01,,272,2021
+0409.00.00,Mel natural.,2022-04-01,,272,2021
+04.10,"Insetos e outros produtos comestíveis de origem animal, não especificados nem compreendidos noutras posições.",2022-04-01,,272,2021
+0410.10.00,- Insetos,2022-04-01,,272,2021
+0410.90.00,- Outros,2022-04-01,,272,2021

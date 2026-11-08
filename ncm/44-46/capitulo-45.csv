@@ -1,12 +1,12 @@
-codigo_ncm,descricao,unidade_medida,data_inicio,data_fim,numero,ano
-45,Cortiça e suas obras.,,01/04/2022,31/12/9999,272,2021
-45.01,"Cortiça natural, em bruto ou simplesmente preparada; desperdícios de cortiça; cortiça triturada, granulada ou pulverizada.",,01/04/2022,31/12/9999,272,2021
-4501.10.00,"- Cortiça natural, em bruto ou simplesmente preparada",,01/04/2022,31/12/9999,272,2021
-4501.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
-4502.00.00,"Cortiça natural, sem a crosta ou simplesmente esquadriada, ou em cubos, chapas, folhas ou tiras, de forma quadrada ou retangular (incluindo os esboços com arestas vivas, para rolhas).",,01/04/2022,31/12/9999,272,2021
-45.03,Obras de cortiça natural.,,01/04/2022,31/12/9999,272,2021
-4503.10.00,- Rolhas,,01/04/2022,31/12/9999,272,2021
-4503.90.00,- Outras,,01/04/2022,31/12/9999,272,2021
-45.04,Cortiça aglomerada (mesmo com aglutinantes) e suas obras.,,01/04/2022,31/12/9999,272,2021
-4504.10.00,"- Cubos, blocos, chapas, folhas e tiras; ladrilhos de qualquer formato; cilindros maciços, incluindo os discos",,01/04/2022,31/12/9999,272,2021
-4504.90.00,- Outras,,01/04/2022,31/12/9999,272,2021
+codigo_ncm,descricao,data_inicio,data_fim,numero,ano
+45,Cortiça e suas obras.,2022-04-01,,272,2021
+45.01,"Cortiça natural, em bruto ou simplesmente preparada; desperdícios de cortiça; cortiça triturada, granulada ou pulverizada.",2022-04-01,,272,2021
+4501.10.00,"- Cortiça natural, em bruto ou simplesmente preparada",2022-04-01,,272,2021
+4501.90.00,- Outros,2022-04-01,,272,2021
+4502.00.00,"Cortiça natural, sem a crosta ou simplesmente esquadriada, ou em cubos, chapas, folhas ou tiras, de forma quadrada ou retangular (incluindo os esboços com arestas vivas, para rolhas).",2022-04-01,,272,2021
+45.03,Obras de cortiça natural.,2022-04-01,,272,2021
+4503.10.00,- Rolhas,2022-04-01,,272,2021
+4503.90.00,- Outras,2022-04-01,,272,2021
+45.04,Cortiça aglomerada (mesmo com aglutinantes) e suas obras.,2022-04-01,,272,2021
+4504.10.00,"- Cubos, blocos, chapas, folhas e tiras; ladrilhos de qualquer formato; cilindros maciços, incluindo os discos",2022-04-01,,272,2021
+4504.90.00,- Outras,2022-04-01,,272,2021

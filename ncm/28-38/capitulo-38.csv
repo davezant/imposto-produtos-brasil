@@ -1,395 +1,395 @@
-codigo_ncm,descricao,unidade_medida,data_inicio,data_fim,numero,ano
-38,Produtos diversos das indústrias químicas.,,01/04/2022,31/12/9999,272,2021
-38.01,"Grafita artificial; grafita coloidal ou semicoloidal; preparações à base de grafita ou de outros carbonos, em pastas, blocos, plaquetas ou outros produtos intermediários.",,01/04/2022,31/12/9999,272,2021
-3801.10.00,- Grafita artificial,,01/04/2022,31/12/9999,272,2021
-3801.20,- Grafita coloidal ou semicoloidal,,01/04/2022,31/12/9999,272,2021
-3801.20.10,Suspensão semicoloidal em óleos minerais,,01/04/2022,31/12/9999,272,2021
-3801.20.90,Outros,,01/04/2022,31/12/9999,272,2021
-3801.30,- Pastas carbonadas para eletrodos e pastas semelhantes para revestimento interior de fornos,,01/04/2022,31/12/9999,272,2021
-3801.30.10,Pasta carbonada para eletrodos,,01/04/2022,31/12/9999,272,2021
-3801.30.90,Outras,,01/04/2022,31/12/9999,272,2021
-3801.90.00,- Outras,,01/04/2022,31/12/9999,272,2021
-38.02,"Carvões ativados; matérias minerais naturais ativadas; negros de origem animal, incluindo o negro animal esgotado.",,01/04/2022,31/12/9999,272,2021
-3802.10.00,- Carvões ativados,,01/04/2022,31/12/9999,272,2021
-3802.90,- Outros,,01/04/2022,31/12/9999,272,2021
-3802.90.10,Farinhas siliciosas fósseis,,01/04/2022,31/12/9999,272,2021
-3802.90.20,Bentonita,,01/04/2022,31/12/9999,272,2021
-3802.90.30,Atapulgita,,01/04/2022,31/12/9999,272,2021
-3802.90.40,Outras argilas e terras,,01/04/2022,31/12/9999,272,2021
-3802.90.50,Bauxita,,01/04/2022,31/12/9999,272,2021
-3802.90.90,Outros,,01/04/2022,31/12/9999,272,2021
-3803.00,"Tall oil, mesmo refinado.",,01/04/2022,31/12/9999,272,2021
-3803.00.10,Em bruto,,01/04/2022,31/12/9999,272,2021
-3803.00.90,Outros,,01/04/2022,31/12/9999,272,2021
-3804.00,"Lixívias residuais da fabricação das pastas de celulose, mesmo concentradas, desaçucaradas ou tratadas quimicamente, incluindo os lignossulfonatos, mas excluindo o tall oil da posição 38.03.",,01/04/2022,31/12/9999,272,2021
-3804.00.1,Lixívias residuais da fabricação de pastas de celulose,,01/04/2022,31/12/9999,272,2021
-3804.00.11,Ao sulfito,,01/04/2022,31/12/9999,272,2021
-3804.00.12,À soda ou ao sulfato,,01/04/2022,31/12/9999,272,2021
-3804.00.20,Lignossulfonatos,,01/04/2022,31/12/9999,272,2021
-38.05,"Essências de terebintina, de pinheiro ou provenientes da fabricação da pasta de papel ao sulfato e outras essências terpênicas provenientes da destilação ou de outros tratamentos das madeiras de coníferas; dipenteno em bruto; essência proveniente da fabricação da pasta de papel ao bissulfito e outros paracimenos em bruto; óleo de pinho que contenha alfa-terpineol como constituinte principal.",,01/04/2022,31/12/9999,272,2021
-3805.10.00,"- Essências de terebintina, de pinheiro ou provenientes da fabricação da pasta de papel ao sulfato",,01/04/2022,31/12/9999,272,2021
-3805.90,- Outros,,01/04/2022,31/12/9999,272,2021
-3805.90.10,Óleo de pinho,,01/04/2022,31/12/9999,272,2021
-3805.90.90,Outros,,01/04/2022,31/12/9999,272,2021
-38.06,"Colofônias e ácidos resínicos, e seus derivados; essência de colofônia e óleos de colofônia; gomas fundidas.",,01/04/2022,31/12/9999,272,2021
-3806.10.00,- Colofônias e ácidos resínicos,,01/04/2022,31/12/9999,272,2021
-3806.20.00,"- Sais de colofônias, de ácidos resínicos ou de derivados de colofônias ou de ácidos resínicos, exceto os sais de aductos de colofônias",,01/04/2022,31/12/9999,272,2021
-3806.30.00,- Gomas ésteres,,01/04/2022,31/12/9999,272,2021
-3806.90,- Outros,,01/04/2022,31/12/9999,272,2021
-3806.90.1,Outros derivados de colofônias ou de ácidos resínicos,,01/04/2022,31/12/9999,272,2021
-3806.90.11,"Colofônias oxidadas, hidrogenadas, desidrogenadas, polimerizadas ou modificadas com ácidos fumárico ou maleico ou com anidrido maleico",,01/04/2022,31/12/9999,272,2021
-3806.90.12,Abietatos de metila ou de benzila; hidroabietato de metila,,01/04/2022,31/12/9999,272,2021
-3806.90.19,Outros,,01/04/2022,31/12/9999,272,2021
-3806.90.90,Outros,,01/04/2022,31/12/9999,272,2021
-3807.00.00,"Alcatrões de madeira; óleos de alcatrão de madeira; creosoto de madeira; metileno; breu (pez) vegetal; breu (pez) para a indústria da cerveja e preparações semelhantes à base de colofônias, de ácidos resínicos ou de breu (pez) vegetal.",,01/04/2022,31/12/9999,272,2021
-38.08,"Inseticidas, rodenticidas, fungicidas, herbicidas, inibidores de germinação e reguladores de crescimento para plantas, desinfetantes e produtos semelhantes, apresentados em formas ou embalagens para venda a retalho ou como preparações ou ainda sob a forma de artigos, tais como fitas, mechas e velas sulfuradas e papel mata-moscas.",,01/04/2022,31/12/9999,272,2021
-3808.5,- Mercadorias mencionadas na Nota de subposições 1 do presente Capítulo:,,01/04/2022,31/12/9999,272,2021
-3808.52.00,"-- DDT (ISO) (clofenotano (DCI)), acondicionado em embalagens com um conteúdo de peso líquido não superior a 300 g",,01/04/2022,31/12/9999,272,2021
-3808.59,-- Outras,,01/04/2022,31/12/9999,272,2021
-3808.59.10,Apresentadas em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,,01/04/2022,31/12/9999,272,2021
-3808.59.2,Apresentadas de outro modo,,01/04/2022,31/12/9999,272,2021
-3808.59.21,À base de metamidofós (ISO) ou de monocrotofós (ISO),,01/04/2022,31/12/9999,272,2021
-3808.59.22,À base de endossulfan (ISO),,01/04/2022,31/12/9999,272,2021
-3808.59.23,À base de alaclor (ISO),,01/04/2022,31/12/9999,272,2021
-3808.59.24,"À base de 1,2,3,4,5,6-hexaclorocicloexano (HCH (ISO)), incluindo o lindano (ISO, DCI)",,01/04/2022,31/12/9999,272,2021
-3808.59.25,À base de triclorfom (ISO),,01/04/2022,31/12/9999,272,2021
-3808.59.26,À base de N-etilperfluoroctano sulfonamida,,01/04/2022,31/12/9999,272,2021
-3808.59.29,Outras,,01/04/2022,31/12/9999,272,2021
-3808.6,- Mercadorias mencionadas na Nota de subposições 2 do presente Capítulo:,,01/04/2022,31/12/9999,272,2021
-3808.61.00,-- Acondicionadas em embalagens com um conteúdo de peso líquido não superior a 300 g,,01/04/2022,31/12/9999,272,2021
-3808.62,"-- Acondicionadas em embalagens com um conteúdo de peso líquido superior a 300 g, mas não superior a 7,5 kg",,01/04/2022,31/12/9999,272,2021
-3808.62.10,À base de alfa-cipermetrina (ISO),,01/04/2022,31/12/9999,272,2021
-3808.62.90,Outras,,01/04/2022,31/12/9999,272,2021
-3808.69,-- Outras,,01/04/2022,31/12/9999,272,2021
-3808.69.10,À base de alfa-cipermetrina (ISO),,01/04/2022,31/12/9999,272,2021
-3808.69.90,Outras,,01/04/2022,31/12/9999,272,2021
-3808.9,- Outros:,,01/04/2022,31/12/9999,272,2021
-3808.91,-- Inseticidas,,01/04/2022,31/12/9999,272,2021
-3808.91.1,Apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,,01/04/2022,31/12/9999,272,2021
-3808.91.11,Que contenham bromometano (brometo de metila) ou bromoclorometano,,01/04/2022,31/12/9999,272,2021
-3808.91.19,Outros,,01/04/2022,31/12/9999,272,2021
-3808.91.20,"Apresentados de outro modo, que contenham bromometano (brometo de metila) ou bromoclorometano",,01/04/2022,31/12/9999,272,2021
-3808.91.9,Outros,,01/04/2022,31/12/9999,272,2021
-3808.91.91,À base de acefato ou de Bacillus thuringiensis,,01/04/2022,31/12/9999,272,2021
-3808.91.92,À base de cipermetrinas ou de permetrina,,01/04/2022,31/12/9999,272,2021
-3808.91.93,À base de dicrotofós,,01/04/2022,31/12/9999,272,2021
-3808.91.94,À base de dissulfoton,,01/04/2022,31/12/9999,272,2021
-3808.91.95,À base de fosfeto de alumínio,,01/04/2022,31/12/9999,272,2021
-3808.91.96,À base de diclorvós,,01/04/2022,31/12/9999,272,2021
-3808.91.97,À base de óleo mineral ou de tiometon,,01/04/2022,31/12/9999,272,2021
-3808.91.99,Outros,,01/04/2022,31/12/9999,272,2021
-3808.92,-- Fungicidas,,01/04/2022,31/12/9999,272,2021
-3808.92.1,Apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,,01/04/2022,31/12/9999,272,2021
-3808.92.11,Que contenham bromometano (brometo de metila) ou bromoclorometano,,01/04/2022,31/12/9999,272,2021
-3808.92.19,Outros,,01/04/2022,31/12/9999,272,2021
-3808.92.20,"Apresentados de outro modo, que contenham bromometano (brometo de metila) ou bromoclorometano",,01/04/2022,31/12/9999,272,2021
-3808.92.9,Outros,,01/04/2022,31/12/9999,272,2021
-3808.92.91,"À base de hidróxido de cobre, de oxicloreto de cobre ou de óxido cuproso",,01/04/2022,31/12/9999,272,2021
-3808.92.92,À base de enxofre ou de ziram,,01/04/2022,31/12/9999,272,2021
-3808.92.93,À base de mancozeb ou de maneb,,01/04/2022,31/12/9999,272,2021
-3808.92.94,À base de sulfiram,,01/04/2022,31/12/9999,272,2021
-3808.92.95,"À base de compostos de arsênio, cobre ou cromo, exceto os produtos do subitem 3808.92.91",,01/04/2022,31/12/9999,272,2021
-3808.92.96,À base de thiram,,01/04/2022,31/12/9999,272,2021
-3808.92.97,À base de propiconazol,,01/04/2022,31/12/9999,272,2021
-3808.92.99,Outros,,01/04/2022,31/12/9999,272,2021
-3808.93,"-- Herbicidas, inibidores de germinação e reguladores de crescimento para plantas",,01/04/2022,31/12/9999,272,2021
-3808.93.1,Herbicidas apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,,01/04/2022,31/12/9999,272,2021
-3808.93.11,Que contenham bromometano (brometo de metila) ou bromoclorometano,,01/04/2022,31/12/9999,272,2021
-3808.93.19,Outros,,01/04/2022,31/12/9999,272,2021
-3808.93.2,Herbicidas apresentados de outro modo,,01/04/2022,31/12/9999,272,2021
-3808.93.21,Que contenham bromometano (brometo de metila) ou bromoclorometano,,01/04/2022,31/12/9999,272,2021
-3808.93.22,"Outros, à base de ácido 2,4-diclorofenoxiacético (2,4-D), de ácido 4-(2,4-diclorofenoxi)butírico (2,4-DB), de ácido (4-cloro-2-metil)fenoxiacético (MCPA) ou de derivados de 2,4-D ou 2,4-DB",,01/04/2022,31/12/9999,272,2021
-3808.93.23,"Outros, à base de atrazina ou de diuron",,01/04/2022,31/12/9999,272,2021
-3808.93.24,"Outros, à base de glifosato ou seus sais, de imazaquim ou de lactofen",,01/04/2022,31/12/9999,272,2021
-3808.93.25,"Outros, à base de dicloreto de paraquate, de propanil ou de simazina",,01/04/2022,31/12/9999,272,2021
-3808.93.26,"Outros, à base de trifluralina",,01/04/2022,31/12/9999,272,2021
-3808.93.27,"Outros, à base de imazetapir",,01/04/2022,31/12/9999,272,2021
-3808.93.28,"Outros, à base de ametrina ou de hexazinona",,01/04/2022,31/12/9999,272,2021
-3808.93.29,Outros,,01/04/2022,31/12/9999,272,2021
-3808.93.3,Inibidores de germinação,,01/04/2022,31/12/9999,272,2021
-3808.93.31,Que contenham bromometano (brometo de metila) ou bromoclorometano,,01/04/2022,31/12/9999,272,2021
-3808.93.32,"Outros, apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",,01/04/2022,31/12/9999,272,2021
-3808.93.33,Outros,,01/04/2022,31/12/9999,272,2021
-3808.93.4,Reguladores de crescimento das plantas apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,,01/04/2022,31/12/9999,272,2021
-3808.93.41,Que contenham bromometano (brometo de metila) ou bromoclorometano,,01/04/2022,31/12/9999,272,2021
-3808.93.49,Outros,,01/04/2022,31/12/9999,272,2021
-3808.93.5,"Reguladores de crescimento das plantas, apresentados de outro modo",,01/04/2022,31/12/9999,272,2021
-3808.93.51,Que contenham bromometano (brometo de metila) ou bromoclorometano,,01/04/2022,31/12/9999,272,2021
-3808.93.52,"Outros, à base de hidrazida maleica",,01/04/2022,31/12/9999,272,2021
-3808.93.59,Outros,,01/04/2022,31/12/9999,272,2021
-3808.94,-- Desinfetantes,,01/04/2022,31/12/9999,272,2021
-3808.94.1,Apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,,01/04/2022,31/12/9999,272,2021
-3808.94.11,Que contenham bromometano (brometo de metila) ou bromoclorometano,,01/04/2022,31/12/9999,272,2021
-3808.94.19,Outros,,01/04/2022,31/12/9999,272,2021
-3808.94.2,Apresentados de outro modo,,01/04/2022,31/12/9999,272,2021
-3808.94.21,Que contenham bromometano (brometo de metila) ou bromoclorometano,,01/04/2022,31/12/9999,272,2021
-3808.94.22,"Outros, à base de 2-(tiocianometiltio) benzotiazol",,01/04/2022,31/12/9999,272,2021
-3808.94.29,Outros,,01/04/2022,31/12/9999,272,2021
-3808.99,-- Outros,,01/04/2022,31/12/9999,272,2021
-3808.99.1,Apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,,01/04/2022,31/12/9999,272,2021
-3808.99.11,Que contenham bromometano (brometo de metila) ou bromoclorometano,,01/04/2022,31/12/9999,272,2021
-3808.99.19,Outros,,01/04/2022,31/12/9999,272,2021
-3808.99.20,"Apresentados de outro modo, que contenham bromometano (brometo de metila) ou bromoclorometano",,01/04/2022,31/12/9999,272,2021
-3808.99.9,Outros,,01/04/2022,31/12/9999,272,2021
-3808.99.91,"Acaricidas à base de amitraz, de clorfenvinfós ou de propargite",,01/04/2022,31/12/9999,272,2021
-3808.99.92,Acaricidas à base de ciexatin ou de óxido de fembutatina,,01/04/2022,31/12/9999,272,2021
-3808.99.93,Outros acaricidas,,01/04/2022,31/12/9999,272,2021
-3808.99.94,Nematicidas à base de metam sódio,,01/04/2022,31/12/9999,272,2021
-3808.99.95,Outros nematicidas,,01/04/2022,31/12/9999,272,2021
-3808.99.96,Raticidas,,01/04/2022,31/12/9999,272,2021
-3808.99.99,Outros,,01/04/2022,31/12/9999,272,2021
-38.09,"Agentes de apresto ou de acabamento, aceleradores de tingimento ou de fixação de matérias corantes e outros produtos e preparações (por exemplo, aprestos preparados e preparações mordentes) do tipo utilizado na indústria têxtil, na indústria do papel, na indústria do couro ou em indústrias semelhantes, não especificados nem compreendidos noutras posições.",,01/04/2022,31/12/9999,272,2021
-3809.10,- À base de matérias amiláceas,,01/04/2022,31/12/9999,272,2021
-3809.10.10,Do tipo utilizado na indústria têxtil,,01/04/2022,31/12/9999,272,2021
-3809.10.90,Outros,,01/04/2022,31/12/9999,272,2021
-3809.9,- Outros:,,01/04/2022,31/12/9999,272,2021
-3809.91,-- Do tipo utilizado na indústria têxtil ou nas indústrias semelhantes,,01/04/2022,31/12/9999,272,2021
-3809.91.10,Aprestos preparados,,01/04/2022,31/12/9999,272,2021
-3809.91.20,Preparações mordentes,,01/04/2022,31/12/9999,272,2021
-3809.91.30,Produtos ignífugos,,01/04/2022,31/12/9999,272,2021
-3809.91.4,Impermeabilizantes,,01/04/2022,31/12/9999,272,2021
-3809.91.41,À base de parafina ou de derivados de ácidos graxos (gordos),,01/04/2022,31/12/9999,272,2021
-3809.91.49,Outros,,01/04/2022,31/12/9999,272,2021
-3809.91.90,Outros,,01/04/2022,31/12/9999,272,2021
-3809.92,-- Do tipo utilizado na indústria do papel ou nas indústrias semelhantes,,01/04/2022,31/12/9999,272,2021
-3809.92.1,Impermeabilizantes,,01/04/2022,31/12/9999,272,2021
-3809.92.11,À base de parafina ou de derivados de ácidos graxos (gordos),,01/04/2022,31/12/9999,272,2021
-3809.92.19,Outros,,01/04/2022,31/12/9999,272,2021
-3809.92.90,Outros,,01/04/2022,31/12/9999,272,2021
-3809.93,-- Do tipo utilizado na indústria do couro ou nas indústrias semelhantes,,01/04/2022,31/12/9999,272,2021
-3809.93.1,Impermeabilizantes,,01/04/2022,31/12/9999,272,2021
-3809.93.11,À base de parafina ou de derivados de ácidos graxos (gordos),,01/04/2022,31/12/9999,272,2021
-3809.93.19,Outros,,01/04/2022,31/12/9999,272,2021
-3809.93.90,Outros,,01/04/2022,31/12/9999,272,2021
-38.10,"Preparações para decapagem de metais; fluxos para soldar e outras preparações auxiliares para soldar metais; pastas e pós para soldar, compostos de metal e de outras matérias; preparações do tipo utilizado para enchimento ou revestimento de eletrodos ou de varetas para soldar.",,01/04/2022,31/12/9999,272,2021
-3810.10,"- Preparações para decapagem de metais; pastas e pós para soldar, compostos de metal e de outras matérias",,01/04/2022,31/12/9999,272,2021
-3810.10.10,Preparações para decapagem de metais,,01/04/2022,31/12/9999,272,2021
-3810.10.20,Pastas e pós para soldar,,01/04/2022,31/12/9999,272,2021
-3810.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
-38.11,"Preparações antidetonantes, inibidores de oxidação, aditivos peptizantes, beneficiadores de viscosidade, aditivos anticorrosivos e outros aditivos preparados, para óleos minerais (incluindo a gasolina) ou para outros líquidos utilizados para os mesmos fins que os óleos minerais.",,01/04/2022,31/12/9999,272,2021
-3811.1,- Preparações antidetonantes:,,01/04/2022,31/12/9999,272,2021
-3811.11.00,-- À base de compostos de chumbo,,01/04/2022,31/12/9999,272,2021
-3811.19.00,-- Outras,,01/04/2022,31/12/9999,272,2021
-3811.2,- Aditivos para óleos lubrificantes:,,01/04/2022,31/12/9999,272,2021
-3811.21,-- Que contenham óleos de petróleo ou de minerais betuminosos,,01/04/2022,31/12/9999,272,2021
-3811.21.10,Melhoradores do índice de viscosidade,,01/04/2022,31/12/9999,272,2021
-3811.21.20,"Antidesgastes, anticorrosivos ou antioxidantes, que contenham dialquilditiofosfato de zinco ou diarilditiofosfato de zinco",,01/04/2022,31/12/9999,272,2021
-3811.21.30,Dispersantes sem cinzas,,01/04/2022,31/12/9999,272,2021
-3811.21.40,Detergentes metálicos,,01/04/2022,31/12/9999,272,2021
-3811.21.50,"Outras preparações que contenham, pelo menos, um de quaisquer dos produtos compreendidos nos itens 3811.21.10, 3811.21.20, 3811.21.30 e 3811.21.40",,01/04/2022,31/12/9999,272,2021
-3811.21.90,Outros,,01/04/2022,31/12/9999,272,2021
-3811.29,-- Outros,,01/04/2022,31/12/9999,272,2021
-3811.29.10,Dispersantes sem cinzas,,01/04/2022,31/12/9999,272,2021
-3811.29.20,Detergentes metálicos,,01/04/2022,31/12/9999,272,2021
-3811.29.90,Outros,,01/04/2022,31/12/9999,272,2021
-3811.90,- Outros,,01/04/2022,31/12/9999,272,2021
-3811.90.10,"Dispersantes sem cinzas, para óleos de petróleo combustíveis",,01/04/2022,31/12/9999,272,2021
-3811.90.90,Outros,,01/04/2022,31/12/9999,272,2021
-38.12,"Preparações denominadas ""aceleradores de vulcanização""; plastificantes compostos para borracha ou plástico, não especificados nem compreendidos noutras posições; preparações antioxidantes e outros estabilizadores compostos, para borracha ou plástico.",,01/04/2022,31/12/9999,272,2021
-3812.10.00,"- Preparações denominadas ""aceleradores de vulcanização""",,01/04/2022,31/12/9999,272,2021
-3812.20.00,- Plastificantes compostos para borracha ou plástico,,01/04/2022,31/12/9999,272,2021
-3812.3,"- Preparações antioxidantes e outros estabilizadores compostos, para borracha ou plástico:",,01/04/2022,31/12/9999,272,2021
-3812.31.00,"-- Misturas de oligômeros de 2,2,4-trimetil-1,2-di-hidroquinolina (TMQ)",,01/04/2022,31/12/9999,272,2021
-3812.39,-- Outros,,01/04/2022,31/12/9999,272,2021
-3812.39.1,Para borracha,,01/04/2022,31/12/9999,272,2021
-3812.39.11,Que contenham derivados N-substituídos de p-fenilenodiamina,,01/04/2022,31/12/9999,272,2021
-3812.39.12,"Que contenham fosfitos de alquila, de arila ou de alquil-arila",,01/04/2022,31/12/9999,272,2021
-3812.39.19,Outros,,01/04/2022,31/12/9999,272,2021
-3812.39.2,Para plástico,,01/04/2022,31/12/9999,272,2021
-3812.39.21,Que contenham derivados N-substituídos de p-fenilenodiamina,,01/04/2022,31/12/9999,272,2021
-3812.39.29,Outros,,01/04/2022,31/12/9999,272,2021
-3813.00,"Composições e cargas para aparelhos extintores; granadas e bombas, extintoras.",,01/04/2022,31/12/9999,272,2021
-3813.00.10,"Que contenham bromoclorodifluorometano, bromotrifluorometano ou dibromotetrafluoroetanos",,01/04/2022,31/12/9999,272,2021
-3813.00.20,"Que contenham hidrobromofluorcarbonetos (HBFC) do metano, do etano ou do propano",,01/04/2022,31/12/9999,272,2021
-3813.00.30,"Que contenham hidroclorofluorcarbonetos (HCFC) do metano, do etano ou do propano",,01/04/2022,31/12/9999,272,2021
-3813.00.40,Que contenham bromoclorometano,,01/04/2022,31/12/9999,272,2021
-3813.00.90,Outros,,01/04/2022,31/12/9999,272,2021
-3814.00,"Solventes e diluentes orgânicos compostos, não especificados nem compreendidos noutras posições; preparações concebidas para remover tintas ou vernizes.",,01/04/2022,31/12/9999,272,2021
-3814.00.10,"Que contenham clorofluorcarbonetos (CFC) do metano, do etano ou do propano, mesmo que contenham hidroclorofluorcarbonetos (HCFC)",,01/04/2022,31/12/9999,272,2021
-3814.00.20,"Que contenham hidroclorofluorcarbonetos (HCFC) do metano, do etano ou do propano, mas que não contenham clorofluorcarbonetos (CFC)",,01/04/2022,31/12/9999,272,2021
-3814.00.30,"Que contenham tetracloreto de carbono, bromoclorometano ou 1,1,1-tricloroetano (metilclorofórmio)",,01/04/2022,31/12/9999,272,2021
-3814.00.90,Outros,,01/04/2022,31/12/9999,272,2021
-38.15,"Iniciadores de reação, aceleradores de reação e preparações catalíticas, não especificados nem compreendidos noutras posições.",,01/04/2022,31/12/9999,272,2021
-3815.1,- Catalisadores em suporte:,,01/04/2022,31/12/9999,272,2021
-3815.11.00,-- Tendo como substância ativa o níquel ou um composto de níquel,,01/04/2022,31/12/9999,272,2021
-3815.12,-- Tendo como substância ativa um metal precioso ou um composto de metal precioso,,01/04/2022,31/12/9999,272,2021
-3815.12.10,Em colmeia cerâmica ou metálica para conversão catalítica de gases de escape de veículos,,01/04/2022,31/12/9999,272,2021
-3815.12.20,Com tamanho de partícula inferior a 500 micrômetros (mícrons),,01/04/2022,31/12/9999,272,2021
-3815.12.90,Outros,,01/04/2022,31/12/9999,272,2021
-3815.19.00,-- Outros,,01/04/2022,31/12/9999,272,2021
-3815.90,- Outros,,01/04/2022,31/12/9999,272,2021
-3815.90.10,Para craqueamento de petróleo,,01/04/2022,31/12/9999,272,2021
-3815.90.9,Outros,,01/04/2022,31/12/9999,272,2021
-3815.90.91,Tendo como substância ativa o isoprenilalumínio (IPRA),,01/04/2022,31/12/9999,272,2021
-3815.90.92,Tendo como substância ativa o óxido de zinco,,01/04/2022,31/12/9999,272,2021
-3815.90.93,Tendo como substância ativa óxidos de terras raras,,01/04/2022,31/12/9999,272,2021
-3815.90.99,Outros,,01/04/2022,31/12/9999,272,2021
-3816.00,"Cimentos, argamassas, concretos (betões) e composições semelhantes, refratários, incluindo os aglomerados de dolomita, exceto os produtos da posição 38.01.",,01/04/2022,31/12/9999,272,2021
-3816.00.1,Cimentos e argamassas,,01/04/2022,31/12/9999,272,2021
-3816.00.11,À base de magnesita calcinada,,01/04/2022,31/12/9999,272,2021
-3816.00.12,À base de silimanita,,01/04/2022,31/12/9999,272,2021
-3816.00.19,Outros,,01/04/2022,31/12/9999,272,2021
-3816.00.2,"Outras preparações à base de cromo-magnesita, de zircônio, de silimanita, de cianita, de andaluzita, de coríndon ou de diaspório",,01/04/2022,31/12/9999,272,2021
-3816.00.21,"Que contenham grafita e 50 % ou mais, em peso, de coríndon",,01/04/2022,31/12/9999,272,2021
-3816.00.29,Outras,,01/04/2022,31/12/9999,272,2021
-3816.00.90,Outros,,01/04/2022,31/12/9999,272,2021
-3817.00,"Misturas de alquilbenzenos ou de alquilnaftalenos, exceto as das posições 27.07 ou 29.02.",,01/04/2022,31/12/9999,272,2021
-3817.00.10,Misturas de alquilbenzenos,,01/04/2022,31/12/9999,272,2021
-3817.00.20,Misturas de alquilnaftalenos,,01/04/2022,31/12/9999,272,2021
-3818.00,"Elementos químicos dopados, próprios para utilização em eletrônica, em forma de discos, wafers ou formas análogas; compostos químicos dopados, próprios para utilização em eletrônica.",,01/04/2022,31/12/9999,272,2021
-3818.00.10,De silício,,01/04/2022,31/12/9999,272,2021
-3818.00.90,Outros,,01/04/2022,31/12/9999,272,2021
-3819.00.00,"Fluidos para freios (travões) hidráulicos e outros líquidos preparados para transmissões hidráulicas, que não contenham óleos de petróleo nem de minerais betuminosos, ou que os contenham em proporção inferior a 70 %, em peso.",,01/04/2022,31/12/9999,272,2021
-3820.00.00,Preparações anticongelantes e líquidos preparados para descongelamento.,,01/04/2022,31/12/9999,272,2021
-3821.00.00,"Meios de cultura preparados para o desenvolvimento e a manutenção de microrganismos (incluindo os vírus e os organismos similares) ou de células vegetais, humanas ou animais.",,01/04/2022,31/12/9999,272,2021
-38.22,"Reagentes de diagnóstico ou de laboratório em qualquer suporte e reagentes de diagnóstico ou de laboratório preparados, mesmo num suporte, mesmo apresentados sob a forma de estojos, exceto os da posição 30.06; materiais de referência certificados.",,01/04/2022,31/12/9999,272,2021
-3822.1,"- Reagentes de diagnóstico ou de laboratório em qualquer suporte e reagentes de diagnóstico ou de laboratório preparados, mesmo num suporte, mesmo apresentados sob a forma de estojos:",,01/04/2022,31/12/9999,272,2021
-3822.11.00,-- Para a malária (paludismo),,01/04/2022,31/12/9999,272,2021
-3822.12.00,-- Para a zika e outras doenças transmitidas por mosquitos do gênero Aedes,,01/04/2022,31/12/9999,272,2021
-3822.13.00,-- Para a determinação dos grupos ou dos fatores sanguíneos,,01/04/2022,31/12/9999,272,2021
-3822.19,-- Outros,,01/04/2022,31/12/9999,272,2021
-3822.19.10,"Reagentes para determinação de componentes do sangue ou da urina, sobre suporte de papel, em rolos, sem suporte adicional hidrófobo, impróprios para uso direto",,01/04/2022,31/12/9999,272,2021
-3822.19.20,"Reagentes para determinação de glicose no sangue, sobre suporte em tiras, para uso direto",,01/04/2022,31/12/9999,272,2021
-3822.19.30,Reagentes de origem microbiana para diagnóstico,,01/04/2022,31/12/9999,272,2021
-3822.19.40,"Anticorpos monoclonais em solução tampão, que contenham albumina bovina",,01/04/2022,31/12/9999,272,2021
-3822.19.90,Outros,,01/04/2022,31/12/9999,272,2021
-3822.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
-38.23,Ácidos graxos (gordos) monocarboxílicos industriais; óleos ácidos de refinação; álcoois graxos (gordos) industriais.,,01/04/2022,31/12/9999,272,2021
-3823.1,- Ácidos graxos (gordos) monocarboxílicos industriais; óleos ácidos de refinação:,,01/04/2022,31/12/9999,272,2021
-3823.11.00,-- Ácido esteárico,,01/04/2022,31/12/9999,272,2021
-3823.12.00,-- Ácido oleico,,01/04/2022,31/12/9999,272,2021
-3823.13.00,-- Ácidos graxos (gordos) do tall oil,,01/04/2022,31/12/9999,272,2021
-3823.19,-- Outros,,01/04/2022,31/12/9999,272,2021
-3823.19.10,Ácido caprílico,,01/04/2022,31/12/9999,272,2021
-3823.19.90,Outros,,01/04/2022,31/12/9999,272,2021
-3823.70,- Álcoois graxos (gordos) industriais,,01/04/2022,31/12/9999,272,2021
-3823.70.10,Esteárico,,01/04/2022,31/12/9999,272,2021
-3823.70.20,Láurico,,01/04/2022,31/12/9999,272,2021
-3823.70.40,Cetílico,,01/04/2022,31/12/9999,272,2021
-3823.70.90,Outros,,01/04/2022,31/12/9999,272,2021
-38.24,"Aglutinantes preparados para moldes ou para núcleos de fundição; produtos químicos e preparações das indústrias químicas ou das indústrias conexas (incluindo os constituídos por misturas de produtos naturais), não especificados nem compreendidos noutras posições.",,01/04/2022,31/12/9999,272,2021
-3824.10.00,- Aglutinantes preparados para moldes ou para núcleos de fundição,,01/04/2022,31/12/9999,272,2021
-3824.30.00,"- Carbonetos metálicos não aglomerados, misturados entre si ou com aglutinantes metálicos",,01/04/2022,31/12/9999,272,2021
-3824.40.00,"- Aditivos preparados para cimentos, argamassas ou concretos (betões)",,01/04/2022,31/12/9999,272,2021
-3824.50.00,"- Argamassas e concretos (betões), não refratários",,01/04/2022,31/12/9999,272,2021
-3824.60.00,"- Sorbitol, exceto o da subposição 2905.44",,01/04/2022,31/12/9999,272,2021
-3824.8,- Mercadorias mencionadas na Nota de subposições 3 do presente Capítulo:,,01/04/2022,31/12/9999,272,2021
-3824.81,-- Que contenham oxirano (óxido de etileno),,01/04/2022,31/12/9999,272,2021
-3824.81.10,"Mistura de óxido de propileno com um conteúdo de óxido de etileno inferior ou igual a 30 %, em peso",,01/04/2022,31/12/9999,272,2021
-3824.81.90,Outras,,01/04/2022,31/12/9999,272,2021
-3824.82,"-- Que contenham polibromobifenilas (PBB), policloroterfenilas (PCT) ou policlorobifenilas (PCB)",,01/04/2022,31/12/9999,272,2021
-3824.82.10,Que contenham policlorobifenilas (PCB),,01/04/2022,31/12/9999,272,2021
-3824.82.90,Outras,,01/04/2022,31/12/9999,272,2021
-3824.83.00,"-- Que contenham fosfato de tris(2,3-dibromopropila)",,01/04/2022,31/12/9999,272,2021
-3824.84.00,"-- Que contenham aldrin (ISO), canfecloro (ISO) (toxafeno), clordano (ISO), clordecona (ISO), DDT (ISO) (clofenotano (DCI), 1,1,1-tricloro-2,2-bis(p-clorofenil)etano), dieldrin (ISO, DCI), endossulfan (ISO), endrin (ISO), heptacloro (ISO) ou mirex (ISO)",,01/04/2022,31/12/9999,272,2021
-3824.85.00,"-- Que contenham 1,2,3,4,5,6-hexaclorocicloexano (HCH (ISO)), incluindo o lindano (ISO, DCI)",,01/04/2022,31/12/9999,272,2021
-3824.86.00,-- Que contenham pentaclorobenzeno (ISO) ou hexaclorobenzeno (ISO),,01/04/2022,31/12/9999,272,2021
-3824.87.00,"-- Que contenham ácido perfluoroctano sulfônico, seus sais, perfluoroctanossulfonamidas, ou fluoreto de perfluoroctanossulfonila",,01/04/2022,31/12/9999,272,2021
-3824.88,"-- Que contenham éteres tetra-, penta-, hexa-, hepta- ou octabromodifenílicos",,01/04/2022,31/12/9999,272,2021
-3824.88.10,Que contenham éteres tetra- ou pentabromodifenílicos,,01/04/2022,31/12/9999,272,2021
-3824.88.20,"Que contenham éteres hexa-, hepta- ou octabromodifenílicos",,01/04/2022,31/12/9999,272,2021
-3824.89.00,-- Que contenham parafinas cloradas de cadeia curta,,01/04/2022,31/12/9999,272,2021
-3824.9,- Outros:,,01/04/2022,31/12/9999,272,2021
-3824.91.00,"-- Misturas e preparações constituídas principalmente por metilfosfonato de (5-etil-2-metil-2-óxido-1,3,2-dioxafosfinan-5-il)metil metila e metilfosfonato de bis[(5-etil-2-metil-2-óxido-1,3,2-dioxafosfinan-5-il)metila]",,01/04/2022,31/12/9999,272,2021
-3824.92.00,-- Ésteres de poliglicol do ácido metilfosfônico,,01/04/2022,31/12/9999,272,2021
-3824.99,-- Outros,,01/04/2022,31/12/9999,272,2021
-3824.99.1,Produtos intermediários da fabricação de antibióticos ou de vitaminas ou de outros produtos da posição 29.36,,01/04/2022,31/12/9999,272,2021
-3824.99.11,Salinomicina micelial,,01/04/2022,31/12/9999,272,2021
-3824.99.12,"Com um teor de cianocobalamina inferior ou igual a 55 %, em peso",,01/04/2022,31/12/9999,272,2021
-3824.99.13,Da fabricação da primicina amônica,,01/04/2022,31/12/9999,272,2021
-3824.99.14,"Senduramicina sódica, da fabricação da senduramicina",,01/04/2022,31/12/9999,272,2021
-3824.99.15,"Maduramicina amônica, em solução alcoólica, da fabricação da maduramicina",,01/04/2022,31/12/9999,272,2021
-3824.99.19,Outros,,01/04/2022,31/12/9999,272,2021
-3824.99.2,Derivados de ácidos graxos (gordos) industriais; misturas e preparações que contenham álcoois graxos (gordos) ou ácidos carboxílicos ou derivados destes produtos,,01/04/2022,31/12/9999,272,2021
-3824.99.21,Ácidos graxos (gordos) dimerizados; preparações que contenham ácidos graxos (gordos) dimerizados,,01/04/2022,31/12/9999,272,2021
-3824.99.22,Preparações que contenham estearoilbenzoilmetano e palmitoilbenzoilmetano; preparações que contenham caprilato e caprato de propilenoglicol,,01/04/2022,31/12/9999,272,2021
-3824.99.23,Preparações que contenham triglicerídios dos ácidos caprílico e cáprico,,01/04/2022,31/12/9999,272,2021
-3824.99.24,Ésteres de álcoois graxos (gordos) de C12 a C20 do ácido metacrílico e suas misturas; ésteres de ácidos monocarboxílicos de C10 ramificados com glicerol,,01/04/2022,31/12/9999,272,2021
-3824.99.25,"Misturas de ésteres dimetílicos dos ácidos adípico, glutárico e succínico; misturas de ácidos dibásicos de C11 e C12; ácidos naftênicos, seus sais insolúveis em água e seus ésteres",,01/04/2022,31/12/9999,272,2021
-3824.99.29,Outros,,01/04/2022,31/12/9999,272,2021
-3824.99.3,"Misturas e preparações para borracha ou plástico e outras misturas e preparações para endurecer resinas sintéticas, colas, pinturas ou usos semelhantes",,01/04/2022,31/12/9999,272,2021
-3824.99.31,Que contenham isocianatos de hexametileno ou outros isocianatos,,01/04/2022,31/12/9999,272,2021
-3824.99.32,Que contenham aminas graxas de C8 a C22,,01/04/2022,31/12/9999,272,2021
-3824.99.33,"Que contenham polietilenoaminas e dietilenotriaminas, próprias para a coagulação do látex",,01/04/2022,31/12/9999,272,2021
-3824.99.34,"Outras, que contenham polietilenoaminas",,01/04/2022,31/12/9999,272,2021
-3824.99.35,"Misturas de mono-, di- e triisopropanolaminas",,01/04/2022,31/12/9999,272,2021
-3824.99.36,Reticulantes para silicones,,01/04/2022,31/12/9999,272,2021
-3824.99.39,Outras,,01/04/2022,31/12/9999,272,2021
-3824.99.4,"Misturas e preparações desincrustantes, anticorrosivas ou antioxidantes; fluidos para a transferência de calor",,01/04/2022,31/12/9999,272,2021
-3824.99.41,"Preparações desincrustantes, anticorrosivas ou antioxidantes",,01/04/2022,31/12/9999,272,2021
-3824.99.42,Mistura eutética de difenila e óxido de difenila,,01/04/2022,31/12/9999,272,2021
-3824.99.43,"À base de trimetil-3,9-dietildecano",,01/04/2022,31/12/9999,272,2021
-3824.99.49,Outros,,01/04/2022,31/12/9999,272,2021
-3824.99.5,Polietilenoglicóis e suas misturas; polipropilenoglicóis e suas misturas; misturas e preparações que contenham ésteres de ácidos inorgânicos e seus derivados,,01/04/2022,31/12/9999,272,2021
-3824.99.51,Antiespumantes que contenham fosfato de tributila em solução de álcool isopropílico,,01/04/2022,31/12/9999,272,2021
-3824.99.52,Misturas de polietilenoglicóis,,01/04/2022,31/12/9999,272,2021
-3824.99.53,Polipropilenoglicol líquido,,01/04/2022,31/12/9999,272,2021
-3824.99.54,Retardante de chama que contenha misturas de trifenilfosfatos isopropilados,,01/04/2022,31/12/9999,272,2021
-3824.99.59,Outros,,01/04/2022,31/12/9999,272,2021
-3824.99.6,Contrastes para exames de diagnóstico por imagens de ressonância magnética ou de ecografia,,01/04/2024,31/12/9999,547,2023
-3824.99.61,"À base de gadobenato de dimeglumina, de gadobutrol, de gadopentetato de dimeglumina, de gadoterato de meglumina, de gadoteridol ou de gadoxetato dissódico",,01/04/2024,31/12/9999,547,2023
-3824.99.62,À base de hexafluoreto de enxofre,,01/04/2024,31/12/9999,547,2023
-3824.99.69,Outros,,01/04/2024,31/12/9999,547,2023
-3824.99.7,"Produtos e preparações à base de elementos químicos ou de seus compostos inorgânicos, não especificados nem compreendidos noutras posições",,01/04/2022,31/12/9999,272,2021
-3824.99.71,Cal sodada; carbonato de cálcio hidrófugo,,01/04/2022,31/12/9999,272,2021
-3824.99.72,"Preparações à base de sílica em suspensão coloidal; nitreto de boro de estrutura cristalina cúbica, compactado com substrato de carboneto de tungstênio (volfrâmio)",,01/04/2022,31/12/9999,272,2021
-3824.99.73,Preparações à base de carboneto de tungstênio (volfrâmio) com níquel como aglomerante; brometo de hidrogênio em solução,,01/04/2022,31/12/9999,272,2021
-3824.99.74,"Preparações à base de hidróxido de níquel ou de cádmio, de óxido de cádmio ou de óxido ferroso férrico, próprios para a fabricação de acumuladores alcalinos",,01/04/2022,31/12/9999,272,2021
-3824.99.75,Preparações utilizadas na elaboração de meios de cultura; trocadores de íons para o tratamento de águas; preparações à base de zeólitas artificiais,,01/04/2022,31/12/9999,272,2021
-3824.99.76,Compostos absorventes à base de metais para aperfeiçoar o vácuo nos tubos ou válvulas elétricas,,01/04/2022,31/12/9999,272,2021
-3824.99.77,Adubos (fertilizantes) foliares que contenham zinco ou manganês,,01/04/2022,31/12/9999,272,2021
-3824.99.78,"Preparações à base de óxido de alumínio e óxido de zircônio, com um conteúdo de óxido de zircônio igual ou superior a 20 %, em peso; preparações de óxido de alumínio com óxido de lantânio",,01/04/2022,31/12/9999,272,2021
-3824.99.79,Outros,,01/04/2022,31/12/9999,272,2021
-3824.99.8,"Produtos e preparações à base de compostos orgânicos, não especificados nem compreendidos noutras posições",,01/04/2022,31/12/9999,272,2021
-3824.99.81,"Preparações à base de anidrido poliisobutenilsuccínico, em óleo mineral",,01/04/2022,31/12/9999,272,2021
-3824.99.82,Halquinol; tetraclorohidroxiglicina de alumínio e zircônio,,01/04/2022,31/12/9999,272,2021
-3824.99.83,"Triisocianato de tiofosfato de fenila ou de trifenilmetano, em solução de cloreto de metileno ou de acetato de etila; preparações à base de tetraacetiletilenodiamina (TAED), em grânulos",,01/04/2022,31/12/9999,272,2021
-3824.99.84,Que contenham éteres decabromodifenílicos,,01/04/2022,31/12/9999,272,2021
-3824.99.85,Metilato de sódio em metanol,,01/04/2022,31/12/9999,272,2021
-3824.99.86,Maneb; mancozeb; cloreto de benzalcônio,,01/04/2022,31/12/9999,272,2021
-3824.99.87,Dispersão aquosa de microcápsulas de poliuretano ou de melamina-formaldeído que contenha um precursor de corante em solventes orgânicos,,01/04/2022,31/12/9999,272,2021
-3824.99.88,"Misturas constituídas principalmente pelos compostos seguintes (grupos alquila de C1 a C3, exceto nos casos expressamente indicados): alquilfosfonofluoridatos de O-alquila (de até C10, incluindo cicloalquila); N,N-dialquilfosforoamidocianidatos de O-alquila (de até C10, incluindo cicloalquila); hidrogênio alquilfosfonotioatos de [S-2-(dialquilamino)etila], seus ésteres de O-alquila (de até C10, incluindo cicloalquila) ou seus sais alquilados ou protonados; difluoretos de alquilfosfonila; hidrogênio alquilfosfonitos de [O-2-(dialquilamino)etila], seus ésteres de O-alquila (de até C10, incluindo cicloalquila) ou seus sais alquilados ou protonados; dialogenetos de N,N-dialquilfosforoamídicos; N,N-dialquilfosforoamidatos de dialquila; N,N-dialquil-2-cloroetilaminas ou seus sais protonados; N,N-dialquil-2-aminoetanóis ou seus sais protonados; N,N-dialquilaminoetano-2-tióis ou seus sais protonados; outras misturas constituídas principalmente por compostos que contenham um átomo de fósforo ligado a um grupo alquila (de C1 a C3) mas sem outros átomos de carbono",,01/04/2024,31/12/9999,547,2023
-3824.99.89,Outros,,01/04/2022,31/12/9999,272,2021
-38.25,"Produtos residuais das indústrias químicas ou das indústrias conexas, não especificados nem compreendidos noutras posições; resíduos municipais; lamas de tratamento de esgotos (lamas de depuração*); outros resíduos mencionados na Nota 6 deste Capítulo.",,01/04/2022,31/12/9999,272,2021
-3825.10.00,- Resíduos municipais,,01/04/2022,31/12/9999,272,2021
-3825.20.00,- Lamas de tratamento de esgotos (Lamas de depuração*),,01/04/2022,31/12/9999,272,2021
-3825.30.00,- Resíduos clínicos,,01/04/2022,31/12/9999,272,2021
-3825.4,- Resíduos de solventes orgânicos:,,01/04/2022,31/12/9999,272,2021
-3825.41.00,-- Halogenados,,01/04/2022,31/12/9999,272,2021
-3825.49.00,-- Outros,,01/04/2022,31/12/9999,272,2021
-3825.50.00,"- Resíduos de soluções decapantes para metais, de fluidos hidráulicos, de fluidos para freios (travões) e de fluidos anticongelantes",,01/04/2022,31/12/9999,272,2021
-3825.6,- Outros resíduos das indústrias químicas ou das indústrias conexas:,,01/04/2022,31/12/9999,272,2021
-3825.61.00,-- Que contenham principalmente constituintes orgânicos,,01/04/2022,31/12/9999,272,2021
-3825.69.00,-- Outros,,01/04/2022,31/12/9999,272,2021
-3825.90.00,- Outros,,01/04/2022,31/12/9999,272,2021
-3826.00.00,"Biodiesel e suas misturas, que não contenham ou que contenham menos de 70 %, em peso, de óleos de petróleo ou de óleos minerais betuminosos.",,01/04/2022,31/12/9999,272,2021
-38.27,"Misturas que contenham derivados halogenados do metano, do etano ou do propano, não especificadas nem compreendidas noutras posições.",,01/04/2022,31/12/9999,272,2021
-3827.1,"- Que contenham clorofluorcarbonetos (CFC), mesmo que contenham hidroclorofluorcarbonetos (HCFC), perfluorcarbonetos (PFC) ou hidrofluorcarbonetos (HFC); que contenham hidrobromofluorcarbonetos (HBFC); que contenham tetracloreto de carbono; que contenham 1,1,1-tricloroetano (metilclorofórmio):",,01/04/2022,31/12/9999,272,2021
-3827.11,"-- Que contenham clorofluorcarbonetos (CFC), mesmo que contenham hidroclorofluorcarbonetos (HCFC), perfluorcarbonetos (PFC) ou hidrofluorcarbonetos (HFC)",,01/04/2022,31/12/9999,272,2021
-3827.11.10,Que contenham triclorotrifluoroetanos,,01/04/2022,31/12/9999,272,2021
-3827.11.90,Outras,,01/04/2022,31/12/9999,272,2021
-3827.12.00,-- Que contenham hidrobromofluorcarbonetos (HBFC),,01/04/2022,31/12/9999,272,2021
-3827.13.00,-- Que contenham tetracloreto de carbono,,01/04/2022,31/12/9999,272,2021
-3827.14.00,"-- Que contenham 1,1,1-tricloroetano (metilclorofórmio)",,01/04/2022,31/12/9999,272,2021
-3827.20.00,"- Que contenham bromoclorodifluorometano (halon-1211), bromotrifluorometano (halon-1301) ou dibromotetrafluoroetanos (halon-2402)",,01/04/2022,31/12/9999,272,2021
-3827.3,"- Que contenham hidroclorofluorcarbonetos (HCFC), mesmo que contenham perfluorcarbonetos (PFC) ou hidrofluorcarbonetos (HFC), mas que não contenham clorofluorcarbonetos (CFC):",,01/04/2022,31/12/9999,272,2021
-3827.31,-- Que contenham substâncias das subposições 2903.41 a 2903.48,,01/04/2022,31/12/9999,272,2021
-3827.31.10,Que contenham clorodifluorometano e pentafluoroetano,,01/04/2022,31/12/9999,272,2021
-3827.31.90,Outras,,01/04/2022,31/12/9999,272,2021
-3827.32,"-- Outras, que contenham substâncias das subposições 2903.71 a 2903.75",,01/04/2022,31/12/9999,272,2021
-3827.32.10,Que contenham clorodifluorometano e clorotetrafluoroetano,,01/04/2022,31/12/9999,272,2021
-3827.32.90,Outras,,01/04/2022,31/12/9999,272,2021
-3827.39.00,-- Outras,,01/04/2022,31/12/9999,272,2021
-3827.40.00,- Que contenham brometo de metila (bromometano) ou bromoclorometano,,01/04/2022,31/12/9999,272,2021
-3827.5,"- Que contenham trifluorometano (HFC-23) ou perfluorcarbonetos (PFC), mas que não contenham clorofluorcarbonetos (CFC) ou hidroclorofluorcarbonetos (HCFC):",,01/04/2022,31/12/9999,272,2021
-3827.51.00,-- Que contenham trifluorometano (HFC-23),,01/04/2022,31/12/9999,272,2021
-3827.59.00,-- Outras,,01/04/2022,31/12/9999,272,2021
-3827.6,"- Que contenham outros hidrofluorcarbonetos (HFC), mas que não contenham clorofluorcarbonetos (CFC) ou hidroclorofluorcarbonetos (HCFC):",,01/04/2022,31/12/9999,272,2021
-3827.61.00,"-- Que contenham, em massa, 15 % ou mais de 1,1,1-trifluoroetano (HFC-143a)",,01/04/2022,31/12/9999,272,2021
-3827.62.00,"-- Outras, não mencionadas na subposição acima, que contenham, em massa, 55 % ou mais de pentafluoroetano (HFC-125), mas que não contenham derivados fluorados não saturados dos hidrocarbonetos acíclicos (HFO)",,01/04/2022,31/12/9999,272,2021
-3827.63.00,"-- Outras, não mencionadas nas subposições acima, que contenham, em massa, 40 % ou mais de pentafluoroetano (HFC-125)",,01/04/2022,31/12/9999,272,2021
-3827.64.00,"-- Outras, não mencionadas nas subposições acima, que contenham, em massa, 30 % ou mais de 1,1,1,2-tetrafluoroetano (HFC-134a), mas que não contenham derivados fluorados não saturados dos hidrocarbonetos acíclicos (HFO)",,01/04/2022,31/12/9999,272,2021
-3827.65.00,"-- Outras, não mencionadas nas subposições acima, que contenham, em massa, 20 % ou mais de difluorometano (HFC-32) e 20 % ou mais de pentafluoroetano (HFC-125)",,01/04/2022,31/12/9999,272,2021
-3827.68.00,"-- Outras, não mencionadas nas subposições acima, que contenham substâncias das subposições 2903.41 a 2903.48",,01/04/2022,31/12/9999,272,2021
-3827.69.00,-- Outras,,01/04/2022,31/12/9999,272,2021
-3827.90.00,- Outras,,01/04/2022,31/12/9999,272,2021
+codigo_ncm,descricao,data_inicio,data_fim,numero,ano
+38,Produtos diversos das indústrias químicas.,2022-04-01,,272,2021
+38.01,"Grafita artificial; grafita coloidal ou semicoloidal; preparações à base de grafita ou de outros carbonos, em pastas, blocos, plaquetas ou outros produtos intermediários.",2022-04-01,,272,2021
+3801.10.00,- Grafita artificial,2022-04-01,,272,2021
+3801.20,- Grafita coloidal ou semicoloidal,2022-04-01,,272,2021
+3801.20.10,Suspensão semicoloidal em óleos minerais,2022-04-01,,272,2021
+3801.20.90,Outros,2022-04-01,,272,2021
+3801.30,- Pastas carbonadas para eletrodos e pastas semelhantes para revestimento interior de fornos,2022-04-01,,272,2021
+3801.30.10,Pasta carbonada para eletrodos,2022-04-01,,272,2021
+3801.30.90,Outras,2022-04-01,,272,2021
+3801.90.00,- Outras,2022-04-01,,272,2021
+38.02,"Carvões ativados; matérias minerais naturais ativadas; negros de origem animal, incluindo o negro animal esgotado.",2022-04-01,,272,2021
+3802.10.00,- Carvões ativados,2022-04-01,,272,2021
+3802.90,- Outros,2022-04-01,,272,2021
+3802.90.10,Farinhas siliciosas fósseis,2022-04-01,,272,2021
+3802.90.20,Bentonita,2022-04-01,,272,2021
+3802.90.30,Atapulgita,2022-04-01,,272,2021
+3802.90.40,Outras argilas e terras,2022-04-01,,272,2021
+3802.90.50,Bauxita,2022-04-01,,272,2021
+3802.90.90,Outros,2022-04-01,,272,2021
+3803.00,"Tall oil, mesmo refinado.",2022-04-01,,272,2021
+3803.00.10,Em bruto,2022-04-01,,272,2021
+3803.00.90,Outros,2022-04-01,,272,2021
+3804.00,"Lixívias residuais da fabricação das pastas de celulose, mesmo concentradas, desaçucaradas ou tratadas quimicamente, incluindo os lignossulfonatos, mas excluindo o tall oil da posição 38.03.",2022-04-01,,272,2021
+3804.00.1,Lixívias residuais da fabricação de pastas de celulose,2022-04-01,,272,2021
+3804.00.11,Ao sulfito,2022-04-01,,272,2021
+3804.00.12,À soda ou ao sulfato,2022-04-01,,272,2021
+3804.00.20,Lignossulfonatos,2022-04-01,,272,2021
+38.05,"Essências de terebintina, de pinheiro ou provenientes da fabricação da pasta de papel ao sulfato e outras essências terpênicas provenientes da destilação ou de outros tratamentos das madeiras de coníferas; dipenteno em bruto; essência proveniente da fabricação da pasta de papel ao bissulfito e outros paracimenos em bruto; óleo de pinho que contenha alfa-terpineol como constituinte principal.",2022-04-01,,272,2021
+3805.10.00,"- Essências de terebintina, de pinheiro ou provenientes da fabricação da pasta de papel ao sulfato",2022-04-01,,272,2021
+3805.90,- Outros,2022-04-01,,272,2021
+3805.90.10,Óleo de pinho,2022-04-01,,272,2021
+3805.90.90,Outros,2022-04-01,,272,2021
+38.06,"Colofônias e ácidos resínicos, e seus derivados; essência de colofônia e óleos de colofônia; gomas fundidas.",2022-04-01,,272,2021
+3806.10.00,- Colofônias e ácidos resínicos,2022-04-01,,272,2021
+3806.20.00,"- Sais de colofônias, de ácidos resínicos ou de derivados de colofônias ou de ácidos resínicos, exceto os sais de aductos de colofônias",2022-04-01,,272,2021
+3806.30.00,- Gomas ésteres,2022-04-01,,272,2021
+3806.90,- Outros,2022-04-01,,272,2021
+3806.90.1,Outros derivados de colofônias ou de ácidos resínicos,2022-04-01,,272,2021
+3806.90.11,"Colofônias oxidadas, hidrogenadas, desidrogenadas, polimerizadas ou modificadas com ácidos fumárico ou maleico ou com anidrido maleico",2022-04-01,,272,2021
+3806.90.12,Abietatos de metila ou de benzila; hidroabietato de metila,2022-04-01,,272,2021
+3806.90.19,Outros,2022-04-01,,272,2021
+3806.90.90,Outros,2022-04-01,,272,2021
+3807.00.00,"Alcatrões de madeira; óleos de alcatrão de madeira; creosoto de madeira; metileno; breu (pez) vegetal; breu (pez) para a indústria da cerveja e preparações semelhantes à base de colofônias, de ácidos resínicos ou de breu (pez) vegetal.",2022-04-01,,272,2021
+38.08,"Inseticidas, rodenticidas, fungicidas, herbicidas, inibidores de germinação e reguladores de crescimento para plantas, desinfetantes e produtos semelhantes, apresentados em formas ou embalagens para venda a retalho ou como preparações ou ainda sob a forma de artigos, tais como fitas, mechas e velas sulfuradas e papel mata-moscas.",2022-04-01,,272,2021
+3808.5,- Mercadorias mencionadas na Nota de subposições 1 do presente Capítulo:,2022-04-01,,272,2021
+3808.52.00,"-- DDT (ISO) (clofenotano (DCI)), acondicionado em embalagens com um conteúdo de peso líquido não superior a 300 g",2022-04-01,,272,2021
+3808.59,-- Outras,2022-04-01,,272,2021
+3808.59.10,Apresentadas em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,2022-04-01,,272,2021
+3808.59.2,Apresentadas de outro modo,2022-04-01,,272,2021
+3808.59.21,À base de metamidofós (ISO) ou de monocrotofós (ISO),2022-04-01,,272,2021
+3808.59.22,À base de endossulfan (ISO),2022-04-01,,272,2021
+3808.59.23,À base de alaclor (ISO),2022-04-01,,272,2021
+3808.59.24,"À base de 1,2,3,4,5,6-hexaclorocicloexano (HCH (ISO)), incluindo o lindano (ISO, DCI)",2022-04-01,,272,2021
+3808.59.25,À base de triclorfom (ISO),2022-04-01,,272,2021
+3808.59.26,À base de N-etilperfluoroctano sulfonamida,2022-04-01,,272,2021
+3808.59.29,Outras,2022-04-01,,272,2021
+3808.6,- Mercadorias mencionadas na Nota de subposições 2 do presente Capítulo:,2022-04-01,,272,2021
+3808.61.00,-- Acondicionadas em embalagens com um conteúdo de peso líquido não superior a 300 g,2022-04-01,,272,2021
+3808.62,"-- Acondicionadas em embalagens com um conteúdo de peso líquido superior a 300 g, mas não superior a 7,5 kg",2022-04-01,,272,2021
+3808.62.10,À base de alfa-cipermetrina (ISO),2022-04-01,,272,2021
+3808.62.90,Outras,2022-04-01,,272,2021
+3808.69,-- Outras,2022-04-01,,272,2021
+3808.69.10,À base de alfa-cipermetrina (ISO),2022-04-01,,272,2021
+3808.69.90,Outras,2022-04-01,,272,2021
+3808.9,- Outros:,2022-04-01,,272,2021
+3808.91,-- Inseticidas,2022-04-01,,272,2021
+3808.91.1,Apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,2022-04-01,,272,2021
+3808.91.11,Que contenham bromometano (brometo de metila) ou bromoclorometano,2022-04-01,,272,2021
+3808.91.19,Outros,2022-04-01,,272,2021
+3808.91.20,"Apresentados de outro modo, que contenham bromometano (brometo de metila) ou bromoclorometano",2022-04-01,,272,2021
+3808.91.9,Outros,2022-04-01,,272,2021
+3808.91.91,À base de acefato ou de Bacillus thuringiensis,2022-04-01,,272,2021
+3808.91.92,À base de cipermetrinas ou de permetrina,2022-04-01,,272,2021
+3808.91.93,À base de dicrotofós,2022-04-01,,272,2021
+3808.91.94,À base de dissulfoton,2022-04-01,,272,2021
+3808.91.95,À base de fosfeto de alumínio,2022-04-01,,272,2021
+3808.91.96,À base de diclorvós,2022-04-01,,272,2021
+3808.91.97,À base de óleo mineral ou de tiometon,2022-04-01,,272,2021
+3808.91.99,Outros,2022-04-01,,272,2021
+3808.92,-- Fungicidas,2022-04-01,,272,2021
+3808.92.1,Apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,2022-04-01,,272,2021
+3808.92.11,Que contenham bromometano (brometo de metila) ou bromoclorometano,2022-04-01,,272,2021
+3808.92.19,Outros,2022-04-01,,272,2021
+3808.92.20,"Apresentados de outro modo, que contenham bromometano (brometo de metila) ou bromoclorometano",2022-04-01,,272,2021
+3808.92.9,Outros,2022-04-01,,272,2021
+3808.92.91,"À base de hidróxido de cobre, de oxicloreto de cobre ou de óxido cuproso",2022-04-01,,272,2021
+3808.92.92,À base de enxofre ou de ziram,2022-04-01,,272,2021
+3808.92.93,À base de mancozeb ou de maneb,2022-04-01,,272,2021
+3808.92.94,À base de sulfiram,2022-04-01,,272,2021
+3808.92.95,"À base de compostos de arsênio, cobre ou cromo, exceto os produtos do subitem 3808.92.91",2022-04-01,,272,2021
+3808.92.96,À base de thiram,2022-04-01,,272,2021
+3808.92.97,À base de propiconazol,2022-04-01,,272,2021
+3808.92.99,Outros,2022-04-01,,272,2021
+3808.93,"-- Herbicidas, inibidores de germinação e reguladores de crescimento para plantas",2022-04-01,,272,2021
+3808.93.1,Herbicidas apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,2022-04-01,,272,2021
+3808.93.11,Que contenham bromometano (brometo de metila) ou bromoclorometano,2022-04-01,,272,2021
+3808.93.19,Outros,2022-04-01,,272,2021
+3808.93.2,Herbicidas apresentados de outro modo,2022-04-01,,272,2021
+3808.93.21,Que contenham bromometano (brometo de metila) ou bromoclorometano,2022-04-01,,272,2021
+3808.93.22,"Outros, à base de ácido 2,4-diclorofenoxiacético (2,4-D), de ácido 4-(2,4-diclorofenoxi)butírico (2,4-DB), de ácido (4-cloro-2-metil)fenoxiacético (MCPA) ou de derivados de 2,4-D ou 2,4-DB",2022-04-01,,272,2021
+3808.93.23,"Outros, à base de atrazina ou de diuron",2022-04-01,,272,2021
+3808.93.24,"Outros, à base de glifosato ou seus sais, de imazaquim ou de lactofen",2022-04-01,,272,2021
+3808.93.25,"Outros, à base de dicloreto de paraquate, de propanil ou de simazina",2022-04-01,,272,2021
+3808.93.26,"Outros, à base de trifluralina",2022-04-01,,272,2021
+3808.93.27,"Outros, à base de imazetapir",2022-04-01,,272,2021
+3808.93.28,"Outros, à base de ametrina ou de hexazinona",2022-04-01,,272,2021
+3808.93.29,Outros,2022-04-01,,272,2021
+3808.93.3,Inibidores de germinação,2022-04-01,,272,2021
+3808.93.31,Que contenham bromometano (brometo de metila) ou bromoclorometano,2022-04-01,,272,2021
+3808.93.32,"Outros, apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",2022-04-01,,272,2021
+3808.93.33,Outros,2022-04-01,,272,2021
+3808.93.4,Reguladores de crescimento das plantas apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,2022-04-01,,272,2021
+3808.93.41,Que contenham bromometano (brometo de metila) ou bromoclorometano,2022-04-01,,272,2021
+3808.93.49,Outros,2022-04-01,,272,2021
+3808.93.5,"Reguladores de crescimento das plantas, apresentados de outro modo",2022-04-01,,272,2021
+3808.93.51,Que contenham bromometano (brometo de metila) ou bromoclorometano,2022-04-01,,272,2021
+3808.93.52,"Outros, à base de hidrazida maleica",2022-04-01,,272,2021
+3808.93.59,Outros,2022-04-01,,272,2021
+3808.94,-- Desinfetantes,2022-04-01,,272,2021
+3808.94.1,Apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,2022-04-01,,272,2021
+3808.94.11,Que contenham bromometano (brometo de metila) ou bromoclorometano,2022-04-01,,272,2021
+3808.94.19,Outros,2022-04-01,,272,2021
+3808.94.2,Apresentados de outro modo,2022-04-01,,272,2021
+3808.94.21,Que contenham bromometano (brometo de metila) ou bromoclorometano,2022-04-01,,272,2021
+3808.94.22,"Outros, à base de 2-(tiocianometiltio) benzotiazol",2022-04-01,,272,2021
+3808.94.29,Outros,2022-04-01,,272,2021
+3808.99,-- Outros,2022-04-01,,272,2021
+3808.99.1,Apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,2022-04-01,,272,2021
+3808.99.11,Que contenham bromometano (brometo de metila) ou bromoclorometano,2022-04-01,,272,2021
+3808.99.19,Outros,2022-04-01,,272,2021
+3808.99.20,"Apresentados de outro modo, que contenham bromometano (brometo de metila) ou bromoclorometano",2022-04-01,,272,2021
+3808.99.9,Outros,2022-04-01,,272,2021
+3808.99.91,"Acaricidas à base de amitraz, de clorfenvinfós ou de propargite",2022-04-01,,272,2021
+3808.99.92,Acaricidas à base de ciexatin ou de óxido de fembutatina,2022-04-01,,272,2021
+3808.99.93,Outros acaricidas,2022-04-01,,272,2021
+3808.99.94,Nematicidas à base de metam sódio,2022-04-01,,272,2021
+3808.99.95,Outros nematicidas,2022-04-01,,272,2021
+3808.99.96,Raticidas,2022-04-01,,272,2021
+3808.99.99,Outros,2022-04-01,,272,2021
+38.09,"Agentes de apresto ou de acabamento, aceleradores de tingimento ou de fixação de matérias corantes e outros produtos e preparações (por exemplo, aprestos preparados e preparações mordentes) do tipo utilizado na indústria têxtil, na indústria do papel, na indústria do couro ou em indústrias semelhantes, não especificados nem compreendidos noutras posições.",2022-04-01,,272,2021
+3809.10,- À base de matérias amiláceas,2022-04-01,,272,2021
+3809.10.10,Do tipo utilizado na indústria têxtil,2022-04-01,,272,2021
+3809.10.90,Outros,2022-04-01,,272,2021
+3809.9,- Outros:,2022-04-01,,272,2021
+3809.91,-- Do tipo utilizado na indústria têxtil ou nas indústrias semelhantes,2022-04-01,,272,2021
+3809.91.10,Aprestos preparados,2022-04-01,,272,2021
+3809.91.20,Preparações mordentes,2022-04-01,,272,2021
+3809.91.30,Produtos ignífugos,2022-04-01,,272,2021
+3809.91.4,Impermeabilizantes,2022-04-01,,272,2021
+3809.91.41,À base de parafina ou de derivados de ácidos graxos (gordos),2022-04-01,,272,2021
+3809.91.49,Outros,2022-04-01,,272,2021
+3809.91.90,Outros,2022-04-01,,272,2021
+3809.92,-- Do tipo utilizado na indústria do papel ou nas indústrias semelhantes,2022-04-01,,272,2021
+3809.92.1,Impermeabilizantes,2022-04-01,,272,2021
+3809.92.11,À base de parafina ou de derivados de ácidos graxos (gordos),2022-04-01,,272,2021
+3809.92.19,Outros,2022-04-01,,272,2021
+3809.92.90,Outros,2022-04-01,,272,2021
+3809.93,-- Do tipo utilizado na indústria do couro ou nas indústrias semelhantes,2022-04-01,,272,2021
+3809.93.1,Impermeabilizantes,2022-04-01,,272,2021
+3809.93.11,À base de parafina ou de derivados de ácidos graxos (gordos),2022-04-01,,272,2021
+3809.93.19,Outros,2022-04-01,,272,2021
+3809.93.90,Outros,2022-04-01,,272,2021
+38.10,"Preparações para decapagem de metais; fluxos para soldar e outras preparações auxiliares para soldar metais; pastas e pós para soldar, compostos de metal e de outras matérias; preparações do tipo utilizado para enchimento ou revestimento de eletrodos ou de varetas para soldar.",2022-04-01,,272,2021
+3810.10,"- Preparações para decapagem de metais; pastas e pós para soldar, compostos de metal e de outras matérias",2022-04-01,,272,2021
+3810.10.10,Preparações para decapagem de metais,2022-04-01,,272,2021
+3810.10.20,Pastas e pós para soldar,2022-04-01,,272,2021
+3810.90.00,- Outros,2022-04-01,,272,2021
+38.11,"Preparações antidetonantes, inibidores de oxidação, aditivos peptizantes, beneficiadores de viscosidade, aditivos anticorrosivos e outros aditivos preparados, para óleos minerais (incluindo a gasolina) ou para outros líquidos utilizados para os mesmos fins que os óleos minerais.",2022-04-01,,272,2021
+3811.1,- Preparações antidetonantes:,2022-04-01,,272,2021
+3811.11.00,-- À base de compostos de chumbo,2022-04-01,,272,2021
+3811.19.00,-- Outras,2022-04-01,,272,2021
+3811.2,- Aditivos para óleos lubrificantes:,2022-04-01,,272,2021
+3811.21,-- Que contenham óleos de petróleo ou de minerais betuminosos,2022-04-01,,272,2021
+3811.21.10,Melhoradores do índice de viscosidade,2022-04-01,,272,2021
+3811.21.20,"Antidesgastes, anticorrosivos ou antioxidantes, que contenham dialquilditiofosfato de zinco ou diarilditiofosfato de zinco",2022-04-01,,272,2021
+3811.21.30,Dispersantes sem cinzas,2022-04-01,,272,2021
+3811.21.40,Detergentes metálicos,2022-04-01,,272,2021
+3811.21.50,"Outras preparações que contenham, pelo menos, um de quaisquer dos produtos compreendidos nos itens 3811.21.10, 3811.21.20, 3811.21.30 e 3811.21.40",2022-04-01,,272,2021
+3811.21.90,Outros,2022-04-01,,272,2021
+3811.29,-- Outros,2022-04-01,,272,2021
+3811.29.10,Dispersantes sem cinzas,2022-04-01,,272,2021
+3811.29.20,Detergentes metálicos,2022-04-01,,272,2021
+3811.29.90,Outros,2022-04-01,,272,2021
+3811.90,- Outros,2022-04-01,,272,2021
+3811.90.10,"Dispersantes sem cinzas, para óleos de petróleo combustíveis",2022-04-01,,272,2021
+3811.90.90,Outros,2022-04-01,,272,2021
+38.12,"Preparações denominadas ""aceleradores de vulcanização""; plastificantes compostos para borracha ou plástico, não especificados nem compreendidos noutras posições; preparações antioxidantes e outros estabilizadores compostos, para borracha ou plástico.",2022-04-01,,272,2021
+3812.10.00,"- Preparações denominadas ""aceleradores de vulcanização""",2022-04-01,,272,2021
+3812.20.00,- Plastificantes compostos para borracha ou plástico,2022-04-01,,272,2021
+3812.3,"- Preparações antioxidantes e outros estabilizadores compostos, para borracha ou plástico:",2022-04-01,,272,2021
+3812.31.00,"-- Misturas de oligômeros de 2,2,4-trimetil-1,2-di-hidroquinolina (TMQ)",2022-04-01,,272,2021
+3812.39,-- Outros,2022-04-01,,272,2021
+3812.39.1,Para borracha,2022-04-01,,272,2021
+3812.39.11,Que contenham derivados N-substituídos de p-fenilenodiamina,2022-04-01,,272,2021
+3812.39.12,"Que contenham fosfitos de alquila, de arila ou de alquil-arila",2022-04-01,,272,2021
+3812.39.19,Outros,2022-04-01,,272,2021
+3812.39.2,Para plástico,2022-04-01,,272,2021
+3812.39.21,Que contenham derivados N-substituídos de p-fenilenodiamina,2022-04-01,,272,2021
+3812.39.29,Outros,2022-04-01,,272,2021
+3813.00,"Composições e cargas para aparelhos extintores; granadas e bombas, extintoras.",2022-04-01,,272,2021
+3813.00.10,"Que contenham bromoclorodifluorometano, bromotrifluorometano ou dibromotetrafluoroetanos",2022-04-01,,272,2021
+3813.00.20,"Que contenham hidrobromofluorcarbonetos (HBFC) do metano, do etano ou do propano",2022-04-01,,272,2021
+3813.00.30,"Que contenham hidroclorofluorcarbonetos (HCFC) do metano, do etano ou do propano",2022-04-01,,272,2021
+3813.00.40,Que contenham bromoclorometano,2022-04-01,,272,2021
+3813.00.90,Outros,2022-04-01,,272,2021
+3814.00,"Solventes e diluentes orgânicos compostos, não especificados nem compreendidos noutras posições; preparações concebidas para remover tintas ou vernizes.",2022-04-01,,272,2021
+3814.00.10,"Que contenham clorofluorcarbonetos (CFC) do metano, do etano ou do propano, mesmo que contenham hidroclorofluorcarbonetos (HCFC)",2022-04-01,,272,2021
+3814.00.20,"Que contenham hidroclorofluorcarbonetos (HCFC) do metano, do etano ou do propano, mas que não contenham clorofluorcarbonetos (CFC)",2022-04-01,,272,2021
+3814.00.30,"Que contenham tetracloreto de carbono, bromoclorometano ou 1,1,1-tricloroetano (metilclorofórmio)",2022-04-01,,272,2021
+3814.00.90,Outros,2022-04-01,,272,2021
+38.15,"Iniciadores de reação, aceleradores de reação e preparações catalíticas, não especificados nem compreendidos noutras posições.",2022-04-01,,272,2021
+3815.1,- Catalisadores em suporte:,2022-04-01,,272,2021
+3815.11.00,-- Tendo como substância ativa o níquel ou um composto de níquel,2022-04-01,,272,2021
+3815.12,-- Tendo como substância ativa um metal precioso ou um composto de metal precioso,2022-04-01,,272,2021
+3815.12.10,Em colmeia cerâmica ou metálica para conversão catalítica de gases de escape de veículos,2022-04-01,,272,2021
+3815.12.20,Com tamanho de partícula inferior a 500 micrômetros (mícrons),2022-04-01,,272,2021
+3815.12.90,Outros,2022-04-01,,272,2021
+3815.19.00,-- Outros,2022-04-01,,272,2021
+3815.90,- Outros,2022-04-01,,272,2021
+3815.90.10,Para craqueamento de petróleo,2022-04-01,,272,2021
+3815.90.9,Outros,2022-04-01,,272,2021
+3815.90.91,Tendo como substância ativa o isoprenilalumínio (IPRA),2022-04-01,,272,2021
+3815.90.92,Tendo como substância ativa o óxido de zinco,2022-04-01,,272,2021
+3815.90.93,Tendo como substância ativa óxidos de terras raras,2022-04-01,,272,2021
+3815.90.99,Outros,2022-04-01,,272,2021
+3816.00,"Cimentos, argamassas, concretos (betões) e composições semelhantes, refratários, incluindo os aglomerados de dolomita, exceto os produtos da posição 38.01.",2022-04-01,,272,2021
+3816.00.1,Cimentos e argamassas,2022-04-01,,272,2021
+3816.00.11,À base de magnesita calcinada,2022-04-01,,272,2021
+3816.00.12,À base de silimanita,2022-04-01,,272,2021
+3816.00.19,Outros,2022-04-01,,272,2021
+3816.00.2,"Outras preparações à base de cromo-magnesita, de zircônio, de silimanita, de cianita, de andaluzita, de coríndon ou de diaspório",2022-04-01,,272,2021
+3816.00.21,"Que contenham grafita e 50 % ou mais, em peso, de coríndon",2022-04-01,,272,2021
+3816.00.29,Outras,2022-04-01,,272,2021
+3816.00.90,Outros,2022-04-01,,272,2021
+3817.00,"Misturas de alquilbenzenos ou de alquilnaftalenos, exceto as das posições 27.07 ou 29.02.",2022-04-01,,272,2021
+3817.00.10,Misturas de alquilbenzenos,2022-04-01,,272,2021
+3817.00.20,Misturas de alquilnaftalenos,2022-04-01,,272,2021
+3818.00,"Elementos químicos dopados, próprios para utilização em eletrônica, em forma de discos, wafers ou formas análogas; compostos químicos dopados, próprios para utilização em eletrônica.",2022-04-01,,272,2021
+3818.00.10,De silício,2022-04-01,,272,2021
+3818.00.90,Outros,2022-04-01,,272,2021
+3819.00.00,"Fluidos para freios (travões) hidráulicos e outros líquidos preparados para transmissões hidráulicas, que não contenham óleos de petróleo nem de minerais betuminosos, ou que os contenham em proporção inferior a 70 %, em peso.",2022-04-01,,272,2021
+3820.00.00,Preparações anticongelantes e líquidos preparados para descongelamento.,2022-04-01,,272,2021
+3821.00.00,"Meios de cultura preparados para o desenvolvimento e a manutenção de microrganismos (incluindo os vírus e os organismos similares) ou de células vegetais, humanas ou animais.",2022-04-01,,272,2021
+38.22,"Reagentes de diagnóstico ou de laboratório em qualquer suporte e reagentes de diagnóstico ou de laboratório preparados, mesmo num suporte, mesmo apresentados sob a forma de estojos, exceto os da posição 30.06; materiais de referência certificados.",2022-04-01,,272,2021
+3822.1,"- Reagentes de diagnóstico ou de laboratório em qualquer suporte e reagentes de diagnóstico ou de laboratório preparados, mesmo num suporte, mesmo apresentados sob a forma de estojos:",2022-04-01,,272,2021
+3822.11.00,-- Para a malária (paludismo),2022-04-01,,272,2021
+3822.12.00,-- Para a zika e outras doenças transmitidas por mosquitos do gênero Aedes,2022-04-01,,272,2021
+3822.13.00,-- Para a determinação dos grupos ou dos fatores sanguíneos,2022-04-01,,272,2021
+3822.19,-- Outros,2022-04-01,,272,2021
+3822.19.10,"Reagentes para determinação de componentes do sangue ou da urina, sobre suporte de papel, em rolos, sem suporte adicional hidrófobo, impróprios para uso direto",2022-04-01,,272,2021
+3822.19.20,"Reagentes para determinação de glicose no sangue, sobre suporte em tiras, para uso direto",2022-04-01,,272,2021
+3822.19.30,Reagentes de origem microbiana para diagnóstico,2022-04-01,,272,2021
+3822.19.40,"Anticorpos monoclonais em solução tampão, que contenham albumina bovina",2022-04-01,,272,2021
+3822.19.90,Outros,2022-04-01,,272,2021
+3822.90.00,- Outros,2022-04-01,,272,2021
+38.23,Ácidos graxos (gordos) monocarboxílicos industriais; óleos ácidos de refinação; álcoois graxos (gordos) industriais.,2022-04-01,,272,2021
+3823.1,- Ácidos graxos (gordos) monocarboxílicos industriais; óleos ácidos de refinação:,2022-04-01,,272,2021
+3823.11.00,-- Ácido esteárico,2022-04-01,,272,2021
+3823.12.00,-- Ácido oleico,2022-04-01,,272,2021
+3823.13.00,-- Ácidos graxos (gordos) do tall oil,2022-04-01,,272,2021
+3823.19,-- Outros,2022-04-01,,272,2021
+3823.19.10,Ácido caprílico,2022-04-01,,272,2021
+3823.19.90,Outros,2022-04-01,,272,2021
+3823.70,- Álcoois graxos (gordos) industriais,2022-04-01,,272,2021
+3823.70.10,Esteárico,2022-04-01,,272,2021
+3823.70.20,Láurico,2022-04-01,,272,2021
+3823.70.40,Cetílico,2022-04-01,,272,2021
+3823.70.90,Outros,2022-04-01,,272,2021
+38.24,"Aglutinantes preparados para moldes ou para núcleos de fundição; produtos químicos e preparações das indústrias químicas ou das indústrias conexas (incluindo os constituídos por misturas de produtos naturais), não especificados nem compreendidos noutras posições.",2022-04-01,,272,2021
+3824.10.00,- Aglutinantes preparados para moldes ou para núcleos de fundição,2022-04-01,,272,2021
+3824.30.00,"- Carbonetos metálicos não aglomerados, misturados entre si ou com aglutinantes metálicos",2022-04-01,,272,2021
+3824.40.00,"- Aditivos preparados para cimentos, argamassas ou concretos (betões)",2022-04-01,,272,2021
+3824.50.00,"- Argamassas e concretos (betões), não refratários",2022-04-01,,272,2021
+3824.60.00,"- Sorbitol, exceto o da subposição 2905.44",2022-04-01,,272,2021
+3824.8,- Mercadorias mencionadas na Nota de subposições 3 do presente Capítulo:,2022-04-01,,272,2021
+3824.81,-- Que contenham oxirano (óxido de etileno),2022-04-01,,272,2021
+3824.81.10,"Mistura de óxido de propileno com um conteúdo de óxido de etileno inferior ou igual a 30 %, em peso",2022-04-01,,272,2021
+3824.81.90,Outras,2022-04-01,,272,2021
+3824.82,"-- Que contenham polibromobifenilas (PBB), policloroterfenilas (PCT) ou policlorobifenilas (PCB)",2022-04-01,,272,2021
+3824.82.10,Que contenham policlorobifenilas (PCB),2022-04-01,,272,2021
+3824.82.90,Outras,2022-04-01,,272,2021
+3824.83.00,"-- Que contenham fosfato de tris(2,3-dibromopropila)",2022-04-01,,272,2021
+3824.84.00,"-- Que contenham aldrin (ISO), canfecloro (ISO) (toxafeno), clordano (ISO), clordecona (ISO), DDT (ISO) (clofenotano (DCI), 1,1,1-tricloro-2,2-bis(p-clorofenil)etano), dieldrin (ISO, DCI), endossulfan (ISO), endrin (ISO), heptacloro (ISO) ou mirex (ISO)",2022-04-01,,272,2021
+3824.85.00,"-- Que contenham 1,2,3,4,5,6-hexaclorocicloexano (HCH (ISO)), incluindo o lindano (ISO, DCI)",2022-04-01,,272,2021
+3824.86.00,-- Que contenham pentaclorobenzeno (ISO) ou hexaclorobenzeno (ISO),2022-04-01,,272,2021
+3824.87.00,"-- Que contenham ácido perfluoroctano sulfônico, seus sais, perfluoroctanossulfonamidas, ou fluoreto de perfluoroctanossulfonila",2022-04-01,,272,2021
+3824.88,"-- Que contenham éteres tetra-, penta-, hexa-, hepta- ou octabromodifenílicos",2022-04-01,,272,2021
+3824.88.10,Que contenham éteres tetra- ou pentabromodifenílicos,2022-04-01,,272,2021
+3824.88.20,"Que contenham éteres hexa-, hepta- ou octabromodifenílicos",2022-04-01,,272,2021
+3824.89.00,-- Que contenham parafinas cloradas de cadeia curta,2022-04-01,,272,2021
+3824.9,- Outros:,2022-04-01,,272,2021
+3824.91.00,"-- Misturas e preparações constituídas principalmente por metilfosfonato de (5-etil-2-metil-2-óxido-1,3,2-dioxafosfinan-5-il)metil metila e metilfosfonato de bis[(5-etil-2-metil-2-óxido-1,3,2-dioxafosfinan-5-il)metila]",2022-04-01,,272,2021
+3824.92.00,-- Ésteres de poliglicol do ácido metilfosfônico,2022-04-01,,272,2021
+3824.99,-- Outros,2022-04-01,,272,2021
+3824.99.1,Produtos intermediários da fabricação de antibióticos ou de vitaminas ou de outros produtos da posição 29.36,2022-04-01,,272,2021
+3824.99.11,Salinomicina micelial,2022-04-01,,272,2021
+3824.99.12,"Com um teor de cianocobalamina inferior ou igual a 55 %, em peso",2022-04-01,,272,2021
+3824.99.13,Da fabricação da primicina amônica,2022-04-01,,272,2021
+3824.99.14,"Senduramicina sódica, da fabricação da senduramicina",2022-04-01,,272,2021
+3824.99.15,"Maduramicina amônica, em solução alcoólica, da fabricação da maduramicina",2022-04-01,,272,2021
+3824.99.19,Outros,2022-04-01,,272,2021
+3824.99.2,Derivados de ácidos graxos (gordos) industriais; misturas e preparações que contenham álcoois graxos (gordos) ou ácidos carboxílicos ou derivados destes produtos,2022-04-01,,272,2021
+3824.99.21,Ácidos graxos (gordos) dimerizados; preparações que contenham ácidos graxos (gordos) dimerizados,2022-04-01,,272,2021
+3824.99.22,Preparações que contenham estearoilbenzoilmetano e palmitoilbenzoilmetano; preparações que contenham caprilato e caprato de propilenoglicol,2022-04-01,,272,2021
+3824.99.23,Preparações que contenham triglicerídios dos ácidos caprílico e cáprico,2022-04-01,,272,2021
+3824.99.24,Ésteres de álcoois graxos (gordos) de C12 a C20 do ácido metacrílico e suas misturas; ésteres de ácidos monocarboxílicos de C10 ramificados com glicerol,2022-04-01,,272,2021
+3824.99.25,"Misturas de ésteres dimetílicos dos ácidos adípico, glutárico e succínico; misturas de ácidos dibásicos de C11 e C12; ácidos naftênicos, seus sais insolúveis em água e seus ésteres",2022-04-01,,272,2021
+3824.99.29,Outros,2022-04-01,,272,2021
+3824.99.3,"Misturas e preparações para borracha ou plástico e outras misturas e preparações para endurecer resinas sintéticas, colas, pinturas ou usos semelhantes",2022-04-01,,272,2021
+3824.99.31,Que contenham isocianatos de hexametileno ou outros isocianatos,2022-04-01,,272,2021
+3824.99.32,Que contenham aminas graxas de C8 a C22,2022-04-01,,272,2021
+3824.99.33,"Que contenham polietilenoaminas e dietilenotriaminas, próprias para a coagulação do látex",2022-04-01,,272,2021
+3824.99.34,"Outras, que contenham polietilenoaminas",2022-04-01,,272,2021
+3824.99.35,"Misturas de mono-, di- e triisopropanolaminas",2022-04-01,,272,2021
+3824.99.36,Reticulantes para silicones,2022-04-01,,272,2021
+3824.99.39,Outras,2022-04-01,,272,2021
+3824.99.4,"Misturas e preparações desincrustantes, anticorrosivas ou antioxidantes; fluidos para a transferência de calor",2022-04-01,,272,2021
+3824.99.41,"Preparações desincrustantes, anticorrosivas ou antioxidantes",2022-04-01,,272,2021
+3824.99.42,Mistura eutética de difenila e óxido de difenila,2022-04-01,,272,2021
+3824.99.43,"À base de trimetil-3,9-dietildecano",2022-04-01,,272,2021
+3824.99.49,Outros,2022-04-01,,272,2021
+3824.99.5,Polietilenoglicóis e suas misturas; polipropilenoglicóis e suas misturas; misturas e preparações que contenham ésteres de ácidos inorgânicos e seus derivados,2022-04-01,,272,2021
+3824.99.51,Antiespumantes que contenham fosfato de tributila em solução de álcool isopropílico,2022-04-01,,272,2021
+3824.99.52,Misturas de polietilenoglicóis,2022-04-01,,272,2021
+3824.99.53,Polipropilenoglicol líquido,2022-04-01,,272,2021
+3824.99.54,Retardante de chama que contenha misturas de trifenilfosfatos isopropilados,2022-04-01,,272,2021
+3824.99.59,Outros,2022-04-01,,272,2021
+3824.99.6,Contrastes para exames de diagnóstico por imagens de ressonância magnética ou de ecografia,2024-04-01,,547,2023
+3824.99.61,"À base de gadobenato de dimeglumina, de gadobutrol, de gadopentetato de dimeglumina, de gadoterato de meglumina, de gadoteridol ou de gadoxetato dissódico",2024-04-01,,547,2023
+3824.99.62,À base de hexafluoreto de enxofre,2024-04-01,,547,2023
+3824.99.69,Outros,2024-04-01,,547,2023
+3824.99.7,"Produtos e preparações à base de elementos químicos ou de seus compostos inorgânicos, não especificados nem compreendidos noutras posições",2022-04-01,,272,2021
+3824.99.71,Cal sodada; carbonato de cálcio hidrófugo,2022-04-01,,272,2021
+3824.99.72,"Preparações à base de sílica em suspensão coloidal; nitreto de boro de estrutura cristalina cúbica, compactado com substrato de carboneto de tungstênio (volfrâmio)",2022-04-01,,272,2021
+3824.99.73,Preparações à base de carboneto de tungstênio (volfrâmio) com níquel como aglomerante; brometo de hidrogênio em solução,2022-04-01,,272,2021
+3824.99.74,"Preparações à base de hidróxido de níquel ou de cádmio, de óxido de cádmio ou de óxido ferroso férrico, próprios para a fabricação de acumuladores alcalinos",2022-04-01,,272,2021
+3824.99.75,Preparações utilizadas na elaboração de meios de cultura; trocadores de íons para o tratamento de águas; preparações à base de zeólitas artificiais,2022-04-01,,272,2021
+3824.99.76,Compostos absorventes à base de metais para aperfeiçoar o vácuo nos tubos ou válvulas elétricas,2022-04-01,,272,2021
+3824.99.77,Adubos (fertilizantes) foliares que contenham zinco ou manganês,2022-04-01,,272,2021
+3824.99.78,"Preparações à base de óxido de alumínio e óxido de zircônio, com um conteúdo de óxido de zircônio igual ou superior a 20 %, em peso; preparações de óxido de alumínio com óxido de lantânio",2022-04-01,,272,2021
+3824.99.79,Outros,2022-04-01,,272,2021
+3824.99.8,"Produtos e preparações à base de compostos orgânicos, não especificados nem compreendidos noutras posições",2022-04-01,,272,2021
+3824.99.81,"Preparações à base de anidrido poliisobutenilsuccínico, em óleo mineral",2022-04-01,,272,2021
+3824.99.82,Halquinol; tetraclorohidroxiglicina de alumínio e zircônio,2022-04-01,,272,2021
+3824.99.83,"Triisocianato de tiofosfato de fenila ou de trifenilmetano, em solução de cloreto de metileno ou de acetato de etila; preparações à base de tetraacetiletilenodiamina (TAED), em grânulos",2022-04-01,,272,2021
+3824.99.84,Que contenham éteres decabromodifenílicos,2022-04-01,,272,2021
+3824.99.85,Metilato de sódio em metanol,2022-04-01,,272,2021
+3824.99.86,Maneb; mancozeb; cloreto de benzalcônio,2022-04-01,,272,2021
+3824.99.87,Dispersão aquosa de microcápsulas de poliuretano ou de melamina-formaldeído que contenha um precursor de corante em solventes orgânicos,2022-04-01,,272,2021
+3824.99.88,"Misturas constituídas principalmente pelos compostos seguintes (grupos alquila de C1 a C3, exceto nos casos expressamente indicados): alquilfosfonofluoridatos de O-alquila (de até C10, incluindo cicloalquila); N,N-dialquilfosforoamidocianidatos de O-alquila (de até C10, incluindo cicloalquila); hidrogênio alquilfosfonotioatos de [S-2-(dialquilamino)etila], seus ésteres de O-alquila (de até C10, incluindo cicloalquila) ou seus sais alquilados ou protonados; difluoretos de alquilfosfonila; hidrogênio alquilfosfonitos de [O-2-(dialquilamino)etila], seus ésteres de O-alquila (de até C10, incluindo cicloalquila) ou seus sais alquilados ou protonados; dialogenetos de N,N-dialquilfosforoamídicos; N,N-dialquilfosforoamidatos de dialquila; N,N-dialquil-2-cloroetilaminas ou seus sais protonados; N,N-dialquil-2-aminoetanóis ou seus sais protonados; N,N-dialquilaminoetano-2-tióis ou seus sais protonados; outras misturas constituídas principalmente por compostos que contenham um átomo de fósforo ligado a um grupo alquila (de C1 a C3) mas sem outros átomos de carbono",2024-04-01,,547,2023
+3824.99.89,Outros,2022-04-01,,272,2021
+38.25,"Produtos residuais das indústrias químicas ou das indústrias conexas, não especificados nem compreendidos noutras posições; resíduos municipais; lamas de tratamento de esgotos (lamas de depuração*); outros resíduos mencionados na Nota 6 deste Capítulo.",2022-04-01,,272,2021
+3825.10.00,- Resíduos municipais,2022-04-01,,272,2021
+3825.20.00,- Lamas de tratamento de esgotos (Lamas de depuração*),2022-04-01,,272,2021
+3825.30.00,- Resíduos clínicos,2022-04-01,,272,2021
+3825.4,- Resíduos de solventes orgânicos:,2022-04-01,,272,2021
+3825.41.00,-- Halogenados,2022-04-01,,272,2021
+3825.49.00,-- Outros,2022-04-01,,272,2021
+3825.50.00,"- Resíduos de soluções decapantes para metais, de fluidos hidráulicos, de fluidos para freios (travões) e de fluidos anticongelantes",2022-04-01,,272,2021
+3825.6,- Outros resíduos das indústrias químicas ou das indústrias conexas:,2022-04-01,,272,2021
+3825.61.00,-- Que contenham principalmente constituintes orgânicos,2022-04-01,,272,2021
+3825.69.00,-- Outros,2022-04-01,,272,2021
+3825.90.00,- Outros,2022-04-01,,272,2021
+3826.00.00,"Biodiesel e suas misturas, que não contenham ou que contenham menos de 70 %, em peso, de óleos de petróleo ou de óleos minerais betuminosos.",2022-04-01,,272,2021
+38.27,"Misturas que contenham derivados halogenados do metano, do etano ou do propano, não especificadas nem compreendidas noutras posições.",2022-04-01,,272,2021
+3827.1,"- Que contenham clorofluorcarbonetos (CFC), mesmo que contenham hidroclorofluorcarbonetos (HCFC), perfluorcarbonetos (PFC) ou hidrofluorcarbonetos (HFC); que contenham hidrobromofluorcarbonetos (HBFC); que contenham tetracloreto de carbono; que contenham 1,1,1-tricloroetano (metilclorofórmio):",2022-04-01,,272,2021
+3827.11,"-- Que contenham clorofluorcarbonetos (CFC), mesmo que contenham hidroclorofluorcarbonetos (HCFC), perfluorcarbonetos (PFC) ou hidrofluorcarbonetos (HFC)",2022-04-01,,272,2021
+3827.11.10,Que contenham triclorotrifluoroetanos,2022-04-01,,272,2021
+3827.11.90,Outras,2022-04-01,,272,2021
+3827.12.00,-- Que contenham hidrobromofluorcarbonetos (HBFC),2022-04-01,,272,2021
+3827.13.00,-- Que contenham tetracloreto de carbono,2022-04-01,,272,2021
+3827.14.00,"-- Que contenham 1,1,1-tricloroetano (metilclorofórmio)",2022-04-01,,272,2021
+3827.20.00,"- Que contenham bromoclorodifluorometano (halon-1211), bromotrifluorometano (halon-1301) ou dibromotetrafluoroetanos (halon-2402)",2022-04-01,,272,2021
+3827.3,"- Que contenham hidroclorofluorcarbonetos (HCFC), mesmo que contenham perfluorcarbonetos (PFC) ou hidrofluorcarbonetos (HFC), mas que não contenham clorofluorcarbonetos (CFC):",2022-04-01,,272,2021
+3827.31,-- Que contenham substâncias das subposições 2903.41 a 2903.48,2022-04-01,,272,2021
+3827.31.10,Que contenham clorodifluorometano e pentafluoroetano,2022-04-01,,272,2021
+3827.31.90,Outras,2022-04-01,,272,2021
+3827.32,"-- Outras, que contenham substâncias das subposições 2903.71 a 2903.75",2022-04-01,,272,2021
+3827.32.10,Que contenham clorodifluorometano e clorotetrafluoroetano,2022-04-01,,272,2021
+3827.32.90,Outras,2022-04-01,,272,2021
+3827.39.00,-- Outras,2022-04-01,,272,2021
+3827.40.00,- Que contenham brometo de metila (bromometano) ou bromoclorometano,2022-04-01,,272,2021
+3827.5,"- Que contenham trifluorometano (HFC-23) ou perfluorcarbonetos (PFC), mas que não contenham clorofluorcarbonetos (CFC) ou hidroclorofluorcarbonetos (HCFC):",2022-04-01,,272,2021
+3827.51.00,-- Que contenham trifluorometano (HFC-23),2022-04-01,,272,2021
+3827.59.00,-- Outras,2022-04-01,,272,2021
+3827.6,"- Que contenham outros hidrofluorcarbonetos (HFC), mas que não contenham clorofluorcarbonetos (CFC) ou hidroclorofluorcarbonetos (HCFC):",2022-04-01,,272,2021
+3827.61.00,"-- Que contenham, em massa, 15 % ou mais de 1,1,1-trifluoroetano (HFC-143a)",2022-04-01,,272,2021
+3827.62.00,"-- Outras, não mencionadas na subposição acima, que contenham, em massa, 55 % ou mais de pentafluoroetano (HFC-125), mas que não contenham derivados fluorados não saturados dos hidrocarbonetos acíclicos (HFO)",2022-04-01,,272,2021
+3827.63.00,"-- Outras, não mencionadas nas subposições acima, que contenham, em massa, 40 % ou mais de pentafluoroetano (HFC-125)",2022-04-01,,272,2021
+3827.64.00,"-- Outras, não mencionadas nas subposições acima, que contenham, em massa, 30 % ou mais de 1,1,1,2-tetrafluoroetano (HFC-134a), mas que não contenham derivados fluorados não saturados dos hidrocarbonetos acíclicos (HFO)",2022-04-01,,272,2021
+3827.65.00,"-- Outras, não mencionadas nas subposições acima, que contenham, em massa, 20 % ou mais de difluorometano (HFC-32) e 20 % ou mais de pentafluoroetano (HFC-125)",2022-04-01,,272,2021
+3827.68.00,"-- Outras, não mencionadas nas subposições acima, que contenham substâncias das subposições 2903.41 a 2903.48",2022-04-01,,272,2021
+3827.69.00,-- Outras,2022-04-01,,272,2021
+3827.90.00,- Outras,2022-04-01,,272,2021

@@ -25,9 +25,12 @@ Nada disso fica commitado na `main`, então quem edita os CSVs não vê arquivos
 - Alíquotas em **fração** (`0.18` = 18%).
 - `nao_tributado: true` = NT na TIPI (fora do campo do IPI), diferente de alíquota `0`.
 - Datas em ISO `AAAA-MM-DD`; `null` = sem data de fim.
+- Campo vazio no CSV = `null` na distribuição (por exemplo, `ex: null` é a regra geral do NCM).
 - Toda coluna de NCM tem uma versão só com dígitos: `codigo_ncm_digitos = "22030000"`.
 - Regras com `vigente: false` são históricas.
 - A API segue `v1`: campos podem ser **adicionados** sem aviso, mas remover ou renomear campos gera `v2`.
+  O formato exato está em [`api/v1/schema-ncm.json`](https://davezant.github.io/imposto-produtos-brasil/api/v1/schema-ncm.json)
+  (JSON Schema), e o CI confere todos os arquivos contra ele. Veja a [política de versões](VERSIONAMENTO.md).
 
 ## Exemplos
 

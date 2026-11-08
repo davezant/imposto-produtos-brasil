@@ -56,6 +56,7 @@ SPED_TABELAS = {
     "4.3.17": ("aliquota_diferenciada", "02"),
 }
 
+CABECALHO_NCM = ["codigo_ncm", "descricao", "data_inicio", "data_fim", "numero", "ano"]
 RE_FOLHA = re.compile(r"^\d{4}\.\d{2}\.\d{2}$")
 
 
@@ -166,21 +167,14 @@ def gerar_ncm(cache: Path, manifest: dict) -> dict:
     print("NCM")
     dados = json.loads(baixar(URL_NCM, cache / "ncm.json").read_text(encoding="utf-8-sig"))
 
-    # Preserva a coluna unidade_medida já existente (não está no JSON oficial).
-    unidades = {}
-    for arq in (ROOT / "ncm").glob("*/*.csv"):
-        with open(arq, encoding="utf-8") as f:
-            for row in csv.DictReader(f):
-                if row.get("unidade_medida"):
-                    unidades[row["codigo_ncm"]] = row["unidade_medida"]
-
     por_capitulo = {}
     for n in dados["Nomenclaturas"]:
         codigo = n["Codigo"].strip()
         cap = re.sub(r"\D", "", codigo)[:2]
         por_capitulo.setdefault(cap, []).append([
-            codigo, limpar(n["Descricao"]), unidades.get(codigo, ""),
-            n["Data_Inicio"], n["Data_Fim"], n["Numero_Ato_Ini"], n["Ano_Ato_Ini"],
+            codigo, limpar(n["Descricao"]), data_iso(n["Data_Inicio"]),
+            "" if n["Data_Fim"].endswith("/9999") else data_iso(n["Data_Fim"]),
+            n["Numero_Ato_Ini"], n["Ano_Ato_Ini"],
         ])
 
     intervalos = manifest["intervalos"]
@@ -188,14 +182,14 @@ def gerar_ncm(cache: Path, manifest: dict) -> dict:
     for cap, linhas in sorted(por_capitulo.items()):
         iv = intervalo_do_capitulo(cap, intervalos)
         rel = f"ncm/{iv}/capitulo-{cap}.csv"
-        escrever_csv(ROOT / rel, ["codigo_ncm", "descricao", "unidade_medida", "data_inicio",
-                                  "data_fim", "numero", "ano"], linhas)
+        escrever_csv(ROOT / rel, CABECALHO_NCM, linhas)
         indice.setdefault(iv, {})[cap] = rel
 
     # Capítulos sem códigos na NCM oficial (ex.: 98 e 99) mantêm o arquivo e a entrada existentes.
     for iv, caps in manifest.get("index-ncm", {}).items():
         for cap, rel in caps.items():
-            if (ROOT / rel).exists():
+            if (ROOT / rel).exists() and cap not in por_capitulo:
+                escrever_csv(ROOT / rel, CABECALHO_NCM, [])
                 indice.setdefault(iv, {}).setdefault(cap, rel)
     manifest["index-ncm"] = {iv: dict(sorted(indice[iv].items())) for iv in intervalos if iv in indice}
     manifest["referencias"]["NCM"].update({
@@ -406,18 +400,19 @@ def gerar_pis_cofins(cache: Path, manifest: dict):
             if not bruta.strip():
                 continue
             campos = dict(zip(cab, bruta.split("|")))
-            pis = cofins = vpis = vcofins = unid = obs = ""
+            pis = cofins = vpis = vcofins = unid = ""
+            pis_p = pis_r = cofins_p = cofins_r = ""
             if num in ("4.3.10", "4.3.12"):
                 pis, cofins = fracao(campos["ALIQ_PIS"]), fracao(campos["ALIQ_COFIN"])
             elif num == "4.3.11":
                 vpis, vcofins, unid = numero(campos["ALIQ_PIS"]), numero(campos["ALIQ_COFIN"]), campos["UNID"]
             elif num == "4.3.17":
-                obs = ("Alíquotas da tabela SPED 4.3.17 - PIS: {} (P) / {} (R); COFINS: {} (P) / {} (R), em %"
-                       .format(campos["ALIQ_PIS_P"], campos["ALIQ_PIS_R"],
-                               campos["ALIQ_COF_P"], campos["ALIQ_COF_R"]))
+                pis_p, pis_r = fracao(campos["ALIQ_PIS_P"]), fracao(campos["ALIQ_PIS_R"])
+                cofins_p, cofins_r = fracao(campos["ALIQ_COF_P"]), fracao(campos["ALIQ_COF_R"])
             base = [num, tipo, cst, campos["CODIGO"], limpar(campos["DESC_PROD"]),
                     data_iso(campos["DT_INI"]), data_iso(campos["DT_FIM"])]
-            resto = [campos.get("NCM_EX", ""), campos.get("EX_IPI", ""), pis, cofins, vpis, vcofins, unid, obs]
+            resto = [campos.get("NCM_EX", ""), campos.get("EX_IPI", ""), pis, cofins, vpis, vcofins, unid,
+                     pis_p, pis_r, cofins_p, cofins_r]
             ncms = [n for n in campos.get("NCM", "").split(";") if n.strip()]
             for ncm in ncms or [""]:
                 linhas.append(base[:7] + [ncm_pontuado(ncm) if ncm else ""] + resto)
@@ -425,7 +420,8 @@ def gerar_pis_cofins(cache: Path, manifest: dict):
     escrever_csv(ROOT / "aliquotas/federal/PIS_COFINS/excecoes.csv",
                  ["tabela_sped", "tipo", "cst", "codigo", "descricao", "vigencia_inicio", "vigencia_fim",
                   "ncm_prefixo", "ncm_ex", "ex_ipi", "aliquota_pis", "aliquota_cofins",
-                  "valor_pis_por_unidade", "valor_cofins_por_unidade", "unidade", "observacao"], linhas)
+                  "valor_pis_por_unidade", "valor_cofins_por_unidade", "unidade",
+                  "aliquota_pis_p", "aliquota_pis_r", "aliquota_cofins_p", "aliquota_cofins_r"], linhas)
     manifest["relacao-pis_cofins"]["excecoes"] = "aliquotas/federal/PIS_COFINS/excecoes.csv"
     ref = manifest["referencias"]["aliquotas"]["federal"]["PIS/COFINS"]
     ref["tabelas_sped"] = {"link": "http://www.sped.fazenda.gov.br/spedtabelas/AppConsulta/publico/aspx/"

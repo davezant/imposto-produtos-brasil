@@ -25,10 +25,12 @@ import os
 import re
 import sys
 from collections import defaultdict
+from datetime import date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCHEMA_PATH = os.path.join(ROOT, "schema.json")
 MANIFEST_PATH = os.path.join(ROOT, "manifest.json")
+HOJE = date.today().isoformat()
 MAX_POR_REGRA = 10  # mensagens iguais por arquivo antes de resumir
 
 RE = {
@@ -262,6 +264,10 @@ def validar_tabela(tabela, rel, corrigir):
                     elif col.get("obrigatorio_se") and reg.get(col["obrigatorio_se"]):
                         rel.erro(arq, i, f"coluna '{col['nome']}' é obrigatória quando "
                                          f"'{col['obrigatorio_se']}' está preenchida")
+                    elif col.get("obrigatorio_se_valor") and all(
+                            reg.get(k) == v for k, v in col["obrigatorio_se_valor"].items()):
+                        cond = ", ".join(f"{k} = {v}" for k, v in col["obrigatorio_se_valor"].items())
+                        rel.erro(arq, i, f"coluna '{col['nome']}' é obrigatória quando {cond}")
                     continue
                 if col["tipo"] in TIPOS_NUMERICOS and re.match(r"^-?\d+,\d+$", v):
                     continue  # já apontado como vírgula decimal
@@ -280,6 +286,11 @@ def validar_tabela(tabela, rel, corrigir):
                                              f"{' + '.join(col['soma_de'])} = {round(soma, 6)}")
                     except ValueError:
                         pass
+
+            if tabela.get("revisao") and reg.get(tabela["revisao"]) and RE["data_iso"].match(reg[tabela["revisao"]]):
+                if reg[tabela["revisao"]] < HOJE:
+                    rel.aviso(arq, i, f"revisão vencida em {reg[tabela['revisao']]}: confira o valor na fonte oficial "
+                                      f"e atualize '{tabela['revisao']}'", "revisao")
 
             if "vigencia" in tabela:
                 ini, fim = (reg[c] for c in tabela["vigencia"])
@@ -342,7 +353,7 @@ def validar_estrutura(schema, dados, rel):
             r = os.path.relpath(p, ROOT).replace(os.sep, "/")
             if r not in cobertos:
                 rel.erro(r, None, "CSV não descrito em nenhuma tabela do schema.json")
-            if r not in referenciados and not r.startswith("aliquotas/estadual/"):
+            if r not in referenciados:
                 rel.aviso(r, None, "CSV não referenciado no manifest.json")
 
     # Arquivos de NCM: capítulo e intervalo corretos; índice do manifest coerente.

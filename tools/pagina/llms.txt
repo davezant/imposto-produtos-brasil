@@ -1,0 +1,47 @@
+# Impostos sobre produtos no Brasil
+
+> Base aberta e gratuita com os impostos de cada produto vendido no Brasil, por código NCM: Imposto de Importação (TEC), IPI (TIPI), PIS/COFINS (padrão e regimes diferenciados), ICMS padrão por UF e regimes especiais de importação. Os dados são gerados das fontes oficiais (Siscomex, Receita Federal, Camex, SPED). São arquivos estáticos, sem chave e sem autenticação; para uso intenso, baixe o SQLite em vez de fazer muitas requisições. Versão {VERSAO}, gerada em {GERADO_EM}.
+
+Como consultar um produto:
+
+1. Descubra o NCM de 8 dígitos. Se tiver só o nome do produto, procure em `{BASE}api/v1/ncm/index.json`, uma lista de `{codigo, descricao}` em que a descrição traz a hierarquia completa separada por " > ".
+2. Busque `{BASE}api/v1/ncm/<8 dígitos sem pontos>.json`, por exemplo `{BASE}api/v1/ncm/22030000.json`.
+3. Para PIS/COFINS sem regime diferenciado e para o ICMS, use `{BASE}api/v1/fixas.json`.
+
+Convenções (importantes para não errar):
+
+- Toda alíquota é uma **fração**: `0.18` significa 18%. Multiplique por 100 para exibir.
+- `ipi.nao_tributado: true` significa NT (fora do campo do IPI), o que é diferente de alíquota `0`.
+- `imposto_importacao.aliquota` é a alíquota aplicada pelo Brasil; `aliquota_tec_mercosul` é a tarifa comum do Mercosul.
+- `imposto_importacao.excecoes` e `ipi.ex` só valem para produtos que se encaixam na descrição do Ex, ou dentro da quota e da vigência. Fora disso, vale a alíquota geral.
+- `pis_cofins.regimes_diferenciados` lista as regras cujo prefixo de NCM casa com o código. Use só as que têm `vigente: true` e leia a `descricao`, porque muitas valem apenas para certos vendedores ou compradores. Sem regra vigente, vale o regime padrão de `fixas.json`: cumulativo 0,65% + 3% e não cumulativo 1,65% + 7,6%.
+- `valor_pis_por_unidade` / `valor_cofins_por_unidade` são valores em R$ por `unidade`, não frações.
+- Datas em ISO (`AAAA-MM-DD`); `null` significa sem data de fim.
+- Os campos da `api/v1` podem ganhar adições, mas não são removidos nem renomeados.
+
+Limites: os dados **não** cobrem ICMS por produto, substituição tributária, benefícios estaduais/regionais, regimes aduaneiros especiais nem a transição da reforma tributária (CBS/IBS/IS). Ao responder, cite a versão dos dados, apresente os valores como estimativa e recomende confirmar com um contador ou com a legislação.
+
+## API
+
+- [Impostos de um NCM]({BASE}api/v1/ncm/22030000.json): exemplo com cerveja (2203.00.00); troque os 8 dígitos
+- [Índice de NCM]({BASE}api/v1/ncm/index.json): todos os NCM folha com descrição completa, para encontrar o código pelo nome (cerca de 4 MB)
+- [Alíquotas fixas]({BASE}api/v1/fixas.json): PIS/COFINS padrão, ICMS por UF e interestadual, regimes especiais (remessas internacionais) e regras de PIS/COFINS sem NCM
+- [Metadados]({BASE}api/v1/meta.json): versão, data, fontes oficiais com atos legais e links de todas as tabelas
+
+## Dados completos
+
+- [SQLite]({BASE}impostos.sqlite): todas as tabelas, com as visões `v_impostos_ncm` (II e IPI por NCM) e `v_pis_cofins_vigente`
+- [Schema]({BASE}schema.json): colunas, tipos e significado de cada tabela
+- [Data Package]({BASE}datapackage.json): descrição Frictionless dos CSVs em `{BASE}csv/<tabela>.csv`
+- [JSON por tabela]({BASE}json/tec.json): mesmo padrão para `ncm`, `tec`, `tec_excecoes`, `tipi`, `pis_cofins_padrao`, `pis_cofins_excecoes`, `icms`, `regras_especiais`
+
+## Documentação
+
+- [Guia de integração](https://github.com/davezant/imposto-produtos-brasil/blob/main/docs/INTEGRACAO.md): exemplos em curl, JavaScript, Python, SQL e pandas
+- [Alíquotas e convenções](https://github.com/davezant/imposto-produtos-brasil/blob/main/docs/ALIQUOTAS.md)
+- [Repositório](https://github.com/davezant/imposto-produtos-brasil): dados-fonte em CSV, licença Unlicense (domínio público)
+
+## Optional
+
+- [Releases](https://github.com/davezant/imposto-produtos-brasil/releases): arquivos de versões fixas, para quem precisa de reprodutibilidade
+- [Instruções para agentes que editam o repositório](https://github.com/davezant/imposto-produtos-brasil/blob/main/AGENTS.md)

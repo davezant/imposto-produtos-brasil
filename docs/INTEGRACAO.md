@@ -15,6 +15,7 @@ Nada disso fica commitado na `main`, então quem edita os CSVs não vê arquivos
 | Um sistema com banco ou consultas em lote | `impostos.sqlite` (todas as tabelas, indexadas) |
 | Planilha, BI, pandas, R | `csv/<tabela>.csv` ou `json/<tabela>.json` |
 | Validação/ETL com ferramentas de dados | `datapackage.json` (Frictionless Data) |
+| Um assistente de IA ou agente | `llms.txt`: explica a API e as convenções em texto para LLMs |
 | Precisa fixar uma versão | arquivos anexados às [Releases](https://github.com/davezant/imposto-produtos-brasil/releases) (`v0.8.0`, ...) |
 
 `api/v1/meta.json` lista a versão, a data de geração, as fontes oficiais e os links de todas as tabelas.

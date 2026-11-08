@@ -26,6 +26,9 @@ gerados automaticamente depois do merge.
   abre um PR toda semana quando algo muda. Para corrigir esses dados, prefira abrir uma issue com a fonte oficial,
   porque uma edição manual pode ser sobrescrita na próxima atualização.
 
+Usa um assistente de IA (Claude Code, Codex, Cursor, Copilot...) para editar? Ele lê o
+[`AGENTS.md`](../AGENTS.md), que traz as regras do projeto, como nunca inventar alíquotas sem fonte oficial.
+
 Antes de enviar, valide:
 
 ```bash

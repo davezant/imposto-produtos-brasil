@@ -2,6 +2,11 @@
 
 Registra mudanças nos dados e na estrutura dos arquivos (colunas, caminhos), para quem integra o projeto.
 
+## Não lançado
+
+- `AGENTS.md` (e `CLAUDE.md`): instruções para agentes de IA que editam o repositório.
+- `llms.txt` na distribuição: instruções para LLMs consultarem a API (padrão llmstxt.org).
+
 ## 0.8 - 2026-11-08
 
 ### Dados

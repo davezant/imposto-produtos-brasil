@@ -15,6 +15,7 @@ Saída (nada disso é commitado; o CI publica no GitHub Pages e nas Releases):
     api/v1/fixas.json            alíquotas que não dependem do NCM (PIS/COFINS padrão, ICMS, especiais)
     datapackage.json             descrição Frictionless Data dos CSVs
     schema.json                  cópia do schema
+    llms.txt                     instruções para LLMs consultarem os dados (padrão llmstxt.org)
 
 Na distribuição tipada (SQLite, JSON e API):
     - alíquotas são números (fração); 'NT' vira aliquota = null e nao_tributado = true;
@@ -311,6 +312,15 @@ def main():
     pagina = os.path.join(ROOT, "tools", "pagina", "index.html")
     if os.path.exists(pagina):
         shutil.copy(pagina, os.path.join(saida, "index.html"))
+    llms = os.path.join(ROOT, "tools", "pagina", "llms.txt")
+    if os.path.exists(llms):
+        info = manifest.get("info", {})
+        texto = open(llms, encoding="utf-8").read()
+        texto = (texto.replace("{BASE}", args.base_url)
+                      .replace("{VERSAO}", str(info.get("versao", "?")))
+                      .replace("{GERADO_EM}", str(info.get("gerado_em", "?"))))
+        with open(os.path.join(saida, "llms.txt"), "w", encoding="utf-8") as f:
+            f.write(texto)
     print(f"Distribuição gerada em {saida}: {sum(len(v) for v in brutos.values())} registros, {n} NCM na API.")
 
 

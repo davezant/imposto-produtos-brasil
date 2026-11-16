@@ -202,26 +202,26 @@
         "NCM": {
             "link": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela?perfil=publico",
             "resolucao": "Resolução Gecex nº 926/2026",
-            "ultima_atualizacao": "2026-11-08",
-            "observacao": "Vigente em 08/11/2026"
+            "ultima_atualizacao": "2026-11-16",
+            "observacao": "Vigente em 16/11/2026"
         },
         "aliquotas": {
             "federal": {
                 "TIPI": {
                     "link": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/tipi-tabela-de-incidencia-do-imposto-sobre-produtos-industrializados",
                     "resolucao": "Decreto nº 11.158/2022, atualizado até Ato Declaratório Executivo RFB nº 1, de 30 de janeiro de 2026 (Retificado: DOU de 12/02/2026)",
-                    "ultima_atualizacao": "2026-11-08"
+                    "ultima_atualizacao": "2026-11-16"
                 },
                 "TEC": {
                     "link": "https://www.gov.br/mdic/pt-br/assuntos/camex/se-camex/strat/tarifas/vigentes",
                     "resolucao": "Resolução Gecex nº 272/2021 (Atualizado até Resolução Gecex nº 948, de 4 de agosto de 2026)",
-                    "ultima_atualizacao": "2026-11-08"
+                    "ultima_atualizacao": "2026-11-16"
                 },
                 "PIS/COFINS": {
                     "leis": [
                         "https://www.planalto.gov.br/ccivil_03/leis/l10147.htm"
                     ],
-                    "ultima_atualizacao": "2026-11-08",
+                    "ultima_atualizacao": "2026-11-16",
                     "tabelas_sped": {
                         "link": "http://www.sped.fazenda.gov.br/spedtabelas/AppConsulta/publico/aspx/ConsultaTabelasExternas.aspx?CodSistema=SpedPisCofins",
                         "versoes": {
@@ -274,7 +274,7 @@
     },
     "info": {
         "versao": "0.9",
-        "gerado_em": "2026-11-08"
+        "gerado_em": "2026-11-16"
     },
     "intervalos": [
         "01-05",
